@@ -1,0 +1,819 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo">
+    <Prefix name="" IRI="http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Darkness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Inertia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Stillness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brightness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dustiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fictional_character"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heaviness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interpretation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interpreted_concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lightness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Literary_text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Movement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mutability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Omission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Repetition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rhetorical_Figure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Series"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Similarity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symmetry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasFictionalCharacter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLiteraryValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRhetoricFunction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEmbodimentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLightenedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOppositeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSubtractionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lacksOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualReference"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.org/vocab/frbr/core#Darkness"/>
+        <Class IRI="#Heaviness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/vocab/frbr/core#Inertia"/>
+        <Class IRI="#Heaviness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/vocab/frbr/core#Stillness"/>
+        <Class IRI="#Heaviness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brightness"/>
+        <Class IRI="#Lightness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dustiness"/>
+        <Class IRI="#Lightness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equality"/>
+        <Class IRI="#Lightness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fictional_character"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heaviness"/>
+        <Class IRI="#Interpreted_concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Identity"/>
+        <Class IRI="#Rhetorical_Figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interpretation"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interpreted_concept"/>
+        <Class IRI="#Interpretation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lightness"/>
+        <Class IRI="#Interpreted_concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Literary_text"/>
+        <Class IRI="#Expression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movement"/>
+        <Class IRI="#Lightness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mutability"/>
+        <Class IRI="#Lightness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Omission"/>
+        <Class IRI="#Rhetorical_Figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Opposition"/>
+        <Class IRI="#Rhetorical_Figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Repetition"/>
+        <Class IRI="#Rhetorical_Figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rhetorical_Figure"/>
+        <Class IRI="#Interpretation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Series"/>
+        <Class IRI="#Rhetorical_Figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Similarity"/>
+        <Class IRI="#Rhetorical_Figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Symmetry"/>
+        <Class IRI="#Rhetorical_Figure"/>
+    </SubClassOf>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isOppositeOf"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasFictionalCharacter"/>
+        <Class IRI="#Literary_text"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <ObjectUnionOf>
+            <Class IRI="#Fictional_character"/>
+            <Class IRI="#Interpretation"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLiteraryValue"/>
+        <Class IRI="#Literary_text"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRhetoricFunction"/>
+        <Class IRI="#Literary_text"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isEmbodimentOf"/>
+        <Class IRI="#Fictional_character"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLightenedBy"/>
+        <Class IRI="#Heaviness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isOppositeOf"/>
+        <Class IRI="#Heaviness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSubtractionOf"/>
+        <Class IRI="#Lightness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#lacksOf"/>
+        <Class IRI="#Literary_text"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasFictionalCharacter"/>
+        <Class IRI="#Fictional_character"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <Class IRI="#Literary_text"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLiteraryValue"/>
+        <Class IRI="#Interpreted_concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRhetoricFunction"/>
+        <Class IRI="#Rhetorical_Figure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEmbodimentOf"/>
+        <Class IRI="#Interpreted_concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLightenedBy"/>
+        <Class IRI="#Mutability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isOppositeOf"/>
+        <Class IRI="#Lightness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSubtractionOf"/>
+        <Class IRI="#Heaviness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#lacksOf"/>
+        <Class IRI="#Lightness"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualReference"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <ObjectUnionOf>
+            <Class IRI="#Fictional_character"/>
+            <Class IRI="#Literary_text"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Class IRI="#Literary_text"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <ObjectUnionOf>
+            <Class IRI="#Fictional_character"/>
+            <Class IRI="#Interpretation"/>
+            <Class IRI="#Literary_text"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualReference"/>
+        <ObjectUnionOf>
+            <Class IRI="#Fictional_character"/>
+            <Class IRI="#Interpretation"/>
+            <Class IRI="#Literary_text"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualReference"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/dc/elements/1.1/creator</IRI>
+        <Literal xml:lang="en">An entity primarily responsible for making the resource.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.org/dc/elements/1.1/creator</IRI>
+        <IRI>http://purl.org/dc/elements/1.1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/dc/elements/1.1/creator</IRI>
+        <Literal xml:lang="en">Creator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/dc/elements/1.1/title</IRI>
+        <Literal xml:lang="en">A name given to the resource</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.org/dc/elements/1.1/title</IRI>
+        <IRI>http://purl.org/dc/elements/1.1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/dc/elements/1.1/title</IRI>
+        <Literal xml:lang="en">Title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Darkness</IRI>
+        <Literal xml:lang="en">Absence of light</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Darkness</IRI>
+        <Literal xml:lang="en">Darkness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.org/vocab/frbr/core#Darkness</IRI>
+        <Literal xml:lang="en">http://wordnet-rdf.princeton.edu/id/14007000-n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Inertia</IRI>
+        <Literal xml:lang="en">The inability to act as expressed in literary texts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Inertia</IRI>
+        <Literal xml:lang="en">Inertia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.org/vocab/frbr/core#Inertia</IRI>
+        <Literal xml:lang="en">http://wordnet-rdf.princeton.edu/id/04642988-n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Stillness</IRI>
+        <Literal xml:lang="en">A lack of physical or literary motion as represented in literary texts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Stillness</IRI>
+        <Literal xml:lang="en">Stillness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.org/vocab/frbr/core#Stillness</IRI>
+        <Literal xml:lang="en">http://wordnet-rdf.princeton.edu/id/14029664-n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#hasFictionalCharacter</IRI>
+        <Literal xml:lang="en">This property relates a literary text with a fictional character that is mentioned inside the narrative of that text</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#hasFictionalCharacter</IRI>
+        <Literal xml:lang="en">has fictional character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#hasSource</IRI>
+        <Literal xml:lang="en">This property relates a fictional character or interpretation to the text where it comes from.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#hasSource</IRI>
+        <Literal xml:lang="en">has source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#textualPart</IRI>
+        <Literal xml:lang="en">Relates a concept or agent to a fragment that includes their textual string reference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#textualPart</IRI>
+        <Literal xml:lang="en">has textual part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#textualReference</IRI>
+        <Literal xml:lang="en">Relates a concept or agent to a text that includes their textual string reference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#textualReference</IRI>
+        <Literal xml:lang="en">has textual representation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Agent</IRI>
+        <Literal xml:lang="en">A resource that acts or has the power to act</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Agent</IRI>
+        <Literal>http://purl.org/dc/terms/Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Agent</IRI>
+        <Literal xml:lang="en">Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Brightness</IRI>
+        <Literal xml:lang="en">The visual luminosity expressed in a literary text</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Brightness</IRI>
+        <Literal xml:lang="en">Brightness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Brightness</IRI>
+        <Literal xml:lang="en">http://wordnet-rdf.princeton.edu/id/05025269-n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Concept</IRI>
+        <Literal xml:lang="en">An abstract idea or notion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Concept</IRI>
+        <Literal>http://purl.org/vocab/frbr/core#Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Concept</IRI>
+        <Literal xml:lang="en">Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dustiness</IRI>
+        <Literal xml:lang="en">Quality of things that have nature, aspect, appearence of fine dust and are therefore discontinuous and fragmentary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dustiness</IRI>
+        <Literal xml:lang="en">Dustiness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Equality</IRI>
+        <Literal xml:lang="en">Quality of things that are put on the same level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Equality</IRI>
+        <Literal xml:lang="en">Equality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Expression</IRI>
+        <Literal xml:lang="en">A realization of a single work usually in a physical form.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Expression</IRI>
+        <Literal xml:lang="en">http://purl.org/vocab/frbr/core#Expression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Expression</IRI>
+        <Literal xml:lang="en">Expression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fictional_character</IRI>
+        <Literal xml:lang="en">An imaginary person represented in a work of literary fiction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fictional_character</IRI>
+        <Literal xml:lang="en">Fictional character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Fictional_character</IRI>
+        <Literal>http://dbpedia.org/ontology/FictionalCharacter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Heaviness</IRI>
+        <Literal xml:lang="en">A concept to represent the weight, the inertia, the opacity of the world and the writing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Heaviness</IRI>
+        <Literal xml:lang="en">Heaviness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Identity</IRI>
+        <Literal>Identity refers to when a figure uses two or more identical elements. e.g., Ploce: O villain, villain, smiling, damned villain!(Hamlet [5]).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Identity</IRI>
+        <Literal>Identity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Interpretation</IRI>
+        <Literal xml:lang="en">This class defines the concepts involved when interpreting a literary text</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Interpretation</IRI>
+        <Literal xml:lang="en">Interpretation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Interpreted_concept</IRI>
+        <Literal xml:lang="en">A concept that results from interpreting a literary text</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Interpreted_concept</IRI>
+        <Literal xml:lang="en">Interpreted concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lightness</IRI>
+        <Literal xml:lang="en">Literary value or virtue of a literary text reached by removing weight from the structure of stories and from language.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lightness</IRI>
+        <Literal xml:lang="en">Lightness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Lightness</IRI>
+        <Literal xml:lang="en">http://wordnet-rdf.princeton.edu/id/05035866-n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Literary_text</IRI>
+        <Literal xml:lang="en">A textual expression of a work of literature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Literary_text</IRI>
+        <Literal xml:lang="en">Literary text</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Movement</IRI>
+        <Literal xml:lang="en">A movement from a place or location to another in literary texts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Movement</IRI>
+        <Literal xml:lang="en">Movement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Movement</IRI>
+        <Literal xml:lang="en">http://wordnet-rdf.princeton.edu/id/00280679-n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mutability</IRI>
+        <Literal xml:lang="en">Quality of everything that can be transformed into something else</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mutability</IRI>
+        <Literal xml:lang="en">Mutability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Mutability</IRI>
+        <Literal xml:lang="en">http://wordnet-rdf.princeton.edu/id/04748551-n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Omission</IRI>
+        <Literal xml:lang="en">Omission refers to when a figure omits expected elements. e.g., Asyndeton (which omits the expected conjunction, “and”): I came, I saw, I conquered.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Omission</IRI>
+        <Literal xml:lang="en">Omission</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Opposition</IRI>
+        <Literal xml:lang="en">Opposition refers to when a figure oppose two structures or concepts. e.g., Oxymoron: A wanton modesty. Proud humility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Opposition</IRI>
+        <Literal xml:lang="en">Opposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="en">A living or dead individual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Person</IRI>
+        <Literal>http://purl.org/vocab/frbr/core#Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="en">Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Repetition</IRI>
+        <Literal xml:lang="en">Repetition refers to when a figure uses repetition of sounds (consonants, vowels, or syllables), words, syntax (phrases or clauses) or semantics (concepts). e.g., Rhyme–Hickory Dickory Dock. The mouse ran up the clock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Repetition</IRI>
+        <Literal xml:lang="en">Repetition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rhetorical_Figure</IRI>
+        <Literal xml:lang="en">The class of some common strategies employed by rhetorical figures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rhetorical_Figure</IRI>
+        <Literal xml:lang="en">Rhetorical figure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+            <Literal>DOI: 10.1145/1878450.1878471</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Rhetorical_Figure</IRI>
+        <Literal>https://www.researchgate.net/publication/220961451_Toward_an_ontology_of_rhetorical_figures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Series</IRI>
+        <Literal xml:lang="en">Series refers to when a figure establishes a series (through words or concepts). e.g., Abecedarian: Adorable, beautiful, charming, delightful, exciting, fantastic–you run the gamut from A to Z [1].</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Series</IRI>
+        <Literal xml:lang="en">Series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Similarity</IRI>
+        <Literal xml:lang="en">Similarity (partial-identity) refers to when a figure uses resemblance of a concept. e.g., Simile: My love is like a red, red rose.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Similarity</IRI>
+        <Literal xml:lang="en">Similarity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Symmetry</IRI>
+        <Literal xml:lang="en">Symmetry refers to when a figure pairs two constructions in an inverse (“mirrored”) way. e.g. Antimetabole: When the going gets tough, the tough get going.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Symmetry</IRI>
+        <Literal xml:lang="en">Symmetry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasLiteraryValue</IRI>
+        <Literal xml:lang="en">This property relates a text with an interpreted concept recognised by Calvino&apos;s as a value or virtue of literature.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasLiteraryValue</IRI>
+        <Literal xml:lang="en">has literary value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRhetoricFunction</IRI>
+        <Literal xml:lang="en">This property relates a literary text with a certain rhetorical figure that is used inside the narrative of that text.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasRhetoricFunction</IRI>
+        <Literal xml:lang="en">has rhetorical figure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isEmbodimentOf</IRI>
+        <Literal xml:lang="en">Relates a fictional character to the interpreted concept that it symbolizes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isEmbodimentOf</IRI>
+        <Literal xml:lang="en">is embodiment of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isLightenedBy</IRI>
+        <Literal xml:lang="en">This property describes the relation between heaviness and mutability since the latter is what changes heaviness into lightness.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isLightenedBy</IRI>
+        <Literal xml:lang="en">is lightened by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isOppositeOf</IRI>
+        <Literal xml:lang="en">This property states the opposition between heaviness and lightness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isOppositeOf</IRI>
+        <Literal xml:lang="en">is opposite of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isSubtractionOf</IRI>
+        <Literal xml:lang="en">This property states that lightness is related to heaviness because of a subtraction of weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isSubtractionOf</IRI>
+        <Literal xml:lang="en">is subtraction of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#lacksOf</IRI>
+        <Literal xml:lang="en">This property relates a literary text with lightness through a connection stating that the text lacks of lightness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lacksOf</IRI>
+        <Literal xml:lang="en">lacks of</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
