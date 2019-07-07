@@ -89,12 +89,36 @@
         <!-- fine breadcrumb -->
 
         <h2 class="title">Project Overview</h2>
-        <p><b>CoSMO</b> (<b>C</b>alvin<b>o</b> <b>S</b>ix <b>M</b>emos <b>O</b>ntology) tries to conceptualise and formalise the interpretive process carried out by Calvino in the first chapter “Lightness” of his “Six Memos for the Next Millennium”, 1985. The book was written to reflect on certain values, qualities, or peculiarities of literature identified by the author and situated within the perspective of the new millennium. The writer’s ideas were grounded and explained through direct textual examples (citations, references) belonging to texts of various periods and authors.</p>
-        <p>We decided to build the ontology to create a way to apply this critical process to new texts.</p>
-        <p>In our work, we tried to give an order to the great multiplicity of interrelated ideas expressed in the chapter. The process was fairly challenging because of the aforementioned quantity of topics and the intrinsic difficulty of dealing with such abstract literary concepts.</p>
-        <p>After a careful reading of the text, we deduced some fundamental concepts that led the critical analysis and were therefore identified as features that a text should have or not according to the writer. We assigned them into classes, the main of which are "Lightness" and "Heaviness" as naturally opposed concepts. They both have subclasses that explain some particular manifestations. For example, Lightness is linked to light, motion, granularity.</p>
-        <p>We also felt the need to introduce some concepts and relations on rhetorical effects (like repetitions, omissions, similarity). Although they were not explicitly analysed or mentioned in the text, they were, in our opinion, necessary to validate our interpretation in an objective way.</p>
-  <!-- fine main content -->
+        <div id="list-example" class="list-group">
+          <a class="list-group-item list-group-item-action" href="#domain-and-scope">Domain and scope</a>
+          <a class="list-group-item list-group-item-action" href="#enumeration-of-important-terms">Enumeration of important terms</a>
+          <a class="list-group-item list-group-item-action" href="#definition-of-classes-and-properties">Definition of classes and properties</a>
+          <a class="list-group-item list-group-item-action" href="#ontology-population-and-generation">Ontology population and generation</a>
+          <a class="list-group-item list-group-item-action" href="#knowledge-extraction">Knowledge extraction</a>
+          <a class="list-group-item list-group-item-action" href="#further-developments">Further developments</a>
+        </div>
+        <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+          <h4 id="domain and scope">Domain and scope</h4>
+          <p>The aim of this project was, first of all, to conceptualise and formalise in an ontology (CoSMO) the interpretive process outlined by Calvino in the first chapter of his “Six Memos for the Next Millennium”. Secondly, to exploit the ontology for the interpretation of new texts with the help of a user-friendly easy to use tool.
+          Following Protege guidelines, we started our work sharing ideas about the domain and the scope of the future ontology. We agreed to work in the domain of literary analysis and to build a structure that could define Calvino’s literary point of view on the ideal text for the next millennium and, consequently, the features that it should have. </p>
+          <h4 id="enumeration-of-important-terms">Enumeration of important terms</h4>
+          <p>We read the chapter “Lightness” several times from different perspectives. Once to get a general idea of the type and the amount of information that we would have to handle, another time focusing on the enumeration of important terms and conceptual nodes in the text, then trying to find patterns and common features among the cited textual examples that were correlated with certain literary qualities.
+          To actually implement the ontology we decided to use Protege, as it is the most common and widespread tool for building ontologies. We devoted some of our time studying the general structure of ontologies (classes, properties, attributes, individuals) and more specific functions of the program. 
+          </p>
+          <h4 id="definition-of-classes-and-properties">Definition of classes and properties</h4>
+          <p>We defined the classes following a combined development process, both from the upper and the lower parts of the ontology. Specifically, we started with the definition of the “central” classes, in the sense that we thought them to be central and crucial for Calvino’s critical process. We perceived this “centrality” in some groups of words linked by a common semantics, terms that were recurrent and openly mentioned in the text (like “Lightness”). From those nodes, we structured the hierarchy both creating leaves to include the most specific concepts, and superclasses to group already existing classes into more general concepts. We then provided connections (Object properties) and defined Data types for the individuals. Anyway, this was not a linear process: we had to continuously re-adjust our thoughts on some topics exploiting previous knowledge of the domain and further readings when necessary (listed in bibliography). This was the most demanding part of our work: to give a scheme to abstract and variously connected themes.
+          For the definition of classes and properties we relied on previous knowledge of several ontologies like FRBR, FOAF, SKOS, DC, CIDOC-CRM. We looked for literary text oriented ontologies but we could only find projects and research, not fully developed ontologies. Therefore, we reused only few classes and properties and we mostly created our owns. For this reason we focused on providing highly controlled definitions of concepts, reusing a powerful lexical resource like WordNet. 
+          </p>
+          <h4 id="ontology-population-and-generation">Ontology population and generation</h4>
+          <p>When the ontology structure was done (ontology in ontology section), we moved on to populating it. Since our overall purpose was to make Calvino’s interpretation applicable to new unseen texts, we decided not to use the texts already mentioned inside the book and to search for some other examples that could fit the interpretation and were suitable in terms of identified features. We preferred short poems because [...]. [poesie scelte] We analysed the poems to create appropriate individuals in the ontology (knowledge base in “ontology” section).
+          When the ontology was ready we extracted the RDF and we used it to render the documentation using LODE and to visualize the Knowledge Graph using the tool offered by Rhizomik.
+          </p>
+          <h4 id="knowledge-extraction">Knowledge extraction</h4>
+          <p>When the ontology structure was done (ontology in ontology section), we moved on to populating it. Since our overall purpose was to make Calvino’s interpretation applicable to new unseen texts, we decided not to use the texts already mentioned inside the book and to search for some other examples that could fit the interpretation and were suitable in terms of identified features. We preferred short poems because [...]. [poesie scelte] We analysed the poems to create appropriate individuals in the ontology (knowledge base in “ontology” section).</p>
+          <h4 id="further-developments">Further developments</h4>
+          <p>We expect this ontology to be a starting point for further developments. In fact, we hope that it could be enriched with more precise definitions for those textual features that were discovered by Calvino. In particular, computational literary criticism could be helpful in defining quantitative measures for the concepts and features that we detected, so as to automatically extract the knowledge that we derived from Calvino’s criticism in any text.  </p>
+        </div> 
+        <!-- fine main content -->
 
  
 
