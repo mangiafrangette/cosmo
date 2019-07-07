@@ -18369,5 +18369,15 @@ footer .pull-center {
     width: 245px;
   }
 }
-
+.vertical {
+  background: #e0e0e0;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 70px;
+}
 /*# sourceMappingURL=kit-free.css.map */
