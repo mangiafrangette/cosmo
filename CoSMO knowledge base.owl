@@ -1,0 +1,2172 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.mangiafrangette.github.io/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.mangiafrangette.github.io/"
+     versionIRI="http://www.mangiafrangette.github.io/1.1">
+    <Prefix name="" IRI="http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This ontology is available at https://github.com/mangiafrangette/mangiafrangette.github.io and uses the namespace prefix cosmo.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/).</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Darkness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Inertia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Stillness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brightness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dustiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fictional_character"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heaviness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interpretation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interpreted_concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lightness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Literary_text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Movement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mutability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Omission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Repetition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rhetorical_Figure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Series"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Similarity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symmetry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasFictionalCharacter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLiteraryValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRhetoricFunction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEmbodimentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLightenedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOppositeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSubtractionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lacksOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualReference"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ermione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Movesi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wind"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#alba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anaphora_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anaphora_10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anaphora_11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anaphora_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anaphora_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anaphora_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anaphora_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anaphora_6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anaphora_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anaphora_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anaphora_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#andiam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bianco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#birds"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#buia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#camera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cantina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#canto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chiome_similitude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cour_similitude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crepitio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cupe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#denti_similitude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#desio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flitting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gocciole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#identity_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#innumerevoli"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#literary_text1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#literary_text2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#literary_text3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#literary_text4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#metaphor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#muti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nuvole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#occhi_similitude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ombra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#opposition_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#opposition_omission_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pietra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pioggia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pozzo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rapidity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rassegnazione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#repetition_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#series_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#series_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#silvani"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#similitude_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#similitude_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#similitude_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#similitude_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spirito_silvestre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stanco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#symmetry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tonfo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#traendo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tremulous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#volti"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.org/vocab/frbr/core#Darkness"/>
+        <Class IRI="#Heaviness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/vocab/frbr/core#Inertia"/>
+        <Class IRI="#Heaviness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/vocab/frbr/core#Stillness"/>
+        <Class IRI="#Heaviness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brightness"/>
+        <Class IRI="#Lightness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dustiness"/>
+        <Class IRI="#Lightness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equality"/>
+        <Class IRI="#Lightness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fictional_character"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heaviness"/>
+        <Class IRI="#Interpreted_concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Identity"/>
+        <Class IRI="#Rhetorical_Figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interpretation"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interpreted_concept"/>
+        <Class IRI="#Interpretation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lightness"/>
+        <Class IRI="#Interpreted_concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Literary_text"/>
+        <Class IRI="#Expression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movement"/>
+        <Class IRI="#Lightness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mutability"/>
+        <Class IRI="#Lightness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Omission"/>
+        <Class IRI="#Rhetorical_Figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Opposition"/>
+        <Class IRI="#Rhetorical_Figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Repetition"/>
+        <Class IRI="#Rhetorical_Figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rhetorical_Figure"/>
+        <Class IRI="#Interpretation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Series"/>
+        <Class IRI="#Rhetorical_Figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Similarity"/>
+        <Class IRI="#Rhetorical_Figure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Symmetry"/>
+        <Class IRI="#Rhetorical_Figure"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Fictional_character"/>
+        <NamedIndividual IRI="#Ermione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movement"/>
+        <NamedIndividual IRI="#Movesi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fictional_character"/>
+        <NamedIndividual IRI="#Wind"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Brightness"/>
+        <NamedIndividual IRI="#alba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Repetition"/>
+        <NamedIndividual IRI="#anaphora_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Repetition"/>
+        <NamedIndividual IRI="#anaphora_10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Repetition"/>
+        <NamedIndividual IRI="#anaphora_11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Repetition"/>
+        <NamedIndividual IRI="#anaphora_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Repetition"/>
+        <NamedIndividual IRI="#anaphora_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Repetition"/>
+        <NamedIndividual IRI="#anaphora_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Repetition"/>
+        <NamedIndividual IRI="#anaphora_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Repetition"/>
+        <NamedIndividual IRI="#anaphora_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Repetition"/>
+        <NamedIndividual IRI="#anaphora_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Repetition"/>
+        <NamedIndividual IRI="#anaphora_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Repetition"/>
+        <NamedIndividual IRI="#anaphora_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movement"/>
+        <NamedIndividual IRI="#andiam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Brightness"/>
+        <NamedIndividual IRI="#bianco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dustiness"/>
+        <NamedIndividual IRI="#birds"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dustiness"/>
+        <NamedIndividual IRI="#bone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vocab/frbr/core#Darkness"/>
+        <NamedIndividual IRI="#buia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Repetition"/>
+        <NamedIndividual IRI="#buia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vocab/frbr/core#Darkness"/>
+        <NamedIndividual IRI="#camera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vocab/frbr/core#Darkness"/>
+        <NamedIndividual IRI="#cantina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movement"/>
+        <NamedIndividual IRI="#canto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mutability"/>
+        <NamedIndividual IRI="#chiome_similitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Similarity"/>
+        <NamedIndividual IRI="#chiome_similitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mutability"/>
+        <NamedIndividual IRI="#cour_similitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Similarity"/>
+        <NamedIndividual IRI="#cour_similitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dustiness"/>
+        <NamedIndividual IRI="#crepitio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vocab/frbr/core#Darkness"/>
+        <NamedIndividual IRI="#cupe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mutability"/>
+        <NamedIndividual IRI="#denti_similitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Similarity"/>
+        <NamedIndividual IRI="#denti_similitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movement"/>
+        <NamedIndividual IRI="#desio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movement"/>
+        <NamedIndividual IRI="#flitting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dustiness"/>
+        <NamedIndividual IRI="#gocciole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identity"/>
+        <NamedIndividual IRI="#identity_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dustiness"/>
+        <NamedIndividual IRI="#innumerevoli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Literary_text"/>
+        <NamedIndividual IRI="#literary_text1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Literary_text"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Literary_text"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Literary_text"/>
+        <NamedIndividual IRI="#literary_text4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vocab/frbr/core#Stillness"/>
+        <NamedIndividual IRI="#mai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identity"/>
+        <NamedIndividual IRI="#metaphor_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vocab/frbr/core#Stillness"/>
+        <NamedIndividual IRI="#muti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dustiness"/>
+        <NamedIndividual IRI="#nuvole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mutability"/>
+        <NamedIndividual IRI="#occhi_similitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Similarity"/>
+        <NamedIndividual IRI="#occhi_similitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vocab/frbr/core#Darkness"/>
+        <NamedIndividual IRI="#ombra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Opposition"/>
+        <NamedIndividual IRI="#opposition_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Omission"/>
+        <NamedIndividual IRI="#opposition_omission_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Opposition"/>
+        <NamedIndividual IRI="#opposition_omission_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vocab/frbr/core#Stillness"/>
+        <NamedIndividual IRI="#pietra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dustiness"/>
+        <NamedIndividual IRI="#pioggia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vocab/frbr/core#Darkness"/>
+        <NamedIndividual IRI="#pozzo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movement"/>
+        <NamedIndividual IRI="#rapidity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vocab/frbr/core#Inertia"/>
+        <NamedIndividual IRI="#rassegnazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Repetition"/>
+        <NamedIndividual IRI="#repetition_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Series"/>
+        <NamedIndividual IRI="#series_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Series"/>
+        <NamedIndividual IRI="#series_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mutability"/>
+        <NamedIndividual IRI="#silvani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Similarity"/>
+        <NamedIndividual IRI="#similitude_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Similarity"/>
+        <NamedIndividual IRI="#similitude_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Similarity"/>
+        <NamedIndividual IRI="#similitude_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Similarity"/>
+        <NamedIndividual IRI="#similitude_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mutability"/>
+        <NamedIndividual IRI="#spirito_silvestre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vocab/frbr/core#Inertia"/>
+        <NamedIndividual IRI="#stanco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symmetry"/>
+        <NamedIndividual IRI="#symmetry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vocab/frbr/core#Inertia"/>
+        <NamedIndividual IRI="#tonfo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vocab/frbr/core#Stillness"/>
+        <NamedIndividual IRI="#traendo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Brightness"/>
+        <NamedIndividual IRI="#tremulous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mutability"/>
+        <NamedIndividual IRI="#volti"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#silvani"/>
+        <NamedIndividual IRI="#volti"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#Ermione"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#Movesi"/>
+        <NamedIndividual IRI="#literary_text1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#Wind"/>
+        <NamedIndividual IRI="#literary_text4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#alba"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#anaphora_1"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#anaphora_10"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#anaphora_11"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#anaphora_2"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#anaphora_3"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#anaphora_4"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#anaphora_5"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#anaphora_6"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#anaphora_7"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#anaphora_8"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#anaphora_9"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#andiam"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#bianco"/>
+        <NamedIndividual IRI="#literary_text1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#birds"/>
+        <NamedIndividual IRI="#literary_text4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#bone"/>
+        <NamedIndividual IRI="#literary_text4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#buia"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#camera"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#cantina"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#canto"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#chiome_similitude"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#cour_similitude"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#crepitio"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#cupe"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#denti_similitude"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#desio"/>
+        <NamedIndividual IRI="#literary_text1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#flitting"/>
+        <NamedIndividual IRI="#literary_text4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#gocciole"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#identity_1"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#innumerevoli"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#mai"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#metaphor_1"/>
+        <NamedIndividual IRI="#literary_text4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#muti"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#nuvole"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#occhi_similitude"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#ombra"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#opposition_1"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#opposition_omission_1"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#pietra"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#pioggia"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#pozzo"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#rapidity"/>
+        <NamedIndividual IRI="#literary_text4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#rassegnazione"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#repetition_1"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#series_1"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#series_2"/>
+        <NamedIndividual IRI="#literary_text4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#silvani"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#similitude_1"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#similitude_3"/>
+        <NamedIndividual IRI="#literary_text4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#similitude_4"/>
+        <NamedIndividual IRI="#literary_text4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#similitude_5"/>
+        <NamedIndividual IRI="#literary_text4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#spirito_silvestre"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#stanco"/>
+        <NamedIndividual IRI="#literary_text1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#symmetry"/>
+        <NamedIndividual IRI="#literary_text4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#tonfo"/>
+        <NamedIndividual IRI="#literary_text3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#traendo"/>
+        <NamedIndividual IRI="#literary_text1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#tremulous"/>
+        <NamedIndividual IRI="#literary_text4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <NamedIndividual IRI="#volti"/>
+        <NamedIndividual IRI="#literary_text2"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#Ermione"/>
+        <Literal>Ermione</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#Movesi"/>
+        <Literal>Movesi il vecchierel canut e bianco</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#Wind"/>
+        <Literal>The Wind</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#alba"/>
+        <Literal>s’apriva l’alba.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#anaphora_1"/>
+        <Literal>Piove [...]/Piove [...]/Piove [...]/Piove [...]/Piove [...]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#anaphora_10"/>
+        <Literal>terra[...]/terra[...]/terra[...]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#anaphora_11"/>
+        <Literal>sei [...]/sei [...]/sei [...]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#anaphora_2"/>
+        <Literal>ieri/t&apos;illuse, oggi m&apos;illude</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#anaphora_3"/>
+        <Literal>ha un suono, e il mirto/altro suono, e il ginepro/altro ancóra, stromenti/diversi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#anaphora_4"/>
+        <Literal>Ascolta, ascolta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#anaphora_5"/>
+        <Literal>trema, si spegne/trema, si spegne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#anaphora_6"/>
+        <Literal>Piove [...]/Piove [...]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#anaphora_7"/>
+        <Literal>chi sa dove, chi sa dove!</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#anaphora_8"/>
+        <Literal>Piove su i  nostri[...]/Piove su le  nostre[...]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#anaphora_9"/>
+        <Literal>ieri/m&apos;illuse, che oggi t&apos;illude,</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#andiam"/>
+        <Literal>E andiam di fratta in fratta,/or congiunti or disciolti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#bianco"/>
+        <Literal>bianco</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#birds"/>
+        <Literal>numerous Humming Birds at once</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#bone"/>
+        <Literal>No Bone had He to bind Him</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#buia"/>
+        <Literal>Sei buia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#camera"/>
+        <Literal>camera buia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#cantina"/>
+        <Literal>cantina chiusa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#canto"/>
+        <Literal>un canto vi si mesce/Più sordo e più fioco/s&apos;allenta, si spegne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#chiome_similitude"/>
+        <Literal>le tue chiome/auliscono come/le chiare ginestre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#cour_similitude"/>
+        <Literal>il cuor nel petto è come pesca/intatta,</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#crepitio"/>
+        <Literal>crepitio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#cupe"/>
+        <Literal>cupe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#denti_similitude"/>
+        <Literal>i denti negli alvèoli/con come mandorle acerbe.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#desio"/>
+        <Literal>seguendo ‘l desio,/per mirar la sembianza di colui/ch’ancor lassú nel ciel vedere spera:</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#flitting"/>
+        <Literal>flitting</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#gocciole"/>
+        <Literal>parole più nuove/che parlano gocciole</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#identity_1"/>
+        <Literal>E sei come le voci/della terra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#innumerevoli"/>
+        <Literal>innumerevoli dita</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <NamedIndividual IRI="#literary_text1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://viaf.org/viaf/39382430</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <NamedIndividual IRI="#literary_text1"/>
+        <Literal>Movesi il vecchierel canuto e bianco</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualReference"/>
+        <NamedIndividual IRI="#literary_text1"/>
+        <Literal>Movesi il vecchierel canuto  e bianco 
+del dolce loco ov’ha sua età fornita
+e da la famigliuola sbigottita
+che vede il caro padre venir manco;
+indi traendo poi l’antiquo fianco 
+per l’estreme giornate di sua vita,
+quanto piú pò, col buon voler s’aita,
+rotto dagli anni, e dal cammino stanco ;
+e viene a Roma, seguendo ‘l desio,
+per mirar la sembianza di colui
+ch’ancor lassú nel ciel vedere spera :
+cosí, lasso, talor vo cerchand’io,
+donna, quanto è possibile, in altrui
+la disïata vostra forma vera.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <NamedIndividual IRI="#literary_text2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://viaf.org/viaf/49220129</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <NamedIndividual IRI="#literary_text2"/>
+        <Literal>La pioggia nel pineto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualReference"/>
+        <NamedIndividual IRI="#literary_text2"/>
+        <Literal>Taci. Su le soglie
+del bosco non odo
+parole che dici
+umane; ma odo
+parole più nuove
+che parlano gocciole  e foglie
+lontane.
+Ascolta. Piove 
+dalle nuvole sparse .
+Piove  su le tamerici
+salmastre ed arse,
+piove  su i pini
+scagliosi ed irti,
+piove  su i mirti
+divini,
+su le ginestre fulgenti
+di fiori accolti,
+su i ginepri folti
+di coccole aulenti,
+piove  su i nostri volti
+silvani ,
+piove  su le nostre mani
+ignude,
+su i  nostri vestimenti
+leggieri,
+su i  freschi pensieri
+che l&apos;anima schiude
+novella,
+su la favola bella
+che ieri
+t&apos;illuse , che oggi m&apos;illude ,
+o Ermione.
+
+Odi? La pioggia  cade
+su la solitaria
+verdura
+con un crepitío  che dura
+e varia nell&apos;aria
+secondo le fronde
+più rade, men rade.
+Ascolta. Risponde
+al pianto il canto
+delle cicale
+che il pianto australe
+non impaura,
+nè il ciel cinerino.
+E il pino
+ha un suono, e il mirto
+altro suono, e il ginepro
+altro ancóra, stromenti
+diversi
+ sotto innumerevoli dita .
+E immersi
+noi siam nello spirto
+silvestre ,
+d&apos;arborea vita viventi;
+e il tuo volto ebro
+è molle di pioggia
+come una foglia  ,
+e le tue chiome
+auliscono come
+le chiare ginestre  ,
+o creatura terrestre
+che hai nome
+Ermione.
+
+Ascolta, ascolta . L&apos;accordo
+delle aeree cicale
+a poco a poco
+più sordo
+si fa sotto il pianto
+che cresce;
+ma un canto vi si mesce
+più roco 
+che di laggiù sale ,
+dall&apos;umida ombra remota.
+Più sordo e più fioco
+s&apos;allenta, si spegne .
+Sola una nota
+ancor trema, si spegne ,
+risorge, trema, si spegne.
+Non s&apos;ode voce del mare.
+Or s&apos;ode su tutta la fronda
+crosciare
+l&apos;argentea pioggia
+che monda,
+il croscio che varia
+secondo la fronda
+più folta, men folta.
+Ascolta.
+La figlia dell&apos;aria
+è muta; ma la figlia
+del limo lontana,
+la rana,
+canta nell&apos;ombra più fonda ,
+chi sa dove, chi sa dove!
+E piove su le tue ciglia,
+Ermione.
+
+Piove  su le tue ciglia nere
+sìche par tu pianga
+ma di piacere; non bianca
+ma quasi fatta virente,
+par da scorza tu esca.
+E tutta la vita è in noi fresca
+aulente,
+il cuor nel petto è come pesca
+intatta , 
+tra le pàlpebre gli occhi
+son come polle tra l&apos;erbe  ,
+i denti negli alvèoli
+con come mandorle acerbe  .
+E andiam di fratta in fratta,
+or congiunti or disciolti 
+(e il verde vigor rude
+ci allaccia i mallèoli
+c&apos;intrica i ginocchi)
+chi sa dove, chi sa dove!
+ E piove su i  nostri vólti
+silvani ,
+piove su le  nostre mani
+ignude,
+su i  nostri vestimenti
+leggieri,
+su i  freschi pensieri
+che l&apos;anima schiude
+novella,
+su la favola bella
+che ieri
+m&apos;illuse, che oggi t&apos;illude,
+o Ermione.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <NamedIndividual IRI="#literary_text3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://viaf.org/viaf/36922880</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <NamedIndividual IRI="#literary_text3"/>
+        <Literal>senza titolo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualReference"/>
+        <NamedIndividual IRI="#literary_text3"/>
+        <Literal>Hai viso di pietra scolpita,
+sangue di terra dura,
+sei venuta dal mare.
+Tutto accogli e scruti
+e respingi da te
+come il mare. Nel cuore
+hai silenzio, hai parole
+inghiottite. Sei buia.
+Per te l’alba è silenzio.
+E sei come le voci
+della terra – l’urto
+della secchia nel pozzo,
+la canzone del fuoco,
+il tonfo di una mela;
+le parole rassegnate
+e cupe sulle soglie,
+il grido del bimbo – le cose
+che non passano mai.
+Tu non muti. Sei buia,
+sei la cantina chiusa,
+dal battuto di terra,
+dov’è entrato una volta
+ch’era scalzo il bambino,
+e ci ripensa sempre.
+Sei la camera buia
+cui si ripensa sempre,
+come al cortile antico
+dove s’apriva l’alba.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <NamedIndividual IRI="#literary_text4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://viaf.org/viaf/31995584</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <NamedIndividual IRI="#literary_text4"/>
+        <Literal>senza titolo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualReference"/>
+        <NamedIndividual IRI="#literary_text4"/>
+        <Literal>The Wind – tapped like a tired Man –
+And like a Host – “Come in”
+I boldly answered – entered then 
+My Residence within
+
+A Rapid – footless Guest – 
+To offer whom a Chair 
+Were as impossible as hand A Sofa to the Air –
+No Bone had He to bind Him – 
+His Speech was like the Push
+Of numerous Humming Birds at once
+From a superior Bush –
+
+His Countenance – a Billow –
+His Fingers, as He passed
+
+Let go a music – as of tunes
+Blown tremulous in Glass –
+
+He visited – still flitting – Then like a timid Man
+Again, He tapped – &apos;twas flurriedly – 
+And I became alone –</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#mai"/>
+        <Literal>che non passano mai.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#metaphor_1"/>
+        <Literal>His Countenance – a Billow –/His Fingers, as He passed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#muti"/>
+        <Literal>non muti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#nuvole"/>
+        <Literal>nuvole sparse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#occhi_similitude"/>
+        <Literal>tra le pàlpebre gli occhi/son come polle tra l&apos;erbe,</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#ombra"/>
+        <Literal>ombra più fonda</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#opposition_1"/>
+        <Literal>l&apos;alba è silenzio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#opposition_omission_1"/>
+        <Literal>hai silenzio, hai parole</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#pietra"/>
+        <Literal>pietra scolpita/e sangue di terra dura</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#pioggia"/>
+        <Literal>pioggia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#pozzo"/>
+        <Literal>della secchia nel pozzo,</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#rapidity"/>
+        <Literal>Rapid – footless</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#rassegnazione"/>
+        <Literal>rassegnate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#repetition_1"/>
+        <Literal>e scruti/e respingi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#series_1"/>
+        <Literal>la canzone del fuoco,/il tonfo di una mela;/le parole rassegnate/e cupe sulle soglie,/il grido del bimbo – le cose</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#series_2"/>
+        <Literal>He visited – still flitting Then like a timid Man/Again, He tapped</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#silvani"/>
+        <Literal>nostri volti/silvani</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#similitude_1"/>
+        <Literal>è molle di pioggia/come una foglia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#similitude_3"/>
+        <Literal>tapped like a tired Man</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#similitude_4"/>
+        <Literal>And like a Host – “Come in”/I boldly answered –</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#similitude_5"/>
+        <Literal>His Speech was like the Push</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#spirito_silvestre"/>
+        <Literal>immersi/noi siam nello spirto/silvestre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#stanco"/>
+        <Literal>dal cammino stanco;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#symmetry"/>
+        <Literal>The Wind tapped like a tired Man/[...]Then like a timid Man/Again, He tapped</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#tonfo"/>
+        <Literal>tonfo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#traendo"/>
+        <Literal>traendo poi l’antiquo fianco</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#tremulous"/>
+        <Literal>tremulous in Glass –</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <NamedIndividual IRI="#volti"/>
+        <Literal>vólti/silvani,</Literal>
+    </DataPropertyAssertion>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isOppositeOf"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasFictionalCharacter"/>
+        <Class IRI="#Literary_text"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <ObjectUnionOf>
+            <Class IRI="#Fictional_character"/>
+            <Class IRI="#Interpretation"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLiteraryValue"/>
+        <Class IRI="#Literary_text"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRhetoricFunction"/>
+        <Class IRI="#Literary_text"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isEmbodimentOf"/>
+        <Class IRI="#Fictional_character"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLightenedBy"/>
+        <Class IRI="#Heaviness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isOppositeOf"/>
+        <Class IRI="#Heaviness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSubtractionOf"/>
+        <Class IRI="#Lightness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#lacksOf"/>
+        <Class IRI="#Literary_text"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasFictionalCharacter"/>
+        <Class IRI="#Fictional_character"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#hasSource"/>
+        <Class IRI="#Literary_text"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLiteraryValue"/>
+        <Class IRI="#Interpreted_concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRhetoricFunction"/>
+        <Class IRI="#Rhetorical_Figure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEmbodimentOf"/>
+        <Class IRI="#Interpreted_concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLightenedBy"/>
+        <Class IRI="#Mutability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isOppositeOf"/>
+        <Class IRI="#Lightness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSubtractionOf"/>
+        <Class IRI="#Heaviness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#lacksOf"/>
+        <Class IRI="#Lightness"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualReference"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <ObjectUnionOf>
+            <Class IRI="#Fictional_character"/>
+            <Class IRI="#Literary_text"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Class IRI="#Literary_text"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualPart"/>
+        <ObjectUnionOf>
+            <Class IRI="#Fictional_character"/>
+            <Class IRI="#Interpretation"/>
+            <Class IRI="#Literary_text"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualReference"/>
+        <ObjectUnionOf>
+            <Class IRI="#Fictional_character"/>
+            <Class IRI="#Interpretation"/>
+            <Class IRI="#Literary_text"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/vocab/frbr/core#textualReference"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/dc/elements/1.1/creator</IRI>
+        <Literal xml:lang="en">An entity primarily responsible for making the resource.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.org/dc/elements/1.1/creator</IRI>
+        <IRI>http://purl.org/dc/elements/1.1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/dc/elements/1.1/creator</IRI>
+        <Literal xml:lang="en">Creator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/dc/elements/1.1/title</IRI>
+        <Literal xml:lang="en">A name given to the resource</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.org/dc/elements/1.1/title</IRI>
+        <IRI>http://purl.org/dc/elements/1.1</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/dc/elements/1.1/title</IRI>
+        <Literal xml:lang="en">Title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Darkness</IRI>
+        <Literal xml:lang="en">Absence of light</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Darkness</IRI>
+        <Literal xml:lang="en">Darkness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.org/vocab/frbr/core#Darkness</IRI>
+        <Literal xml:lang="en">http://wordnet-rdf.princeton.edu/id/14007000-n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Inertia</IRI>
+        <Literal xml:lang="en">The inability to act as expressed in literary texts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Inertia</IRI>
+        <Literal xml:lang="en">Inertia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.org/vocab/frbr/core#Inertia</IRI>
+        <Literal xml:lang="en">http://wordnet-rdf.princeton.edu/id/04642988-n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Stillness</IRI>
+        <Literal xml:lang="en">A lack of physical or literary motion as represented in literary texts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Stillness</IRI>
+        <Literal xml:lang="en">Stillness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.org/vocab/frbr/core#Stillness</IRI>
+        <Literal xml:lang="en">http://wordnet-rdf.princeton.edu/id/14029664-n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#hasFictionalCharacter</IRI>
+        <Literal xml:lang="en">This property relates a literary text with a fictional character that is mentioned inside the narrative of that text</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#hasFictionalCharacter</IRI>
+        <Literal xml:lang="en">has fictional character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#hasSource</IRI>
+        <Literal xml:lang="en">This property relates a fictional character or interpretation to the text where it comes from.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#hasSource</IRI>
+        <Literal xml:lang="en">has source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#textualPart</IRI>
+        <Literal xml:lang="en">Relates a concept or agent to a fragment that includes their textual string reference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#textualPart</IRI>
+        <Literal xml:lang="en">has textual part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#textualReference</IRI>
+        <Literal xml:lang="en">Relates a concept or agent to a text that includes their textual string reference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#textualReference</IRI>
+        <Literal xml:lang="en">has textual representation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Agent</IRI>
+        <Literal xml:lang="en">A resource that acts or has the power to act</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Agent</IRI>
+        <Literal>http://purl.org/dc/terms/Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Agent</IRI>
+        <Literal xml:lang="en">Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Brightness</IRI>
+        <Literal xml:lang="en">The visual luminosity expressed in a literary text</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Brightness</IRI>
+        <Literal xml:lang="en">Brightness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Brightness</IRI>
+        <Literal xml:lang="en">http://wordnet-rdf.princeton.edu/id/05025269-n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Concept</IRI>
+        <Literal xml:lang="en">An abstract idea or notion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Concept</IRI>
+        <Literal>http://purl.org/vocab/frbr/core#Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Concept</IRI>
+        <Literal xml:lang="en">Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dustiness</IRI>
+        <Literal xml:lang="en">Quality of things that have nature, aspect, appearence of fine dust and are therefore discontinuous and fragmentary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dustiness</IRI>
+        <Literal xml:lang="en">Dustiness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Equality</IRI>
+        <Literal xml:lang="en">Quality of things that are put on the same level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Equality</IRI>
+        <Literal xml:lang="en">Equality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Expression</IRI>
+        <Literal xml:lang="en">A realization of a single work usually in a physical form.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Expression</IRI>
+        <Literal xml:lang="en">http://purl.org/vocab/frbr/core#Expression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Expression</IRI>
+        <Literal xml:lang="en">Expression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fictional_character</IRI>
+        <Literal xml:lang="en">An imaginary person represented in a work of literary fiction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fictional_character</IRI>
+        <Literal xml:lang="en">Fictional character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Fictional_character</IRI>
+        <Literal>http://dbpedia.org/ontology/FictionalCharacter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Heaviness</IRI>
+        <Literal xml:lang="en">A concept to represent the weight, the inertia, the opacity of the world and the writing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Heaviness</IRI>
+        <Literal xml:lang="en">Heaviness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Identity</IRI>
+        <Literal>Identity refers to when a figure uses two or more identical elements. e.g., Ploce: O villain, villain, smiling, damned villain!(Hamlet [5]).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Identity</IRI>
+        <Literal>Identity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Interpretation</IRI>
+        <Literal xml:lang="en">This class defines the concepts involved when interpreting a literary text</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Interpretation</IRI>
+        <Literal xml:lang="en">Interpretation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Interpreted_concept</IRI>
+        <Literal xml:lang="en">A concept that results from interpreting a literary text</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Interpreted_concept</IRI>
+        <Literal xml:lang="en">Interpreted concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lightness</IRI>
+        <Literal xml:lang="en">Literary value or virtue of a literary text reached by removing weight from the structure of stories and from language.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lightness</IRI>
+        <Literal xml:lang="en">Lightness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Lightness</IRI>
+        <Literal xml:lang="en">http://wordnet-rdf.princeton.edu/id/05035866-n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Literary_text</IRI>
+        <Literal xml:lang="en">A textual expression of a work of literature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Literary_text</IRI>
+        <Literal xml:lang="en">Literary text</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Movement</IRI>
+        <Literal xml:lang="en">A movement from a place or location to another in literary texts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Movement</IRI>
+        <Literal xml:lang="en">Movement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Movement</IRI>
+        <Literal xml:lang="en">http://wordnet-rdf.princeton.edu/id/00280679-n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mutability</IRI>
+        <Literal xml:lang="en">Quality of everything that can be transformed into something else</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mutability</IRI>
+        <Literal xml:lang="en">Mutability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Mutability</IRI>
+        <Literal xml:lang="en">http://wordnet-rdf.princeton.edu/id/04748551-n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Omission</IRI>
+        <Literal xml:lang="en">Omission refers to when a figure omits expected elements. e.g., Asyndeton (which omits the expected conjunction, “and”): I came, I saw, I conquered.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Omission</IRI>
+        <Literal xml:lang="en">Omission</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Opposition</IRI>
+        <Literal xml:lang="en">Opposition refers to when a figure oppose two structures or concepts. e.g., Oxymoron: A wanton modesty. Proud humility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Opposition</IRI>
+        <Literal xml:lang="en">Opposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="en">A living or dead individual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Person</IRI>
+        <Literal>http://purl.org/vocab/frbr/core#Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="en">Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Repetition</IRI>
+        <Literal xml:lang="en">Repetition refers to when a figure uses repetition of sounds (consonants, vowels, or syllables), words, syntax (phrases or clauses) or semantics (concepts). e.g., Rhyme–Hickory Dickory Dock. The mouse ran up the clock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Repetition</IRI>
+        <Literal xml:lang="en">Repetition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rhetorical_Figure</IRI>
+        <Literal xml:lang="en">The class of some common strategies employed by rhetorical figures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rhetorical_Figure</IRI>
+        <Literal xml:lang="en">Rhetorical figure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+            <Literal>DOI: 10.1145/1878450.1878471</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Rhetorical_Figure</IRI>
+        <Literal>https://www.researchgate.net/publication/220961451_Toward_an_ontology_of_rhetorical_figures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Series</IRI>
+        <Literal xml:lang="en">Series refers to when a figure establishes a series (through words or concepts). e.g., Abecedarian: Adorable, beautiful, charming, delightful, exciting, fantastic–you run the gamut from A to Z [1].</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Series</IRI>
+        <Literal xml:lang="en">Series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Similarity</IRI>
+        <Literal xml:lang="en">Similarity (partial-identity) refers to when a figure uses resemblance of a concept. e.g., Simile: My love is like a red, red rose.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Similarity</IRI>
+        <Literal xml:lang="en">Similarity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Symmetry</IRI>
+        <Literal xml:lang="en">Symmetry refers to when a figure pairs two constructions in an inverse (“mirrored”) way. e.g. Antimetabole: When the going gets tough, the tough get going.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Symmetry</IRI>
+        <Literal xml:lang="en">Symmetry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasLiteraryValue</IRI>
+        <Literal xml:lang="en">This property relates a text with an interpreted concept recognised by Calvino&apos;s as a value or virtue of literature.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasLiteraryValue</IRI>
+        <Literal xml:lang="en">has literary value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRhetoricFunction</IRI>
+        <Literal xml:lang="en">This property relates a literary text with a certain rhetorical figure that is used inside the narrative of that text.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasRhetoricFunction</IRI>
+        <Literal xml:lang="en">has rhetorical figure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isEmbodimentOf</IRI>
+        <Literal xml:lang="en">Relates a fictional character to the interpreted concept that it symbolizes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isEmbodimentOf</IRI>
+        <Literal xml:lang="en">is embodiment of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isLightenedBy</IRI>
+        <Literal xml:lang="en">This property describes the relation between heaviness and mutability since the latter is what changes heaviness into lightness.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isLightenedBy</IRI>
+        <Literal xml:lang="en">is lightened by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isOppositeOf</IRI>
+        <Literal xml:lang="en">This property states the opposition between heaviness and lightness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isOppositeOf</IRI>
+        <Literal xml:lang="en">is opposite of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isSubtractionOf</IRI>
+        <Literal xml:lang="en">This property states that lightness is related to heaviness because of a subtraction of weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isSubtractionOf</IRI>
+        <Literal xml:lang="en">is subtraction of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#lacksOf</IRI>
+        <Literal xml:lang="en">This property relates a literary text with lightness through a connection stating that the text lacks of lightness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lacksOf</IRI>
+        <Literal xml:lang="en">lacks of</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
