@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CoSMO - Knowledge Extraction</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="author" content="Carlo Teo Pedretti, Francesca Mangialardo, Mattia Spadoni">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/concepts.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="icon" href="images/logo.png">
+    <!-- Material Kit CSS -->
+    <link href="assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
+
+
+  </head>
+  <body>
+
+  <nav class="navbar fixed-top navbar-expand-lg" id="opaque">
+  <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="#">
+
+            <img src="images/logo.png" id="logo">
+            
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false">
+              <i class="material-icons">apps</i> Project
+            </a>
+
+            <div class="dropdown-menu">
+              <a href="domain.html" class="dropdown-item">
+                 The Domain
+              </a>
+              <a href="extraction.html" class="dropdown-item">
+                 Knowledge Extraction
+              </a>
+              <a href="ontology.html" class="dropdown-item">
+                 CoSMO - The Ontology
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="overview.html" class="dropdown-item">
+                 Project Overview
+              </a>
+            </div>
+
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+<div class="main main-raised-alt">
+    <div class="container">
+      <div class="section">
+
+        <!-- inizio breadcrumb -->
+        <nav aria-label="breadcrumb" role="navigation">
+        <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Knowledge Extraction</li>
+        </ol>
+        </nav>
+        <hr>
+        <!-- fine breadcrumb -->
+
+        <div class="container text-center">
+        <div class="row">
+          <div class="col">
+        <a class="butn2" href="#" data-rel="content1">Dickinson</a>
+        <a class="butn2" href="#" data-rel="content2">Pavese</a>
+        <a class="butn2" href="#" data-rel="content3">D'Annunzio</a>
+        <a class="butn2" href="#" data-rel="content4">Petrarca</a>
+      </div>
+          
+        </div>
+        </div>
+
+        
+        <div class="app">
+            
+            <ul class="hs full">
+              <li class="item"><a class="butnf conceptButton" role="button" data-concept="cosmo:fictionalCharacter" id="fictionalCharacterButton">Fictional Character</a></li>
+              <li class="item"><span style="background-color:grey; width:2px; height:40px; margin-left: 20px; margin-right: 20px;"></span></li>
+              <li class="item"><a class="butn conceptButton" role="button" data-concept="cosmo:brightness" id="brightnessButton">Brightness</a></li>
+              <li class="item"><a class="butn conceptButton" role="button" data-concept="cosmo:equality" id="equalityButton">Equality</a></li>
+              <li class="item"><a class="butn conceptButton" role="button" data-concept="cosmo:movement" id="movementButton">Movement</a></li>
+              <li class="item"><a class="butn conceptButton" role="button" data-concept="cosmo:mutability" id="mutabilityButton">Mutability</a></li>
+              <li class="item"><a class="butn conceptButton" role="button" data-concept="cosmo:dustiness" id="dustinessButton">Dustiness</a></li>
+              <li class="item"><span style="background-color:grey; width:2px; height:40px; margin-left: 20px; margin-right: 20px;"></span></li>
+              <li class="item"><a class="butnd conceptButton" role="button" data-concept="cosmo:darkness" id="darknessButton">Darkness</a></li>
+              <li class="item"><a class="butnd conceptButton" role="button" data-concept="cosmo:inertia" id="inertiaButton">Inertia</a></li>
+              <li class="item"><a class="butnd conceptButton" role="button" data-concept="cosmo:stillness" id="stillnessButton">Stillness</a></li>
+              <li class="item"><span style="background-color:grey; width:2px; height:40px; margin-left: 20px; margin-right: 20px;"></span></li>
+              <li class="item"><a class="butnr conceptButton" role="button" data-concept="cosmo:identity" id="identityButton">Identity</a></li>
+              <li class="item"><a class="butnr conceptButton" role="button" data-concept="cosmo:omission" id="omissionButton">Omission</a></li>
+              <li class="item"><a class="butnr conceptButton" role="button" data-concept="cosmo:opposition" id="oppositionButton">Opposition</a></li>
+              <li class="item"><a class="butnr conceptButton" role="button" data-concept="cosmo:repetition" id="repetitionButton">Repetition</a></li>
+              <li class="item"><a class="butnr conceptButton" role="button" data-concept="cosmo:series" id="seriesButton">Series</a></li>
+              <li class="item"><a class="butnr conceptButton" role="button" data-concept="cosmo:similarity" id="similarityButton">Similarity</a></li>
+              <li class="item"><a class="butnr conceptButton" role="button" data-concept="cosmo:symmetry" id="symmetryButton">Symmetry</a></li>
+              
+            </ul>
+
+        </div>
+
+        
+    <div class="container">
+  <div class="row">
+    <div class="col">
+      <p><h3 style="font-size:25px;">1.</h3> Select one of the four poem by clicking on first menu.</p>
+      <p><h3 style="font-size:25px;">2.</h3>  Select one of the concept from the second menu.</p> 
+      <p><h3 style="font-size:25px;">3.</h3>  You will see the interested part of text highlighted.</p>
+    </div>
+
+
+    <div class="col-6">
+      <div class="content-container">
+          <div id="content1">
+      <p><span property="cosmo:symmetry"><span property="cosmo:fictionalCharacter">The Wind</span> – <span property="cosmo:similarity">tapped like a tired Man</span> –</span>
+      <br>
+      And <span property="cosmo:similarity">like a Host</span> – “Come in”
+      <br>
+      I boldly answered – entered then 
+      <br>
+      My Residence within
+      <br>
+      <br>
+      A <span property="cosmo:movement">Rapid – footless</span> Guest – 
+      <br>
+      To offer whom a Chair 
+      <br>
+      Were as impossible as hand A Sofa to the Air –
+      <br>
+      <span property="cosmo:dustiness">No Bone had He to bind Him</span> – 
+      <br>
+      <span property="cosmo:similarity">His Speech was like the Push</span>
+      <br>
+      Of <span property="cosmo:dustiness">numerous Humming Birds at once</span>
+      <br>
+      From a superior Bush –
+      <br>
+      <br>
+      <span property="cosmo:identity">His Countenance – a Billow –</span>
+      <br>
+      <span property="cosmo:identity">His Fingers, as <span property="cosmo:movement">He passed</span></span>
+      <br>
+      <br>
+      Let go a music – as of tunes
+      <br>
+      Blown <span property="cosmo:brightness">tremulous in Glass –</span>
+      <br>
+      <br>
+      <span property="cosmo:series">He visited – still <span property="cosmo:movement">flitting</span> – <span property="cosmo:symmetry">Then like a timid Man</span></span>
+      <br>
+      <span property="cosmo:series" property="cosmo:symmetry">Again, He tapped</span> – 'twas flurriedly – 
+      <br>
+      And I became alone –</p>
+      </div>
+          <div id="content2"><p>Hai viso di <span property="cosmo:stilness">pietra scolpita</span>,
+<br>
+sangue di <span property="cosmo:stilness"><span property="cosmo:repetition">terra</span> dura</span>,
+<br>
+sei venuta dal mare.
+<br>
+Tutto accogli <span property="cosmo:repetition">e scruti</span>
+<br>
+<span property="cosmo:repetition">e respingi</span> da te
+<br>
+come il mare. Nel cuore
+<br>
+<span property="cosmo:opposition omission">hai silenzio, hai parole</span>
+<br>
+inghiottite. Sei <span property="cosmo:darkness">buia.</span>
+<br>
+Per te <span property="cosmo:opposition">l’alba è silenzio.</span>
+<br>
+<br>
+<span property="cosmo:identity">E sei come le voci</span>
+<br>
+<span property="cosmo:identity">della <span property="cosmo:repetition">terra</span></span> – l’urto
+<br>
+<span property="cosmo:darkness">della secchia nel pozzo,</span>
+<br>
+<span property="cosmo:series">la canzone del fuoco,</span>
+<br>
+<span property="cosmo:series">il <span property="cosmo:inertia">tonfo</span> di una mela;</span>
+<br>
+<span property="cosmo:series">le parole <span property="cosmo:inertia">rassegnate</span></span>
+<br>
+<span property="cosmo:series">e <span property="cosmo:darkness">cupe</span> sulle soglie,</span>
+<br>
+<span property="cosmo:series">il grido del bimbo – <span property="cosmo:stilness">le cose</span></span>
+<br>
+<span property="cosmo:stilness">che non passano mai.</span>
+<br>
+<br>
+Tu <span property="cosmo:stilness">non muti</span>. <span property="cosmo:repetition darkness">Sei buia,</span>
+<br>
+<span property="cosmo:repetition">sei</span> la <span property="cosmo:darkness">cantina chiusa</span>,
+<br>
+dal battuto di <span property="cosmo:repetition">terra</span>,
+<br>
+dov’è entrato una volta
+<br>
+ch’era scalzo il bambino,
+<br>
+e ci ripensa sempre.
+<br>
+<span property="cosmo:repetition">Sei</span> la <span property="cosmo:repetition darkness">camera buia</span>
+<br>
+cui si ripensa sempre,
+<br>
+come al cortile antico
+<br>
+dove <span property="cosmo:brightness">s’apriva l’alba.</span></p></div>
+          <div id="content3"><p>Taci. Su le soglie
+<br>
+del bosco non odo
+<br>
+parole che dici
+<br>
+umane; ma odo
+<br>
+<span property="cosmo:dustiness">parole più nuove</span>
+<br>
+<span property="cosmo:dustiness">che parlano gocciole</span>  e foglie
+<br>
+lontane.
+<br>
+Ascolta. <span property="cosmo:repetition">Piove</span>
+<br>
+dalle <span property="cosmo:dustiness">nuvole sparse</span>.
+<br>
+<span property="cosmo:repetition">Piove</span>  su le tamerici
+<br>
+salmastre ed arse,
+<br>
+<span property="cosmo:repetition">Piove</span>  su i pini
+<br>
+scagliosi ed irti,
+<br>
+<span property="cosmo:repetition">Piove</span>  su i mirti
+<br>
+divini,
+<br>
+su le ginestre fulgenti
+<br>
+di fiori accolti,
+<br>
+su i ginepri folti
+<br>
+di coccole aulenti,
+<br>
+<span property="cosmo:repetition">Piove</span>  su i <span property="cosmo:mutability">nostri volti</span>
+<br>
+<span property="cosmo:mutability">silvani</span> ,
+<br>
+<span property="cosmo:repetition">Piove</span>  su le nostre mani
+<br>
+ignude,
+<br>
+su i  nostri vestimenti
+<br>
+leggieri,
+<br>
+su i  freschi pensieri
+<br>
+che l'anima schiude
+<br>
+novella,
+<br>
+su la favola bella
+<br>
+che <span property="cosmo:repetition">ieri</span>
+<br>
+<span property="cosmo:repetition">t'illuse, che oggi m'illude,</span>
+<br>
+o <span property="cosmo:fictionalCharacter">Ermione</span>.
+<br>
+<br>
+Odi? La <span property="cosmo:dustiness">pioggia</span>  cade
+<br>
+su la solitaria
+<br>
+verdura
+<br>
+con un <span property="cosmo:dustiness">crepitío</span>  che dura
+<br>
+e varia nell'aria
+<br>
+secondo le fronde
+<br>
+più rade, men rade.
+<br>
+Ascolta. Risponde
+<br>
+al pianto il canto
+<br>
+delle cicale
+<br>
+che il pianto australe
+<br>
+non impaura,
+<br>
+nè il ciel cinerino.
+<br>
+E il pino
+<br>
+<span property="cosmo:repetition">ha un suono, e il mirto</span>
+<br>
+<span property="cosmo:repetition">altro suono, e il ginepro</span>
+<br>
+<span property="cosmo:repetition">altro ancóra, stromenti</span>
+<br>
+<span property="cosmo:repetition">diversi</span>
+<br>
+ sotto <span property="cosmo:dustiness">innumerevoli dita</span>.
+ <br>
+E <span property="cosmo:mutability">immersi</span>
+<br>
+<span property="cosmo:mutability">noi siam nello spirto</span>
+<br>
+<span property="cosmo:mutability">silvestre</span> ,
+<br>
+d'arborea vita viventi;
+<br>
+e il tuo volto ebro
+<br>
+<span property="cosmo:similarity">è molle di pioggia</span>
+<br>
+<span property="cosmo:similarity">come una foglia</span>,
+<br>
+e<span property="cosmo:similarity mutability">le tue chiome</span>
+<br>
+<span property="cosmo:similarity mutability">auliscono come</span>
+<br>
+<span property="cosmo:similarity mutability">le chiare ginestre</span>,
+<br>
+o creatura terrestre
+<br>
+che hai nome
+<br>
+<span property="cosmo:fictionalCharacter">Ermione</span>.
+<br>
+<br>
+<span property="cosmo:repetition">Ascolta, ascolta</span>. L'accordo
+<br>
+delle aeree cicale
+<br>
+a poco a poco
+<br>
+più sordo
+<br>
+si fa sotto il pianto
+<br>
+che cresce;
+<br>
+ma <span property="cosmo:movement">un canto vi si mesce</span>
+<br>
+<span property="cosmo:movement">più roco</span>
+<br>
+<span property="cosmo:movement">che di laggiù sale,</span>
+<br>
+dall'umida ombra remota.
+<br>
+<span property="cosmo:darkness">Più sordo e più fioco</span>
+<br>
+<span property="cosmo:darkness">s'allenta, si spegne</span>.
+<br>
+Sola una nota
+<br>
+ancor <span property="cosmo:repetition">trema, si spegne,</span>
+<br>
+risorge, <span property="cosmo:repetition">trema, si spegne.</span>
+<br>
+Non s'ode voce del mare.
+<br>
+Or s'ode su tutta la fronda
+<br>
+crosciare
+<br>
+l'argentea pioggia
+<br>
+che monda,
+<br>
+il croscio che varia
+<br>
+secondo la fronda
+<br>
+più folta, men folta.
+<br>
+Ascolta.
+<br>
+La figlia dell'aria
+<br>
+è muta; ma la figlia
+<br>
+del limo lontana,
+<br>
+la rana,
+<br>
+canta nell'<span property="cosmo:darkness">ombra più fonda,</span>
+<br>
+chi sa dove, chi sa dove!
+<br>
+E <span property="cosmo:repetition">Piove</span> su le tue ciglia,
+<br>
+<span property="cosmo:fictionalCharacter">Ermione</span>.
+<br>
+<br>
+<span property="cosmo:repetition">Piove</span>  su le tue ciglia nere
+<br>
+sìche par tu pianga
+<br>
+ma di piacere; non bianca
+<br>
+ma quasi fatta virente,
+<br>
+par da scorza tu esca.
+<br>
+E tutta la vita è in noi fresca
+<br>
+aulente,
+<br>
+<span property="cosmo:mutability similarity">il cuor nel petto è come pesca</span>
+<br>
+<span property="cosmo:mutability similarity">intatta,</span>
+<br>
+<span property="cosmo:mutability similarity">tra le pàlpebre gli occhi</span>
+<br>
+<span property="cosmo:mutability similarity">son come polle tra l'erbe,</span>
+<br>
+<span property="cosmo:mutability similarity">i denti negli alvèoli</span>
+<br>
+<span property="cosmo:mutability similarity">con come mandorle acerbe.</span>
+<br>
+<span property="cosmo:movement">E andiam di fratta in fratta,</span>
+<br>
+<span property="cosmo:movement">or congiunti or disciolti</span>
+<br>
+(e il verde vigor rude
+<br>
+ci allaccia i mallèoli
+<br>
+c'intrica i ginocchi)
+<br>
+<span property="cosmo:repetition">chi sa dove, chi sa dove!</span>
+<br>
+ E <span property="cosmo:repetition">Piove su i  nostri</span> <span property="cosmo:mutability">vólti</span>
+ <br>
+<span property="cosmo:mutability">silvani,</span>
+<br>
+<span property="cosmo:repetition">Piove su le  nostre</span> mani
+<br>
+ignude,
+<br>
+<span property="cosmo:repetition">su i</span>  nostri vestimenti
+<br>
+leggieri,
+<br>
+<span property="cosmo:repetition">su i</span>  freschi pensieri
+<br>
+che l'anima schiude
+<br>
+novella,
+<br>
+su la favola bella
+<br>
+che <span property="cosmo:repetition">ieri</span>
+<br>
+<span property="cosmo:repetition">m'illuse, che oggi t'illude,</span>
+<br>
+o <span property="cosmo:fictionalCharacter">Ermione</span>.</p></div>
+          <div id="content4"><p><span property="cosmo:movement">Movesi il vecchierel canuto</span>  e <span property="cosmo:brightness">bianco</span>
+  <br>
+del dolce loco ov’ha sua età fornita
+<br>
+e da la famigliuola sbigottita
+<br>
+che vede il caro padre venir manco;
+<br>
+<br>
+indi <span property="cosmo:stilness">traendo poi l’antiquo fianco</span>
+<br>
+per l’estreme giornate di sua vita,
+<br>
+quanto piú pò, col buon voler s’aita,
+<br>
+rotto dagli anni, e <span property="cosmo:inertia">dal cammino stanco ;</span>
+<br>
+<br>
+e viene a Roma, <span property="cosmo:movement">seguendo ‘l desio,</span>
+<br>
+<span property="cosmo:movement">per mirar la sembianza di colui</span>
+  <br>
+<span property="cosmo:movement">ch’ancor lassú nel ciel vedere spera :</span>
+<br>
+<br>
+cosí, lasso, talor vo cerchand’io,
+<br>
+donna, quanto è possibile, in altrui
+<br>
+la disïata vostra forma vera.</p></div>
+      </div>
+    </div>
+
+
+    <div class="col">
+      <h3 style="font-size:25px;">Classes.</h3><p class="markf">Fictional Character</p>
+      <p class="markl">Lightness</p>
+      <p class="markd">Heaviness</p>
+      <p class="markr">Rhetorical Effect</p>
+    </div>
+  </div>
+</div>
+
+      
+    
+
+        
+        
+  <!-- fine main content -->
+
+      
+  <!-- griglia icone  1 -->
+        <hr>
+        <!-- pagination inizio -->
+  <div class="container">
+  <div class="row">
+    <div class="col">
+      
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-start">
+          <li class="page-item">
+            <a class="page-link" style="font-size: 100%;" href="domain.html"><i class="fas fa-arrow-alt-circle-left"></i>  The Domain</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+    <div class="col">
+      
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+          <li class="page-item">
+            <a class="page-link" style="font-size: 100%;" href="ontology.html">CoSMO - The Ontology  <i class="fas fa-arrow-alt-circle-right"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+  </div>
+
+  <!-- pagination fine -->
+        
+
+        <!-- fine griglia icone 2 -->
+
+      </div>
+    </div>
+  </div>
+
+<!-- INIZIO FOOTER -->
+  <footer class="footer footer-default">
+    <div class="container">
+      <nav class="float-left">
+        <ul>
+          <li>
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/">
+              Copyright Creative Commons
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="copyright float-right">
+        <script>
+          document.write(new Date().getFullYear())
+        </script>, CoSMO has been implemented with <i class="material-icons">favorite</i> by
+        Francesca Mangialardo, Carlo Teo Pedretti and Mattia Spadoni.
+      </div>
+    </div>
+  </footer>
+  <!-- FINE FOOTER -->
+<!--   Core JS Files   -->
+<script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+<script src="assets/js/plugins/moment.min.js"></script>
+<!--  Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+<script src="assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Google Maps Plugin  -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+<script src="assets/js/material-kit.js?v=2.0.5" type="text/javascript"></script>
+<script type="text/javascript" src="main.js"></script>
+<script>
+      $(".butn2").click(function(e) {
+      e.preventDefault();
+      $('.content-container div').fadeOut('slow');
+      $('#' + $(this).data('rel')).fadeIn('slow');
+});
+    </script>
+
+</body>
+</html>
