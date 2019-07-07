@@ -14295,7 +14295,7 @@ textarea {
 
 .navbar .navbar-nav .nav-item .nav-link {
   position: relative;
-  color: inherit;
+  color: #555;
   padding: 0.9375rem;
   font-weight: 400;
   font-size: 12px;
