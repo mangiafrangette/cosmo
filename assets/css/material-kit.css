@@ -18369,6 +18369,9 @@ footer .pull-center {
     width: 245px;
   }
 }
+
+/* cose aggiunte da fra */
+
 .vertical {
   background: #e0e0e0;
   width: 1px;
@@ -18381,7 +18384,7 @@ footer .pull-center {
   min-height: 70px;
 }
 
-.container {
+.container-domain {
   width: 1180px;
   margin-top: 3em;
 }
