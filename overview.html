@@ -14,6 +14,15 @@
     <link rel="icon" href="images/logo.png">
     <!-- Material Kit CSS -->
     <link href="assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
+    <style>
+      .sticky-offset {
+          top: 60px;
+      }
+
+      .sticky-top {
+        top: 60px;
+      }
+    </style>
   </head>
   <body>
 
@@ -95,7 +104,7 @@
             
             <div id="list-example" class="list-group sticky-top sticky-offset">
               <h3 class="list-group-item list-group-item-action">Table of contents</h3>
-              <a class="list-group-item list-group-item-action" href="#domain-and-scope">Domain and scope</a>
+              <a class="list-group-item list-group-item-action" href="#domain_scope">Domain and scope</a>
               <a class="list-group-item list-group-item-action" href="#enumeration-of-important-terms">Enumeration of important terms</a>
               <a class="list-group-item list-group-item-action" href="#definition-of-classes-and-properties">Definition of classes and properties</a>
               <a class="list-group-item list-group-item-action" href="#ontology-population-and-generation">Ontology population and generation</a>
@@ -109,10 +118,11 @@
         <div class="col-8" >
           <h2 class="title">Project overview</h2>
           <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-            <a class="anchor" id="domain and scope"></a>
+            <a class="anchor" id="domain_scope"></a>
             <h4 class="title">Domain and scope</h4>
             <p>The aim of this project was, first of all, to conceptualise and formalise in an ontology (CoSMO) the interpretive process outlined by Calvino in the first chapter of his “Six Memos for the Next Millennium”. Secondly, to exploit the ontology for the interpretation of new texts with the help of a user-friendly easy to use tool.
             Following Protege guidelines, we started our work sharing ideas about the domain and the scope of the future ontology. We agreed to work in the domain of literary analysis and to build a structure that could define Calvino’s literary point of view on the ideal text for the next millennium and, consequently, the features that it should have. </p>
+            <a class="anchor" id="enumeration-of-important-terms"></a>
             <h4 id="enumeration-of-important-terms" class="title">Enumeration of important terms</h4>
             <p>We read the chapter “Lightness” several times from different perspectives. Once to get a general idea of the type and the amount of information that we would have to handle, another time focusing on the enumeration of important terms and conceptual nodes in the text, then trying to find patterns and common features among the cited textual examples that were correlated with certain literary qualities.
             To actually implement the ontology we decided to use Protege, as it is the most common and widespread tool for building ontologies. We devoted some of our time studying the general structure of ontologies (classes, properties, attributes, individuals) and more specific functions of the program. 
