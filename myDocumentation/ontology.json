@@ -1,0 +1,1294 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character"
+    }, {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character"
+    }, {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation"
+    }, {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "DOI: 10.1145/1878450.1878471"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "https://www.researchgate.net/publication/220961451_Toward_an_ontology_of_rhetorical_figures"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character"
+    }, {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character"
+    }, {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation"
+    }, {
+      "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An entity primarily responsible for making the resource."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/dc/elements/1.1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Creator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A name given to the resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/dc/elements/1.1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/frbr/core#Darkness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Absence of light"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Darkness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "http://wordnet-rdf.princeton.edu/id/14007000-n"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/frbr/core#Inertia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The inability to act as expressed in literary texts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Inertia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "http://wordnet-rdf.princeton.edu/id/04642988-n"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/frbr/core#Stillness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A lack of physical or literary motion as represented in literary texts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Stillness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "http://wordnet-rdf.princeton.edu/id/14029664-n"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/frbr/core#hasFictionalCharacter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property relates a literary text with a fictional character that is mentioned inside the narrative of that text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has fictional character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/frbr/core#hasSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property relates a fictional character or interpretation to the text where it comes from."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/frbr/core#textualPart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates a concept or agent to a fragment that includes their textual string reference"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has textual part"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/vocab/frbr/core#textualReference"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/frbr/core#textualReference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates a concept or agent to a text that includes their textual string reference"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid11"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has textual representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Agent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A resource that acts or has the power to act"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://purl.org/dc/terms/Agent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Agent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Brightness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The visual luminosity expressed in a literary text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Brightness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "http://wordnet-rdf.princeton.edu/id/05025269-n"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An abstract idea or notion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://purl.org/vocab/frbr/core#Concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Concept"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Quality of things that have nature, aspect, appearence of fine dust and are therefore discontinuous and fragmentary."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dustiness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Equality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Quality of things that are put on the same level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Equality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Ermione",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "Ermione"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Expression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A realization of a single work usually in a physical form."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://purl.org/vocab/frbr/core#Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Expression"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An imaginary person represented in a work of literary fiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fictional character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "http://dbpedia.org/ontology/FictionalCharacter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A concept to represent the weight, the inertia, the opacity of the world and the writing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Heaviness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpreted_concept"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Identity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Identity refers to when a figure uses two or more identical elements. e.g., Ploce: O villain, villain, smiling, damned villain!(Hamlet [5])."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Identity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class defines the concepts involved when interpreting a literary text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Interpretation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Concept"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpreted_concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A concept that results from interpreting a literary text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Interpreted concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Literary value or virtue of a literary text reached by removing weight from the structure of stories and from language."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Lightness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "http://wordnet-rdf.princeton.edu/id/05035866-n"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpreted_concept"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A textual expression of a work of literature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Literary text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Expression"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A movement from a place or location to another in literary texts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Movement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "http://wordnet-rdf.princeton.edu/id/00280679-n"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movesi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "Movesi il vecchierel canut e bianco"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Quality of everything that can be transformed into something else"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mutability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "http://wordnet-rdf.princeton.edu/id/04748551-n"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Omission",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Omission refers to when a figure omits expected elements. e.g., Asyndeton (which omits the expected conjunction, “and”): I came, I saw, I conquered."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Omission"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Opposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Opposition refers to when a figure oppose two structures or concepts. e.g., Oxymoron: A wanton modesty. Proud humility."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Opposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A living or dead individual"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://purl.org/vocab/frbr/core#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Agent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Repetition refers to when a figure uses repetition of sounds (consonants, vowels, or syllables), words, syntax (phrases or clauses) or semantics (concepts). e.g., Rhyme–Hickory Dickory Dock. The mouse ran up the clock."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Repetition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The class of some common strategies employed by rhetorical figures"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rhetorical figure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "https://www.researchgate.net/publication/220961451_Toward_an_ontology_of_rhetorical_figures"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Series",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Series refers to when a figure establishes a series (through words or concepts). e.g., Abecedarian: Adorable, beautiful, charming, delightful, exciting, fantastic–you run the gamut from A to Z [1]."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Similarity (partial-identity) refers to when a figure uses resemblance of a concept. e.g., Simile: My love is like a red, red rose."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Similarity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Symmetry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Symmetry refers to when a figure pairs two constructions in an inverse (“mirrored”) way. e.g. Antimetabole: When the going gets tough, the tough get going."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Symmetry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Wind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "The Wind"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#alba",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Brightness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "s’apriva l’alba."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "Piove [...]/Piove [...]/Piove [...]/Piove [...]/Piove [...]"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "terra[...]/terra[...]/terra[...]"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "sei [...]/sei [...]/sei [...]"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "ieri/t'illuse, oggi m'illude"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "ha un suono, e il mirto/altro suono, e il ginepro/altro ancóra, stromenti/diversi"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "Ascolta, ascolta"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "trema, si spegne/trema, si spegne"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "Piove [...]/Piove [...]"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "chi sa dove, chi sa dove!"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "Piove su i  nostri[...]/Piove su le  nostre[...]"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "ieri/m'illuse, che oggi t'illude,"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#andiam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "E andiam di fratta in fratta,/or congiunti or disciolti"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#bianco",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Brightness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "bianco"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#birds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "numerous Humming Birds at once"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#bone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "No Bone had He to bind Him"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#buia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#Darkness", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "Sei buia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#camera",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#Darkness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "camera buia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cantina",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#Darkness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "cantina chiusa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#canto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "un canto vi si mesce/Più sordo e più fioco/s'allenta, si spegne"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#chiome_similitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "le tue chiome/auliscono come/le chiare ginestre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cour_similitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "il cuor nel petto è come pesca/intatta,"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#crepitio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "crepitio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cupe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#Darkness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "cupe"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#denti_similitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "i denti negli alvèoli/con come mandorle acerbe."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#desio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "seguendo ‘l desio,/per mirar la sembianza di colui/ch’ancor lassú nel ciel vedere spera:"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#flitting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "flitting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#gocciole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "parole più nuove/che parlano gocciole"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasLiteraryValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property relates a text with an interpreted concept recognised by Calvino's as a value or virtue of literature."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has literary value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpreted_concept"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasRhetoricFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property relates a literary text with a certain rhetorical figure that is used inside the narrative of that text."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has rhetorical figure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#identity_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Identity" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "E sei come le voci/della terra"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#innumerevoli",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "innumerevoli dita"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isEmbodimentOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates a fictional character to the interpreted concept that it symbolizes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is embodiment of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpreted_concept"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isLightenedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property describes the relation between heaviness and mutability since the latter is what changes heaviness into lightness."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is lightened by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isOppositeOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property states the opposition between heaviness and lightness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is opposite of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isSubtractionOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property states that lightness is related to heaviness because of a subtraction of weight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is subtraction of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#lacksOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property relates a literary text with lightness through a connection stating that the text lacks of lightness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lacks of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://viaf.org/viaf/39382430"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "Movesi il vecchierel canuto e bianco"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualReference" : [ {
+    "@value" : "Movesi il vecchierel canuto  e bianco \ndel dolce loco ov’ha sua età fornita\ne da la famigliuola sbigottita\nche vede il caro padre venir manco;\nindi traendo poi l’antiquo fianco \nper l’estreme giornate di sua vita,\nquanto piú pò, col buon voler s’aita,\nrotto dagli anni, e dal cammino stanco ;\ne viene a Roma, seguendo ‘l desio,\nper mirar la sembianza di colui\nch’ancor lassú nel ciel vedere spera :\ncosí, lasso, talor vo cerchand’io,\ndonna, quanto è possibile, in altrui\nla disïata vostra forma vera."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://viaf.org/viaf/49220129"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "La pioggia nel pineto"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualReference" : [ {
+    "@value" : "Taci. Su le soglie\ndel bosco non odo\nparole che dici\numane; ma odo\nparole più nuove\nche parlano gocciole  e foglie\nlontane.\nAscolta. Piove \ndalle nuvole sparse .\nPiove  su le tamerici\nsalmastre ed arse,\npiove  su i pini\nscagliosi ed irti,\npiove  su i mirti\ndivini,\nsu le ginestre fulgenti\ndi fiori accolti,\nsu i ginepri folti\ndi coccole aulenti,\npiove  su i nostri volti\nsilvani ,\npiove  su le nostre mani\nignude,\nsu i  nostri vestimenti\nleggieri,\nsu i  freschi pensieri\nche l'anima schiude\nnovella,\nsu la favola bella\nche ieri\nt'illuse , che oggi m'illude ,\no Ermione.\n\nOdi? La pioggia  cade\nsu la solitaria\nverdura\ncon un crepitío  che dura\ne varia nell'aria\nsecondo le fronde\npiù rade, men rade.\nAscolta. Risponde\nal pianto il canto\ndelle cicale\nche il pianto australe\nnon impaura,\nnè il ciel cinerino.\nE il pino\nha un suono, e il mirto\naltro suono, e il ginepro\naltro ancóra, stromenti\ndiversi\n sotto innumerevoli dita .\nE immersi\nnoi siam nello spirto\nsilvestre ,\nd'arborea vita viventi;\ne il tuo volto ebro\nè molle di pioggia\ncome una foglia  ,\ne le tue chiome\nauliscono come\nle chiare ginestre  ,\no creatura terrestre\nche hai nome\nErmione.\n\nAscolta, ascolta . L'accordo\ndelle aeree cicale\na poco a poco\npiù sordo\nsi fa sotto il pianto\nche cresce;\nma un canto vi si mesce\npiù roco \nche di laggiù sale ,\ndall'umida ombra remota.\nPiù sordo e più fioco\ns'allenta, si spegne .\nSola una nota\nancor trema, si spegne ,\nrisorge, trema, si spegne.\nNon s'ode voce del mare.\nOr s'ode su tutta la fronda\ncrosciare\nl'argentea pioggia\nche monda,\nil croscio che varia\nsecondo la fronda\npiù folta, men folta.\nAscolta.\nLa figlia dell'aria\nè muta; ma la figlia\ndel limo lontana,\nla rana,\ncanta nell'ombra più fonda ,\nchi sa dove, chi sa dove!\nE piove su le tue ciglia,\nErmione.\n\nPiove  su le tue ciglia nere\nsìche par tu pianga\nma di piacere; non bianca\nma quasi fatta virente,\npar da scorza tu esca.\nE tutta la vita è in noi fresca\naulente,\nil cuor nel petto è come pesca\nintatta , \ntra le pàlpebre gli occhi\nson come polle tra l'erbe  ,\ni denti negli alvèoli\ncon come mandorle acerbe  .\nE andiam di fratta in fratta,\nor congiunti or disciolti \n(e il verde vigor rude\nci allaccia i mallèoli\nc'intrica i ginocchi)\nchi sa dove, chi sa dove!\n E piove su i  nostri vólti\nsilvani ,\npiove su le  nostre mani\nignude,\nsu i  nostri vestimenti\nleggieri,\nsu i  freschi pensieri\nche l'anima schiude\nnovella,\nsu la favola bella\nche ieri\nm'illuse, che oggi t'illude,\no Ermione."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://viaf.org/viaf/36922880"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "senza titolo"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualReference" : [ {
+    "@value" : "Hai viso di pietra scolpita,\nsangue di terra dura,\nsei venuta dal mare.\nTutto accogli e scruti\ne respingi da te\ncome il mare. Nel cuore\nhai silenzio, hai parole\ninghiottite. Sei buia.\nPer te l’alba è silenzio.\nE sei come le voci\ndella terra – l’urto\ndella secchia nel pozzo,\nla canzone del fuoco,\nil tonfo di una mela;\nle parole rassegnate\ne cupe sulle soglie,\nil grido del bimbo – le cose\nche non passano mai.\nTu non muti. Sei buia,\nsei la cantina chiusa,\ndal battuto di terra,\ndov’è entrato una volta\nch’era scalzo il bambino,\ne ci ripensa sempre.\nSei la camera buia\ncui si ripensa sempre,\ncome al cortile antico\ndove s’apriva l’alba."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://viaf.org/viaf/31995584"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "senza titolo"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualReference" : [ {
+    "@value" : "The Wind – tapped like a tired Man –\nAnd like a Host – “Come in”\nI boldly answered – entered then \nMy Residence within\n\nA Rapid – footless Guest – \nTo offer whom a Chair \nWere as impossible as hand A Sofa to the Air –\nNo Bone had He to bind Him – \nHis Speech was like the Push\nOf numerous Humming Birds at once\nFrom a superior Bush –\n\nHis Countenance – a Billow –\nHis Fingers, as He passed\n\nLet go a music – as of tunes\nBlown tremulous in Glass –\n\nHe visited – still flitting – Then like a timid Man\nAgain, He tapped – 'twas flurriedly – \nAnd I became alone –"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#mai",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#Stillness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "che non passano mai."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#metaphor_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Identity" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "His Countenance – a Billow –/His Fingers, as He passed"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#muti",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#Stillness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "non muti"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#nuvole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "nuvole sparse"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#occhi_similitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "tra le pàlpebre gli occhi/son come polle tra l'erbe,"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#ombra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#Darkness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "ombra più fonda"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#opposition_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Opposition" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "l'alba è silenzio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#opposition_omission_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Omission", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Opposition" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "hai silenzio, hai parole"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pietra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#Stillness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "pietra scolpita/e sangue di terra dura"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pioggia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "pioggia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pozzo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#Darkness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "della secchia nel pozzo,"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#rapidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "Rapid – footless"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#rassegnazione",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#Inertia" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "rassegnate"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#repetition_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "e scruti/e respingi"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#series_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Series" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "la canzone del fuoco,/il tonfo di una mela;/le parole rassegnate/e cupe sulle soglie,/il grido del bimbo – le cose"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#series_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Series" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "He visited – still flitting Then like a timid Man/Again, He tapped"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#silvani",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "nostri volti/silvani"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#volti"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "è molle di pioggia/come una foglia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "tapped like a tired Man"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "And like a Host – “Come in”/I boldly answered –"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "His Speech was like the Push"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#spirito_silvestre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "immersi/noi siam nello spirto/silvestre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#stanco",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#Inertia" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "dal cammino stanco;"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#symmetry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Symmetry" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "The Wind tapped like a tired Man/[...]Then like a timid Man/Again, He tapped"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#tonfo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#Inertia" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "tonfo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#traendo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#Stillness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "traendo poi l’antiquo fianco"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#tremulous",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Brightness" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "tremulous in Glass –"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#volti",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability" ],
+  "http://purl.org/vocab/frbr/core#hasSource" : [ {
+    "@id" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2"
+  } ],
+  "http://purl.org/vocab/frbr/core#textualPart" : [ {
+    "@value" : "vólti/silvani,"
+  } ]
+} ]

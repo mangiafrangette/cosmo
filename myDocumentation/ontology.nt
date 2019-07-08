@@ -1,0 +1,742 @@
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/vocab/frbr/core#hasFictionalCharacter
+<http://purl.org/vocab/frbr/core#hasFictionalCharacter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocab/frbr/core#hasFictionalCharacter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> .
+<http://purl.org/vocab/frbr/core#hasFictionalCharacter> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character> .
+<http://purl.org/vocab/frbr/core#hasFictionalCharacter> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a literary text with a fictional character that is mentioned inside the narrative of that text"@en .
+<http://purl.org/vocab/frbr/core#hasFictionalCharacter> <http://www.w3.org/2000/01/rdf-schema#label> "has fictional character"@en .
+# 
+# http://purl.org/vocab/frbr/core#hasSource
+<http://purl.org/vocab/frbr/core#hasSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocab/frbr/core#hasSource> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/vocab/frbr/core#hasSource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> .
+<http://purl.org/vocab/frbr/core#hasSource> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a fictional character or interpretation to the text where it comes from."@en .
+<http://purl.org/vocab/frbr/core#hasSource> <http://www.w3.org/2000/01/rdf-schema#label> "has source"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasLiteraryValue
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasLiteraryValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasLiteraryValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasLiteraryValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpreted_concept> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasLiteraryValue> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a text with an interpreted concept recognised by Calvino's as a value or virtue of literature."@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasLiteraryValue> <http://www.w3.org/2000/01/rdf-schema#label> "has literary value"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasRhetoricFunction
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasRhetoricFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasRhetoricFunction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasRhetoricFunction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasRhetoricFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a literary text with a certain rhetorical figure that is used inside the narrative of that text."@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasRhetoricFunction> <http://www.w3.org/2000/01/rdf-schema#label> "has rhetorical figure"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isEmbodimentOf
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isEmbodimentOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isEmbodimentOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isEmbodimentOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpreted_concept> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isEmbodimentOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a fictional character to the interpreted concept that it symbolizes"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isEmbodimentOf> <http://www.w3.org/2000/01/rdf-schema#label> "is embodiment of"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isLightenedBy
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isLightenedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isLightenedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isLightenedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isLightenedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property describes the relation between heaviness and mutability since the latter is what changes heaviness into lightness."@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isLightenedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is lightened by"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isOppositeOf
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isOppositeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isOppositeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isOppositeOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isOppositeOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isOppositeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property states the opposition between heaviness and lightness"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isOppositeOf> <http://www.w3.org/2000/01/rdf-schema#label> "is opposite of"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isSubtractionOf
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isSubtractionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isSubtractionOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isSubtractionOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isSubtractionOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property states that lightness is related to heaviness because of a subtraction of weight."@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isSubtractionOf> <http://www.w3.org/2000/01/rdf-schema#label> "is subtraction of"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#lacksOf
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#lacksOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#lacksOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#lacksOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#lacksOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a literary text with lightness through a connection stating that the text lacks of lightness"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#lacksOf> <http://www.w3.org/2000/01/rdf-schema#label> "lacks of"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid4 <http://www.w3.org/2002/07/owl#unionOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity primarily responsible for making the resource."@en .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1> .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/2000/01/rdf-schema#label> "Creator"@en .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2000/01/rdf-schema#comment> "A name given to the resource"@en .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2000/01/rdf-schema#label> "Title"@en .
+# 
+# http://purl.org/vocab/frbr/core#textualPart
+<http://purl.org/vocab/frbr/core#textualPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/vocab/frbr/core#textualPart> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/vocab/frbr/core#textualReference> .
+<http://purl.org/vocab/frbr/core#textualPart> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid7 <http://www.w3.org/2002/07/owl#unionOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/vocab/frbr/core#textualPart> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a concept or agent to a fragment that includes their textual string reference"@en .
+<http://purl.org/vocab/frbr/core#textualPart> <http://www.w3.org/2000/01/rdf-schema#label> "has textual part"@en .
+# 
+# http://purl.org/vocab/frbr/core#textualReference
+<http://purl.org/vocab/frbr/core#textualReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/vocab/frbr/core#textualReference> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid11 <http://www.w3.org/2002/07/owl#unionOf> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/vocab/frbr/core#textualReference> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/vocab/frbr/core#textualReference> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a concept or agent to a text that includes their textual string reference"@en .
+<http://purl.org/vocab/frbr/core#textualReference> <http://www.w3.org/2000/01/rdf-schema#label> "has textual representation"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/vocab/frbr/core#Darkness
+<http://purl.org/vocab/frbr/core#Darkness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/vocab/frbr/core#Darkness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness> .
+<http://purl.org/vocab/frbr/core#Darkness> <http://www.w3.org/2000/01/rdf-schema#comment> "Absence of light"@en .
+<http://purl.org/vocab/frbr/core#Darkness> <http://www.w3.org/2000/01/rdf-schema#label> "Darkness"@en .
+<http://purl.org/vocab/frbr/core#Darkness> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://wordnet-rdf.princeton.edu/id/14007000-n"@en .
+# 
+# http://purl.org/vocab/frbr/core#Inertia
+<http://purl.org/vocab/frbr/core#Inertia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/vocab/frbr/core#Inertia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness> .
+<http://purl.org/vocab/frbr/core#Inertia> <http://www.w3.org/2000/01/rdf-schema#comment> "The inability to act as expressed in literary texts"@en .
+<http://purl.org/vocab/frbr/core#Inertia> <http://www.w3.org/2000/01/rdf-schema#label> "Inertia"@en .
+<http://purl.org/vocab/frbr/core#Inertia> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://wordnet-rdf.princeton.edu/id/04642988-n"@en .
+# 
+# http://purl.org/vocab/frbr/core#Stillness
+<http://purl.org/vocab/frbr/core#Stillness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/vocab/frbr/core#Stillness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness> .
+<http://purl.org/vocab/frbr/core#Stillness> <http://www.w3.org/2000/01/rdf-schema#comment> "A lack of physical or literary motion as represented in literary texts"@en .
+<http://purl.org/vocab/frbr/core#Stillness> <http://www.w3.org/2000/01/rdf-schema#label> "Stillness"@en .
+<http://purl.org/vocab/frbr/core#Stillness> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://wordnet-rdf.princeton.edu/id/14029664-n"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Agent
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource that acts or has the power to act"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/dc/terms/Agent" .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Brightness
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Brightness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Brightness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Brightness> <http://www.w3.org/2000/01/rdf-schema#comment> "The visual luminosity expressed in a literary text"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Brightness> <http://www.w3.org/2000/01/rdf-schema#label> "Brightness"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Brightness> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://wordnet-rdf.princeton.edu/id/05025269-n"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Concept
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Concept> <http://www.w3.org/2000/01/rdf-schema#comment> "An abstract idea or notion"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Concept> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/vocab/frbr/core#Concept" .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "Concept"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness> <http://www.w3.org/2000/01/rdf-schema#comment> "Quality of things that have nature, aspect, appearence of fine dust and are therefore discontinuous and fragmentary."@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness> <http://www.w3.org/2000/01/rdf-schema#label> "Dustiness"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Equality
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Equality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Equality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Equality> <http://www.w3.org/2000/01/rdf-schema#comment> "Quality of things that are put on the same level"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Equality> <http://www.w3.org/2000/01/rdf-schema#label> "Equality"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Expression
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Expression> <http://www.w3.org/2000/01/rdf-schema#comment> "A realization of a single work usually in a physical form."@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Expression> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/vocab/frbr/core#Expression"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Expression> <http://www.w3.org/2000/01/rdf-schema#label> "Expression"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Person> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character> <http://www.w3.org/2000/01/rdf-schema#comment> "An imaginary person represented in a work of literary fiction"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character> <http://www.w3.org/2000/01/rdf-schema#label> "Fictional character"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/ontology/FictionalCharacter" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpreted_concept> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness> <http://www.w3.org/2000/01/rdf-schema#comment> "A concept to represent the weight, the inertia, the opacity of the world and the writing"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness> <http://www.w3.org/2000/01/rdf-schema#label> "Heaviness"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Identity
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Identity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Identity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Identity> <http://www.w3.org/2000/01/rdf-schema#comment> "Identity refers to when a figure uses two or more identical elements. e.g., Ploce: O villain, villain, smiling, damned villain!(Hamlet [5])." .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Identity> <http://www.w3.org/2000/01/rdf-schema#label> "Identity" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Concept> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation> <http://www.w3.org/2000/01/rdf-schema#comment> "This class defines the concepts involved when interpreting a literary text"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation> <http://www.w3.org/2000/01/rdf-schema#label> "Interpretation"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpreted_concept
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpreted_concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpreted_concept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpreted_concept> <http://www.w3.org/2000/01/rdf-schema#comment> "A concept that results from interpreting a literary text"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpreted_concept> <http://www.w3.org/2000/01/rdf-schema#label> "Interpreted concept"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpreted_concept> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness> <http://www.w3.org/2000/01/rdf-schema#comment> "Literary value or virtue of a literary text reached by removing weight from the structure of stories and from language."@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness> <http://www.w3.org/2000/01/rdf-schema#label> "Lightness"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://wordnet-rdf.princeton.edu/id/05035866-n"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Expression> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> <http://www.w3.org/2000/01/rdf-schema#comment> "A textual expression of a work of literature"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> <http://www.w3.org/2000/01/rdf-schema#label> "Literary text"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement> <http://www.w3.org/2000/01/rdf-schema#comment> "A movement from a place or location to another in literary texts"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement> <http://www.w3.org/2000/01/rdf-schema#label> "Movement"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://wordnet-rdf.princeton.edu/id/00280679-n"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability> <http://www.w3.org/2000/01/rdf-schema#comment> "Quality of everything that can be transformed into something else"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability> <http://www.w3.org/2000/01/rdf-schema#label> "Mutability"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://wordnet-rdf.princeton.edu/id/04748551-n"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Omission
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Omission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Omission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Omission> <http://www.w3.org/2000/01/rdf-schema#comment> "Omission refers to when a figure omits expected elements. e.g., Asyndeton (which omits the expected conjunction, “and”): I came, I saw, I conquered."@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Omission> <http://www.w3.org/2000/01/rdf-schema#label> "Omission"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Opposition
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Opposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Opposition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Opposition> <http://www.w3.org/2000/01/rdf-schema#comment> "Opposition refers to when a figure oppose two structures or concepts. e.g., Oxymoron: A wanton modesty. Proud humility."@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Opposition> <http://www.w3.org/2000/01/rdf-schema#label> "Opposition"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Person
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Agent> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Person> <http://www.w3.org/2000/01/rdf-schema#comment> "A living or dead individual"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Person> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/vocab/frbr/core#Person" .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> <http://www.w3.org/2000/01/rdf-schema#comment> "Repetition refers to when a figure uses repetition of sounds (consonants, vowels, or syllables), words, syntax (phrases or clauses) or semantics (concepts). e.g., Rhyme–Hickory Dickory Dock. The mouse ran up the clock."@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> <http://www.w3.org/2000/01/rdf-schema#label> "Repetition"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of some common strategies employed by rhetorical figures"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure> <http://www.w3.org/2000/01/rdf-schema#label> "Rhetorical figure"@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.researchgate.net/publication/220961451_Toward_an_ontology_of_rhetorical_figures" .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid15 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure> .
+_:genid15 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#seeAlso> .
+_:genid15 <http://www.w3.org/2002/07/owl#annotatedTarget> "https://www.researchgate.net/publication/220961451_Toward_an_ontology_of_rhetorical_figures" .
+_:genid15 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1878471" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Series
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Series> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Series> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Series> <http://www.w3.org/2000/01/rdf-schema#comment> "Series refers to when a figure establishes a series (through words or concepts). e.g., Abecedarian: Adorable, beautiful, charming, delightful, exciting, fantastic–you run the gamut from A to Z [1]."@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Series> <http://www.w3.org/2000/01/rdf-schema#label> "Series"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity> <http://www.w3.org/2000/01/rdf-schema#comment> "Similarity (partial-identity) refers to when a figure uses resemblance of a concept. e.g., Simile: My love is like a red, red rose."@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity> <http://www.w3.org/2000/01/rdf-schema#label> "Similarity"@en .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Symmetry
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Symmetry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Symmetry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Symmetry> <http://www.w3.org/2000/01/rdf-schema#comment> "Symmetry refers to when a figure pairs two constructions in an inverse (“mirrored”) way. e.g. Antimetabole: When the going gets tough, the tough get going."@en .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Symmetry> <http://www.w3.org/2000/01/rdf-schema#label> "Symmetry"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Ermione
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Ermione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Ermione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Ermione> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Ermione> <http://purl.org/vocab/frbr/core#textualPart> "Ermione" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movesi
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movesi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movesi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movesi> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movesi> <http://purl.org/vocab/frbr/core#textualPart> "Movesi il vecchierel canut e bianco" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Wind
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Wind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Wind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Wind> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Wind> <http://purl.org/vocab/frbr/core#textualPart> "The Wind" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#alba
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#alba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#alba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Brightness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#alba> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#alba> <http://purl.org/vocab/frbr/core#textualPart> "s’apriva l’alba." .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_1
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_1> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_1> <http://purl.org/vocab/frbr/core#textualPart> "Piove [...]/Piove [...]/Piove [...]/Piove [...]/Piove [...]" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_10
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_10> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_10> <http://purl.org/vocab/frbr/core#textualPart> "terra[...]/terra[...]/terra[...]" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_11
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_11> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_11> <http://purl.org/vocab/frbr/core#textualPart> "sei [...]/sei [...]/sei [...]" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_2
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_2> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_2> <http://purl.org/vocab/frbr/core#textualPart> "ieri/t'illuse, oggi m'illude" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_3
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_3> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_3> <http://purl.org/vocab/frbr/core#textualPart> "ha un suono, e il mirto/altro suono, e il ginepro/altro ancóra, stromenti/diversi" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_4
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_4> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_4> <http://purl.org/vocab/frbr/core#textualPart> "Ascolta, ascolta" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_5
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_5> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_5> <http://purl.org/vocab/frbr/core#textualPart> "trema, si spegne/trema, si spegne" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_6
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_6> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_6> <http://purl.org/vocab/frbr/core#textualPart> "Piove [...]/Piove [...]" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_7
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_7> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_7> <http://purl.org/vocab/frbr/core#textualPart> "chi sa dove, chi sa dove!" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_8
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_8> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_8> <http://purl.org/vocab/frbr/core#textualPart> "Piove su i  nostri[...]/Piove su le  nostre[...]" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_9
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_9> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_9> <http://purl.org/vocab/frbr/core#textualPart> "ieri/m'illuse, che oggi t'illude," .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#andiam
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#andiam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#andiam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#andiam> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#andiam> <http://purl.org/vocab/frbr/core#textualPart> "E andiam di fratta in fratta,/or congiunti or disciolti" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#bianco
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#bianco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#bianco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Brightness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#bianco> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#bianco> <http://purl.org/vocab/frbr/core#textualPart> "bianco" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#birds
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#birds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#birds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#birds> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#birds> <http://purl.org/vocab/frbr/core#textualPart> "numerous Humming Birds at once" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#bone
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#bone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#bone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#bone> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#bone> <http://purl.org/vocab/frbr/core#textualPart> "No Bone had He to bind Him" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#buia
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#buia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#buia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Darkness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#buia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#buia> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#buia> <http://purl.org/vocab/frbr/core#textualPart> "Sei buia" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#camera
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#camera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#camera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Darkness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#camera> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#camera> <http://purl.org/vocab/frbr/core#textualPart> "camera buia" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cantina
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cantina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cantina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Darkness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cantina> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cantina> <http://purl.org/vocab/frbr/core#textualPart> "cantina chiusa" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#canto
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#canto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#canto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#canto> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#canto> <http://purl.org/vocab/frbr/core#textualPart> "un canto vi si mesce/Più sordo e più fioco/s'allenta, si spegne" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#chiome_similitude
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#chiome_similitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#chiome_similitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#chiome_similitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#chiome_similitude> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#chiome_similitude> <http://purl.org/vocab/frbr/core#textualPart> "le tue chiome/auliscono come/le chiare ginestre" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cour_similitude
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cour_similitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cour_similitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cour_similitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cour_similitude> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cour_similitude> <http://purl.org/vocab/frbr/core#textualPart> "il cuor nel petto è come pesca/intatta," .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#crepitio
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#crepitio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#crepitio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#crepitio> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#crepitio> <http://purl.org/vocab/frbr/core#textualPart> "crepitio" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cupe
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cupe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cupe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Darkness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cupe> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cupe> <http://purl.org/vocab/frbr/core#textualPart> "cupe" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#denti_similitude
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#denti_similitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#denti_similitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#denti_similitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#denti_similitude> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#denti_similitude> <http://purl.org/vocab/frbr/core#textualPart> "i denti negli alvèoli/con come mandorle acerbe." .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#desio
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#desio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#desio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#desio> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#desio> <http://purl.org/vocab/frbr/core#textualPart> "seguendo ‘l desio,/per mirar la sembianza di colui/ch’ancor lassú nel ciel vedere spera:" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#flitting
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#flitting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#flitting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#flitting> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#flitting> <http://purl.org/vocab/frbr/core#textualPart> "flitting" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#gocciole
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#gocciole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#gocciole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#gocciole> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#gocciole> <http://purl.org/vocab/frbr/core#textualPart> "parole più nuove/che parlano gocciole" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#identity_1
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#identity_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#identity_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Identity> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#identity_1> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#identity_1> <http://purl.org/vocab/frbr/core#textualPart> "E sei come le voci/della terra" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#innumerevoli
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#innumerevoli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#innumerevoli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#innumerevoli> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#innumerevoli> <http://purl.org/vocab/frbr/core#textualPart> "innumerevoli dita" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1> <http://purl.org/dc/elements/1.1/creator> "http://viaf.org/viaf/39382430"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1> <http://purl.org/dc/elements/1.1/title> "Movesi il vecchierel canuto e bianco" .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1> <http://purl.org/vocab/frbr/core#textualReference> "Movesi il vecchierel canuto  e bianco \ndel dolce loco ov’ha sua età fornita\ne da la famigliuola sbigottita\nche vede il caro padre venir manco;\nindi traendo poi l’antiquo fianco \nper l’estreme giornate di sua vita,\nquanto piú pò, col buon voler s’aita,\nrotto dagli anni, e dal cammino stanco ;\ne viene a Roma, seguendo ‘l desio,\nper mirar la sembianza di colui\nch’ancor lassú nel ciel vedere spera :\ncosí, lasso, talor vo cerchand’io,\ndonna, quanto è possibile, in altrui\nla disïata vostra forma vera." .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> <http://purl.org/dc/elements/1.1/creator> "http://viaf.org/viaf/49220129"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> <http://purl.org/dc/elements/1.1/title> "La pioggia nel pineto" .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> <http://purl.org/vocab/frbr/core#textualReference> "Taci. Su le soglie\ndel bosco non odo\nparole che dici\numane; ma odo\nparole più nuove\nche parlano gocciole  e foglie\nlontane.\nAscolta. Piove \ndalle nuvole sparse .\nPiove  su le tamerici\nsalmastre ed arse,\npiove  su i pini\nscagliosi ed irti,\npiove  su i mirti\ndivini,\nsu le ginestre fulgenti\ndi fiori accolti,\nsu i ginepri folti\ndi coccole aulenti,\npiove  su i nostri volti\nsilvani ,\npiove  su le nostre mani\nignude,\nsu i  nostri vestimenti\nleggieri,\nsu i  freschi pensieri\nche l'anima schiude\nnovella,\nsu la favola bella\nche ieri\nt'illuse , che oggi m'illude ,\no Ermione.\n\nOdi? La pioggia  cade\nsu la solitaria\nverdura\ncon un crepitío  che dura\ne varia nell'aria\nsecondo le fronde\npiù rade, men rade.\nAscolta. Risponde\nal pianto il canto\ndelle cicale\nche il pianto australe\nnon impaura,\nnè il ciel cinerino.\nE il pino\nha un suono, e il mirto\naltro suono, e il ginepro\naltro ancóra, stromenti\ndiversi\n sotto innumerevoli dita .\nE immersi\nnoi siam nello spirto\nsilvestre ,\nd'arborea vita viventi;\ne il tuo volto ebro\nè molle di pioggia\ncome una foglia  ,\ne le tue chiome\nauliscono come\nle chiare ginestre  ,\no creatura terrestre\nche hai nome\nErmione.\n\nAscolta, ascolta . L'accordo\ndelle aeree cicale\na poco a poco\npiù sordo\nsi fa sotto il pianto\nche cresce;\nma un canto vi si mesce\npiù roco \nche di laggiù sale ,\ndall'umida ombra remota.\nPiù sordo e più fioco\ns'allenta, si spegne .\nSola una nota\nancor trema, si spegne ,\nrisorge, trema, si spegne.\nNon s'ode voce del mare.\nOr s'ode su tutta la fronda\ncrosciare\nl'argentea pioggia\nche monda,\nil croscio che varia\nsecondo la fronda\npiù folta, men folta.\nAscolta.\nLa figlia dell'aria\nè muta; ma la figlia\ndel limo lontana,\nla rana,\ncanta nell'ombra più fonda ,\nchi sa dove, chi sa dove!\nE piove su le tue ciglia,\nErmione.\n\nPiove  su le tue ciglia nere\nsìche par tu pianga\nma di piacere; non bianca\nma quasi fatta virente,\npar da scorza tu esca.\nE tutta la vita è in noi fresca\naulente,\nil cuor nel petto è come pesca\nintatta , \ntra le pàlpebre gli occhi\nson come polle tra l'erbe  ,\ni denti negli alvèoli\ncon come mandorle acerbe  .\nE andiam di fratta in fratta,\nor congiunti or disciolti \n(e il verde vigor rude\nci allaccia i mallèoli\nc'intrica i ginocchi)\nchi sa dove, chi sa dove!\n E piove su i  nostri vólti\nsilvani ,\npiove su le  nostre mani\nignude,\nsu i  nostri vestimenti\nleggieri,\nsu i  freschi pensieri\nche l'anima schiude\nnovella,\nsu la favola bella\nche ieri\nm'illuse, che oggi t'illude,\no Ermione." .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> <http://purl.org/dc/elements/1.1/creator> "http://viaf.org/viaf/36922880"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> <http://purl.org/dc/elements/1.1/title> "senza titolo" .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> <http://purl.org/vocab/frbr/core#textualReference> "Hai viso di pietra scolpita,\nsangue di terra dura,\nsei venuta dal mare.\nTutto accogli e scruti\ne respingi da te\ncome il mare. Nel cuore\nhai silenzio, hai parole\ninghiottite. Sei buia.\nPer te l’alba è silenzio.\nE sei come le voci\ndella terra – l’urto\ndella secchia nel pozzo,\nla canzone del fuoco,\nil tonfo di una mela;\nle parole rassegnate\ne cupe sulle soglie,\nil grido del bimbo – le cose\nche non passano mai.\nTu non muti. Sei buia,\nsei la cantina chiusa,\ndal battuto di terra,\ndov’è entrato una volta\nch’era scalzo il bambino,\ne ci ripensa sempre.\nSei la camera buia\ncui si ripensa sempre,\ncome al cortile antico\ndove s’apriva l’alba." .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> <http://purl.org/dc/elements/1.1/creator> "http://viaf.org/viaf/31995584"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> <http://purl.org/dc/elements/1.1/title> "senza titolo" .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> <http://purl.org/vocab/frbr/core#textualReference> "The Wind – tapped like a tired Man –\nAnd like a Host – “Come in”\nI boldly answered – entered then \nMy Residence within\n\nA Rapid – footless Guest – \nTo offer whom a Chair \nWere as impossible as hand A Sofa to the Air –\nNo Bone had He to bind Him – \nHis Speech was like the Push\nOf numerous Humming Birds at once\nFrom a superior Bush –\n\nHis Countenance – a Billow –\nHis Fingers, as He passed\n\nLet go a music – as of tunes\nBlown tremulous in Glass –\n\nHe visited – still flitting – Then like a timid Man\nAgain, He tapped – 'twas flurriedly – \nAnd I became alone –" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#mai
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#mai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#mai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Stillness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#mai> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#mai> <http://purl.org/vocab/frbr/core#textualPart> "che non passano mai." .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#metaphor_1
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#metaphor_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#metaphor_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Identity> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#metaphor_1> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#metaphor_1> <http://purl.org/vocab/frbr/core#textualPart> "His Countenance – a Billow –/His Fingers, as He passed" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#muti
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#muti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#muti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Stillness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#muti> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#muti> <http://purl.org/vocab/frbr/core#textualPart> "non muti" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#nuvole
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#nuvole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#nuvole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#nuvole> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#nuvole> <http://purl.org/vocab/frbr/core#textualPart> "nuvole sparse" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#occhi_similitude
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#occhi_similitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#occhi_similitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#occhi_similitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#occhi_similitude> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#occhi_similitude> <http://purl.org/vocab/frbr/core#textualPart> "tra le pàlpebre gli occhi/son come polle tra l'erbe," .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#ombra
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#ombra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#ombra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Darkness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#ombra> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#ombra> <http://purl.org/vocab/frbr/core#textualPart> "ombra più fonda" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#opposition_1
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#opposition_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#opposition_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Opposition> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#opposition_1> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#opposition_1> <http://purl.org/vocab/frbr/core#textualPart> "l'alba è silenzio" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#opposition_omission_1
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#opposition_omission_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#opposition_omission_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Omission> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#opposition_omission_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Opposition> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#opposition_omission_1> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#opposition_omission_1> <http://purl.org/vocab/frbr/core#textualPart> "hai silenzio, hai parole" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pietra
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pietra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pietra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Stillness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pietra> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pietra> <http://purl.org/vocab/frbr/core#textualPart> "pietra scolpita/e sangue di terra dura" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pioggia
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pioggia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pioggia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pioggia> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pioggia> <http://purl.org/vocab/frbr/core#textualPart> "pioggia" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pozzo
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pozzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pozzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Darkness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pozzo> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pozzo> <http://purl.org/vocab/frbr/core#textualPart> "della secchia nel pozzo," .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#rapidity
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#rapidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#rapidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#rapidity> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#rapidity> <http://purl.org/vocab/frbr/core#textualPart> "Rapid – footless" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#rassegnazione
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#rassegnazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#rassegnazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Inertia> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#rassegnazione> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#rassegnazione> <http://purl.org/vocab/frbr/core#textualPart> "rassegnate" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#repetition_1
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#repetition_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#repetition_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#repetition_1> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#repetition_1> <http://purl.org/vocab/frbr/core#textualPart> "e scruti/e respingi" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#series_1
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#series_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#series_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Series> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#series_1> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#series_1> <http://purl.org/vocab/frbr/core#textualPart> "la canzone del fuoco,/il tonfo di una mela;/le parole rassegnate/e cupe sulle soglie,/il grido del bimbo – le cose" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#series_2
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#series_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#series_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Series> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#series_2> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#series_2> <http://purl.org/vocab/frbr/core#textualPart> "He visited – still flitting Then like a timid Man/Again, He tapped" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#silvani
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#silvani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#silvani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#silvani> <http://www.w3.org/2002/07/owl#sameAs> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#volti> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#silvani> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#silvani> <http://purl.org/vocab/frbr/core#textualPart> "nostri volti/silvani" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_1
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_1> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_1> <http://purl.org/vocab/frbr/core#textualPart> "è molle di pioggia/come una foglia" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_3
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_3> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_3> <http://purl.org/vocab/frbr/core#textualPart> "tapped like a tired Man" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_4
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_4> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_4> <http://purl.org/vocab/frbr/core#textualPart> "And like a Host – “Come in”/I boldly answered –" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_5
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_5> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_5> <http://purl.org/vocab/frbr/core#textualPart> "His Speech was like the Push" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#spirito_silvestre
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#spirito_silvestre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#spirito_silvestre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#spirito_silvestre> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#spirito_silvestre> <http://purl.org/vocab/frbr/core#textualPart> "immersi/noi siam nello spirto/silvestre" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#stanco
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#stanco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#stanco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Inertia> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#stanco> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#stanco> <http://purl.org/vocab/frbr/core#textualPart> "dal cammino stanco;" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#symmetry
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#symmetry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#symmetry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Symmetry> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#symmetry> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#symmetry> <http://purl.org/vocab/frbr/core#textualPart> "The Wind tapped like a tired Man/[...]Then like a timid Man/Again, He tapped" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#tonfo
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#tonfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#tonfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Inertia> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#tonfo> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#tonfo> <http://purl.org/vocab/frbr/core#textualPart> "tonfo" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#traendo
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#traendo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#traendo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Stillness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#traendo> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#traendo> <http://purl.org/vocab/frbr/core#textualPart> "traendo poi l’antiquo fianco" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#tremulous
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#tremulous> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#tremulous> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Brightness> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#tremulous> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#tremulous> <http://purl.org/vocab/frbr/core#textualPart> "tremulous in Glass –" .
+# 
+# http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#volti
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#volti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#volti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#volti> <http://purl.org/vocab/frbr/core#hasSource> <http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2> .
+<http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#volti> <http://purl.org/vocab/frbr/core#textualPart> "vólti/silvani," .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
