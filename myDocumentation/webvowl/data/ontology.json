@@ -2,319 +2,228 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo", "http://purl.org/vocab/frbr/core", "http://purl.org/dc/elements/1.1" ],
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo"
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://mangiafrangette.github.io/cosmo.owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://purl.org/vocab/frbr/core", "http://purl.org/dc/elements/1.1" ],
+    "title" : {
+      "en" : "CoSMO - Calvino's Six Memos Ontology"
+    },
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "version" : "1.0.0",
+    "author" : [ "Carlo Teo Pedretti", "Francesca Mangialardo", "Mattia Spadoni" ],
+    "comments" : {
+      "en" : "CoSMO (Calvino's Six Memos Ontology) is a literary criticism based ontology that expresses in a formal way the concept behind Calvino's textual interpretation."
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Francesca Mangialardo",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Mattia Spadoni",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Carlo Teo Pedretti",
+        "type" : "label"
+      } ],
+      "Rights" : [ {
+        "identifier" : "Rights",
+        "language" : "en",
+        "value" : "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/).",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "1.0.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "CoSMO - Calvino's Six Memos Ontology",
+        "type" : "label"
+      } ]
+    }
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "0",
+    "id" : "3",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
-    "type" : "owl:Class"
-  }, {
-    "id" : "10",
-    "type" : "owl:Class"
-  }, {
-    "id" : "2",
-    "type" : "owl:Class"
-  }, {
-    "id" : "37",
-    "type" : "owl:Class"
-  }, {
-    "id" : "28",
-    "type" : "owl:Class"
-  }, {
-    "id" : "38",
-    "type" : "owl:Class"
-  }, {
-    "id" : "1",
-    "type" : "owl:Class"
-  }, {
-    "id" : "18",
+    "id" : "9",
     "type" : "owl:Class"
   }, {
     "id" : "16",
     "type" : "owl:Class"
   }, {
-    "id" : "40",
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
     "type" : "owl:Class"
   }, {
     "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "49",
+    "id" : "21",
     "type" : "owl:Class"
   }, {
-    "id" : "31",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "23",
+    "id" : "2",
     "type" : "owl:Class"
-  }, {
-    "id" : "14",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "59",
-    "type" : "owl:unionOf"
-  }, {
-    "id" : "44",
-    "type" : "owl:unionOf"
   }, {
     "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "60",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "65",
-    "type" : "owl:unionOf"
-  }, {
-    "id" : "30",
-    "type" : "owl:unionOf"
-  }, {
-    "id" : "25",
+    "id" : "19",
     "type" : "owl:Class"
   }, {
-    "id" : "8",
-    "type" : "owl:Class"
-  }, {
-    "id" : "3",
-    "type" : "owl:Class"
-  }, {
-    "id" : "33",
-    "type" : "owl:Class"
-  }, {
-    "id" : "53",
-    "type" : "owl:Class"
-  }, {
-    "id" : "20",
-    "type" : "owl:Class"
-  }, {
-    "id" : "13",
-    "type" : "owl:Class"
-  }, {
-    "id" : "36",
-    "type" : "owl:Class"
-  }, {
-    "id" : "41",
-    "type" : "owl:Class"
+    "id" : "15",
+    "type" : "rdfs:Datatype"
   }, {
     "id" : "11",
     "type" : "owl:Class"
   }, {
-    "id" : "6",
+    "id" : "14",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "36",
     "type" : "owl:Class"
   }, {
-    "id" : "9",
+    "id" : "48",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "64",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "39",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "67",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Heaviness",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Heaviness",
-      "en" : "Heaviness"
-    },
-    "subClasses" : [ "2", "3", "4" ],
-    "comment" : {
-      "en" : "A concept to represent the weight, the inertia, the opacity of the world and the writing"
-    },
-    "id" : "0",
-    "superClasses" : [ "1" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Repetition",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Repetition",
-      "en" : "Repetition"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_10",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "anaphora_10"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#buia",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "buia"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_6",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "anaphora_6"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#repetition_1",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "repetition_1"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_11",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "anaphora_11"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_7",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "anaphora_7"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_8",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "anaphora_8"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_9",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "anaphora_9"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_2",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "anaphora_2"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_3",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "anaphora_3"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_4",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "anaphora_4"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_5",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "anaphora_5"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#anaphora_1",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "anaphora_1"
-      }
-    } ],
-    "comment" : {
-      "en" : "Repetition refers to when a figure uses repetition of sounds (consonants, vowels, or syllables), words, syntax (phrases or clauses) or semantics (concepts). e.g., Rhyme–Hickory Dickory Dock. The mouse ran up the clock."
-    },
-    "id" : "5",
-    "superClasses" : [ "6" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Dustiness",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Dustiness",
-      "en" : "Dustiness"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#birds",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "birds"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#bone",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "bone"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#gocciole",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "gocciole"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#innumerevoli",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "innumerevoli"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#nuvole",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "nuvole"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#crepitio",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "crepitio"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pioggia",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "pioggia"
-      }
-    } ],
-    "comment" : {
-      "en" : "Quality of things that have nature, aspect, appearence of fine dust and are therefore discontinuous and fragmentary."
-    },
-    "id" : "10",
-    "superClasses" : [ "11" ]
-  }, {
-    "iri" : "http://purl.org/vocab/frbr/core#Inertia",
-    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#person",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
     "instances" : 0,
     "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "en",
-        "value" : "http://wordnet-rdf.princeton.edu/id/04642988-n",
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/vocab/frbr/core#Person",
         "type" : "label"
       } ]
     },
     "label" : {
-      "IRI-based" : "Inertia",
-      "en" : "Inertia"
+      "IRI-based" : "person",
+      "en" : "Person"
+    },
+    "subClasses" : [ "5" ],
+    "comment" : {
+      "en" : "A living or dead individual"
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#series",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "series",
+      "en" : "Series"
     },
     "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#tonfo",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#series2",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
       "labels" : {
-        "IRI-based" : "tonfo"
+        "IRI-based" : "series2"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#rassegnazione",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#series1",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
       "labels" : {
-        "IRI-based" : "rassegnazione"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#stanco",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "stanco"
+        "IRI-based" : "series1"
       }
     } ],
     "comment" : {
-      "en" : "The inability to act as expressed in literary texts"
+      "en" : "Series refers to when a figure establishes a series (through words or concepts). e.g., Abecedarian: Adorable, beautiful, charming, delightful, exciting, fantastic–you run the gamut from A to Z [1]."
     },
-    "attributes" : [ "external" ],
-    "id" : "2",
-    "superClasses" : [ "0" ]
+    "id" : "9",
+    "superClasses" : [ "2" ]
   }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movement",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#heaviness",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "heaviness",
+      "en" : "Heaviness"
+    },
+    "subClasses" : [ "17", "18", "19" ],
+    "comment" : {
+      "en" : "A concept to represent the weight, the inertia, the opacity of the world and the writing"
+    },
+    "id" : "16",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#movement",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
     "instances" : 0,
     "annotations" : {
       "seeAlso" : [ {
@@ -325,54 +234,180 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "Movement",
+      "IRI-based" : "movement",
       "en" : "Movement"
     },
     "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#desio",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "desio"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#rapidity",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "rapidity"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#andiam",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "andiam"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Movesi",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "Movesi"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#canto",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#canto",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
       "labels" : {
         "IRI-based" : "canto"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#flitting",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#andiam",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "andiam"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#Movesi",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "Movesi"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#flitting",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
       "labels" : {
         "IRI-based" : "flitting"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#desio",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "desio"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#rapidity",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "rapidity"
       }
     } ],
     "comment" : {
       "en" : "A movement from a place or location to another in literary texts"
     },
-    "id" : "37",
+    "id" : "20",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#dustiness",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dustiness",
+      "en" : "Dustiness"
+    },
+    "individuals" : [ {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#nuvole",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "nuvole"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#birds",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "birds"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#pioggia",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "pioggia"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#bone",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "bone"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#innumerevoli",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "innumerevoli"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#gocciole",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "gocciole"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#crepitio",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "crepitio"
+      }
+    } ],
+    "comment" : {
+      "en" : "Quality of things that have nature, aspect, appearence of fine dust and are therefore discontinuous and fragmentary."
+    },
+    "id" : "30",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#agent",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/dc/terms/Agent",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "agent",
+      "en" : "Agent"
+    },
+    "subClasses" : [ "3" ],
+    "comment" : {
+      "en" : "A resource that acts or has the power to act"
+    },
+    "id" : "4"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#lightness",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "http://wordnet-rdf.princeton.edu/id/05035866-n",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "lightness",
+      "en" : "Lightness"
+    },
+    "subClasses" : [ "45", "20", "36", "43", "30" ],
+    "comment" : {
+      "en" : "Literary value or virtue of a literary text reached by removing weight from the structure of stories and from language."
+    },
+    "id" : "21",
     "superClasses" : [ "11" ]
   }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Mutability",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#rhetoricalFigure",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "DOI: 10.1145/1878450.1878471",
+        "type" : "label"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.researchgate.net/publication/220961451_Toward_an_ontology_of_rhetorical_figures",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "rhetoricalFigure",
+      "en" : "Rhetorical figure"
+    },
+    "subClasses" : [ "29", "27", "34", "32", "24", "9", "1" ],
+    "comment" : {
+      "en" : "The class of some common strategies employed by rhetorical figures"
+    },
+    "id" : "2",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#mutability",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
     "instances" : 0,
     "annotations" : {
       "seeAlso" : [ {
@@ -383,423 +418,65 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "Mutability",
+      "IRI-based" : "mutability",
       "en" : "Mutability"
     },
     "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#spirito_silvestre",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#chiome",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
       "labels" : {
-        "IRI-based" : "spirito_silvestre"
+        "IRI-based" : "chiome"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#volti",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#silvani",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "silvani"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#cuor",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "cuor"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#denti",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "denti"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#spiritoSilvestre",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "spiritoSilvestre"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#molle",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "molle"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#volti",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
       "labels" : {
         "IRI-based" : "volti"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#denti_similitude",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#occhi",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
       "labels" : {
-        "IRI-based" : "denti_similitude"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#occhi_similitude",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "occhi_similitude"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#chiome_similitude",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "chiome_similitude"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cour_similitude",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "cour_similitude"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#silvani",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "silvani"
+        "IRI-based" : "occhi"
       }
     } ],
     "comment" : {
       "en" : "Quality of everything that can be transformed into something else"
     },
-    "id" : "28",
-    "superClasses" : [ "11" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Expression",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "en",
-        "value" : "http://purl.org/vocab/frbr/core#Expression",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Expression",
-      "en" : "Expression"
-    },
-    "subClasses" : [ "13" ],
-    "comment" : {
-      "en" : "A realization of a single work usually in a physical form."
-    },
-    "id" : "38"
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpreted_concept",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Interpreted_concept",
-      "en" : "Interpreted concept"
-    },
-    "subClasses" : [ "0", "11" ],
-    "comment" : {
-      "en" : "A concept that results from interpreting a literary text"
-    },
-    "id" : "1",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Series",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Series",
-      "en" : "Series"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#series_2",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "series_2"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#series_1",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "series_1"
-      }
-    } ],
-    "comment" : {
-      "en" : "Series refers to when a figure establishes a series (through words or concepts). e.g., Abecedarian: Adorable, beautiful, charming, delightful, exciting, fantastic–you run the gamut from A to Z [1]."
-    },
-    "id" : "18",
-    "superClasses" : [ "6" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Symmetry",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Symmetry",
-      "en" : "Symmetry"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#symmetry",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "symmetry"
-      }
-    } ],
-    "comment" : {
-      "en" : "Symmetry refers to when a figure pairs two constructions in an inverse (“mirrored”) way. e.g. Antimetabole: When the going gets tough, the tough get going."
-    },
-    "id" : "16",
-    "superClasses" : [ "6" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Fictional_character",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://dbpedia.org/ontology/FictionalCharacter",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Fictional_character",
-      "en" : "Fictional character"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Ermione",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "Ermione"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Wind",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "Wind"
-      }
-    } ],
-    "comment" : {
-      "en" : "An imaginary person represented in a work of literary fiction"
-    },
-    "id" : "40",
-    "superClasses" : [ "41" ]
-  }, {
-    "iri" : "http://purl.org/vocab/frbr/core#Darkness",
-    "baseIri" : "http://purl.org/vocab/frbr/core",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "en",
-        "value" : "http://wordnet-rdf.princeton.edu/id/14007000-n",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Darkness",
-      "en" : "Darkness"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#ombra",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "ombra"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cantina",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "cantina"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cupe",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "cupe"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#camera",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "camera"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#buia",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "buia"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pozzo",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "pozzo"
-      }
-    } ],
-    "comment" : {
-      "en" : "Absence of light"
-    },
-    "attributes" : [ "external" ],
-    "id" : "4",
-    "superClasses" : [ "0" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Brightness",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "en",
-        "value" : "http://wordnet-rdf.princeton.edu/id/05025269-n",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Brightness",
-      "en" : "Brightness"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#alba",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "alba"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#tremulous",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "tremulous"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#bianco",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "bianco"
-      }
-    } ],
-    "comment" : {
-      "en" : "The visual luminosity expressed in a literary text"
-    },
-    "id" : "49",
-    "superClasses" : [ "11" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "31",
-    "label" : {
-      "IRI-based" : "anyURI"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Opposition",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Opposition",
-      "en" : "Opposition"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#opposition_1",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "opposition_1"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#opposition_omission_1",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "opposition_omission_1"
-      }
-    } ],
-    "comment" : {
-      "en" : "Opposition refers to when a figure oppose two structures or concepts. e.g., Oxymoron: A wanton modesty. Proud humility."
-    },
-    "id" : "23",
-    "superClasses" : [ "6" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "14",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "instances" : 0,
-    "union" : [ "8", "13", "40" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "59"
-  }, {
-    "instances" : 0,
-    "union" : [ "8", "13", "40" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "44"
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "45",
-    "label" : {
-      "IRI-based" : "string"
-    }
+    "superClasses" : [ "21" ]
   }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "60",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "instances" : 0,
-    "union" : [ "8", "40" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "65"
-  }, {
-    "instances" : 0,
-    "union" : [ "13", "40" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "30"
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Similarity",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Similarity",
-      "en" : "Similarity"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_1",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "similitude_1"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#occhi_similitude",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "occhi_similitude"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#denti_similitude",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "denti_similitude"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_5",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "similitude_5"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_4",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "similitude_4"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#similitude_3",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "similitude_3"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#chiome_similitude",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "chiome_similitude"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#cour_similitude",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "cour_similitude"
-      }
-    } ],
-    "comment" : {
-      "en" : "Similarity (partial-identity) refers to when a figure uses resemblance of a concept. e.g., Simile: My love is like a red, red rose."
-    },
-    "id" : "25",
-    "superClasses" : [ "6" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Interpretation",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Interpretation",
-      "en" : "Interpretation"
-    },
-    "subClasses" : [ "6", "1" ],
-    "comment" : {
-      "en" : "This class defines the concepts involved when interpreting a literary text"
-    },
-    "id" : "8",
-    "superClasses" : [ "9" ]
-  }, {
-    "iri" : "http://purl.org/vocab/frbr/core#Stillness",
+    "iri" : "http://purl.org/vocab/frbr/core#stillness",
     "baseIri" : "http://purl.org/vocab/frbr/core",
     "instances" : 0,
     "annotations" : {
@@ -811,232 +488,491 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "Stillness",
+      "IRI-based" : "stillness",
       "en" : "Stillness"
     },
     "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#mai",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "mai"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#traendo",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "traendo"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#muti",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#muti",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
       "labels" : {
         "IRI-based" : "muti"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#pietra",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#pietra",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
       "labels" : {
         "IRI-based" : "pietra"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#mai",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "mai"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#traendo",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "traendo"
       }
     } ],
     "comment" : {
       "en" : "A lack of physical or literary motion as represented in literary texts"
     },
     "attributes" : [ "external" ],
-    "id" : "3",
-    "superClasses" : [ "0" ]
+    "id" : "17",
+    "superClasses" : [ "16" ]
   }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Omission",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Omission",
-      "en" : "Omission"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#opposition_omission_1",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "opposition_omission_1"
-      }
-    } ],
-    "comment" : {
-      "en" : "Omission refers to when a figure omits expected elements. e.g., Asyndeton (which omits the expected conjunction, “and”): I came, I saw, I conquered."
-    },
-    "id" : "33",
-    "superClasses" : [ "6" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Agent",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://purl.org/dc/terms/Agent",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Agent",
-      "en" : "Agent"
-    },
-    "subClasses" : [ "41" ],
-    "comment" : {
-      "en" : "A resource that acts or has the power to act"
-    },
-    "id" : "53"
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Identity",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Identity",
-      "undefined" : "Identity"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#metaphor_1",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "metaphor_1"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#identity_1",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "identity_1"
-      }
-    } ],
-    "comment" : {
-      "undefined" : "Identity refers to when a figure uses two or more identical elements. e.g., Ploce: O villain, villain, smiling, damned villain!(Hamlet [5])."
-    },
-    "id" : "20",
-    "superClasses" : [ "6" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Literary_text",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Literary_text",
-      "en" : "Literary text"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text1",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "literary_text1"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text2",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "literary_text2"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text3",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "literary_text3"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#literary_text4",
-      "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-      "labels" : {
-        "IRI-based" : "literary_text4"
-      }
-    } ],
-    "comment" : {
-      "en" : "A textual expression of a work of literature"
-    },
-    "id" : "13",
-    "superClasses" : [ "38" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Equality",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Equality",
-      "en" : "Equality"
-    },
-    "comment" : {
-      "en" : "Quality of things that are put on the same level"
-    },
-    "id" : "36",
-    "superClasses" : [ "11" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Person",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://purl.org/vocab/frbr/core#Person",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Person",
-      "en" : "Person"
-    },
-    "subClasses" : [ "40" ],
-    "comment" : {
-      "en" : "A living or dead individual"
-    },
-    "id" : "41",
-    "superClasses" : [ "53" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Lightness",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
+    "iri" : "http://purl.org/vocab/frbr/core#inertia",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
     "instances" : 0,
     "annotations" : {
       "seeAlso" : [ {
         "identifier" : "seeAlso",
         "language" : "en",
-        "value" : "http://wordnet-rdf.princeton.edu/id/05035866-n",
+        "value" : "http://wordnet-rdf.princeton.edu/id/04642988-n",
         "type" : "label"
       } ]
     },
     "label" : {
-      "IRI-based" : "Lightness",
-      "en" : "Lightness"
+      "IRI-based" : "inertia",
+      "en" : "Inertia"
     },
-    "subClasses" : [ "37", "49", "28", "10", "36" ],
+    "individuals" : [ {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#tonfo",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "tonfo"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#stanco",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "stanco"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#rassegnazione",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "rassegnazione"
+      }
+    } ],
     "comment" : {
-      "en" : "Literary value or virtue of a literary text reached by removing weight from the structure of stories and from language."
+      "en" : "The inability to act as expressed in literary texts"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#opposition",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "opposition",
+      "en" : "Opposition"
+    },
+    "individuals" : [ {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#opposition1",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "opposition1"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#oppositionOmission1",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "oppositionOmission1"
+      }
+    } ],
+    "comment" : {
+      "en" : "Opposition refers to when a figure oppose two structures or concepts. e.g., Oxymoron: A wanton modesty. Proud humility."
+    },
+    "id" : "34",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#symmetry",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "symmetry",
+      "en" : "symmetry"
+    },
+    "comment" : {
+      "en" : "Symmetry refers to when a figure pairs two constructions in an inverse (“mirrored”) way. e.g. Antimetabole: When the going gets tough, the tough get going."
+    },
+    "id" : "32",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#repetition",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "repetition",
+      "en" : "Repetition"
+    },
+    "individuals" : [ {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#anaphora3",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "anaphora3"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#anaphora2",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "anaphora2"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#anaphora1",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "anaphora1"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#anaphora9",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "anaphora9"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#anaphora8",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "anaphora8"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#anaphora7",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "anaphora7"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#anaphora6",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "anaphora6"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#anaphora5",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "anaphora5"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#anaphora4",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "anaphora4"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#anaphora10",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "anaphora10"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#anaphora11",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "anaphora11"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#anaphora12",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "anaphora12"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#repetition1",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "repetition1"
+      }
+    } ],
+    "comment" : {
+      "en" : "Repetition refers to when a figure uses repetition of sounds (consonants, vowels, or syllables), words, syntax (phrases or clauses) or semantics (concepts). e.g., Rhyme–Hickory Dickory Dock. The mouse ran up the clock."
+    },
+    "id" : "24",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#darkness",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "http://wordnet-rdf.princeton.edu/id/14007000-n",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "darkness",
+      "en" : "Darkness"
+    },
+    "individuals" : [ {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#camera",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "camera"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#cupe",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "cupe"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#ombra",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "ombra"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#pozzo",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "pozzo"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#buia",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "buia"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#cantina",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "cantina"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#sordo",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "sordo"
+      }
+    } ],
+    "comment" : {
+      "en" : "Absence of light"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#interpretedConcept",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "interpretedConcept",
+      "en" : "Interpreted concept"
+    },
+    "subClasses" : [ "16", "21" ],
+    "comment" : {
+      "en" : "A concept that results from interpreting a literary text"
     },
     "id" : "11",
-    "superClasses" : [ "1" ]
+    "superClasses" : [ "50" ]
   }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Rhetorical_Figure",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
+    "instances" : 0,
+    "union" : [ "50", "7", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#brightness",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "http://wordnet-rdf.princeton.edu/id/05025269-n",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "brightness",
+      "en" : "Brightness"
+    },
+    "individuals" : [ {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#tremulous",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "tremulous"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#bianco",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "bianco"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#alba",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "alba",
+        "undefined" : "alba"
+      }
+    } ],
+    "comment" : {
+      "en" : "The visual luminosity expressed in a literary text"
+    },
+    "id" : "36",
+    "superClasses" : [ "21" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "50", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "48"
+  }, {
+    "instances" : 0,
+    "union" : [ "50", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "64"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#similarity",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "similarity",
+      "en" : "Similarity"
+    },
+    "individuals" : [ {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#similitude1",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "similitude1"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#similitude2",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "similitude2"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#similitude3",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "similitude3"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#similitude4",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "similitude4"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#similitude5",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "similitude5"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#similitude6",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "similitude6"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#similitude7",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "similitude7"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#similitude8",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "similitude8"
+      }
+    } ],
+    "comment" : {
+      "en" : "Similarity (partial-identity) refers to when a figure uses resemblance of a concept. e.g., Simile: My love is like a red, red rose."
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "8",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#fictionalCharacter",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
     "instances" : 0,
     "annotations" : {
       "seeAlso" : [ {
         "identifier" : "seeAlso",
         "language" : "undefined",
-        "value" : "https://www.researchgate.net/publication/220961451_Toward_an_ontology_of_rhetorical_figures",
-        "type" : "label"
-      }, {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "DOI: 10.1145/1878450.1878471",
+        "value" : "http://dbpedia.org/ontology/FictionalCharacter",
         "type" : "label"
       } ]
     },
     "label" : {
-      "IRI-based" : "Rhetorical_Figure",
-      "en" : "Rhetorical figure"
+      "IRI-based" : "fictionalCharacter",
+      "en" : "Fictional character"
     },
-    "subClasses" : [ "33", "5", "20", "25", "23", "18", "16" ],
+    "individuals" : [ {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#Ermione",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "Ermione"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#Wind",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "Wind"
+      }
+    } ],
     "comment" : {
-      "en" : "The class of some common strategies employed by rhetorical figures"
+      "en" : "An imaginary person represented in a work of literary fiction"
     },
-    "id" : "6",
-    "superClasses" : [ "8" ]
+    "id" : "5",
+    "superClasses" : [ "3" ]
   }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#Concept",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "50", "7", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "67"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#concept",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
@@ -1047,83 +983,212 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "Concept",
+      "IRI-based" : "concept",
       "en" : "Concept"
     },
-    "subClasses" : [ "8" ],
+    "subClasses" : [ "50" ],
     "comment" : {
       "en" : "An abstract idea or notion"
     },
-    "id" : "9"
+    "id" : "68"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#expression",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "http://purl.org/vocab/frbr/core#Expression",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "expression",
+      "en" : "Expression"
+    },
+    "subClasses" : [ "7" ],
+    "comment" : {
+      "en" : "A realization of a single work usually in a physical form."
+    },
+    "id" : "69"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#interpretation",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "interpretation",
+      "en" : "Interpretation"
+    },
+    "subClasses" : [ "2", "11" ],
+    "comment" : {
+      "en" : "This class defines the concepts involved when interpreting a literary text"
+    },
+    "id" : "50",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#literaryText",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "literaryText",
+      "en" : "Literary text"
+    },
+    "individuals" : [ {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#literaryText4",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "literaryText4"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#literaryText3",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "literaryText3"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "literaryText2"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#literaryText1",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "literaryText1"
+      }
+    } ],
+    "comment" : {
+      "en" : "A textual expression of a work of literature"
+    },
+    "id" : "7",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#identity",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "identity",
+      "undefined" : "Identity"
+    },
+    "individuals" : [ {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#metaphor1",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "metaphor1"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#identity1",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "identity1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Identity refers to when a figure uses two or more identical elements. e.g., Ploce: O villain, villain, smiling, damned villain!(Hamlet [5])."
+    },
+    "id" : "29",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#omission",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "omission",
+      "en" : "Omission"
+    },
+    "individuals" : [ {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#oppositionOmission1",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "oppositionOmission1"
+      }
+    } ],
+    "comment" : {
+      "en" : "Omission refers to when a figure omits expected elements. e.g., Asyndeton (which omits the expected conjunction, “and”): I came, I saw, I conquered."
+    },
+    "id" : "27",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#equality",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "equality",
+      "en" : "Equality"
+    },
+    "comment" : {
+      "en" : "Quality of things that are put on the same level"
+    },
+    "id" : "43",
+    "superClasses" : [ "21" ]
   } ],
   "property" : [ {
-    "id" : "7",
+    "id" : "0",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "12",
+    "id" : "6",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "15",
-    "type" : "rdfs:SubClassOf"
+    "id" : "10",
+    "type" : "owl:objectProperty"
   }, {
-    "id" : "17",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "19",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "21",
-    "type" : "rdfs:SubClassOf"
+    "id" : "13",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "22",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "24",
+    "id" : "23",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "26",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "27",
+    "id" : "28",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "29",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "32",
+    "id" : "31",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "34",
-    "type" : "owl:objectProperty"
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "35",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "39",
-    "type" : "owl:objectProperty"
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "42",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "43",
+    "id" : "38",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "46",
+    "id" : "41",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "47",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "48",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "50",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "51",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "54",
@@ -1133,47 +1198,95 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "56",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "57",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "58",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "61",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "62",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "70",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "71",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "64",
+    "id" : "12",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "66",
+    "id" : "76",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "67",
+    "id" : "60",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "68",
+    "id" : "77",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "78",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "69",
+    "id" : "73",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
   } ],
   "propertyAttribute" : [ {
-    "range" : "9",
-    "domain" : "8",
+    "range" : "2",
+    "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "7"
+    "id" : "0"
   }, {
     "iri" : "http://purl.org/dc/elements/1.1/title",
     "baseIri" : "http://purl.org/dc/elements/1.1",
-    "range" : "14",
+    "range" : "8",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1186,297 +1299,483 @@
       "IRI-based" : "title",
       "en" : "Title"
     },
-    "domain" : "13",
+    "domain" : "7",
     "comment" : {
       "en" : "A name given to the resource"
     },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "12"
+    "attributes" : [ "datatype", "external" ],
+    "id" : "6"
   }, {
-    "range" : "6",
-    "domain" : "16",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "15"
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#hasLiteraryValue",
+    "inverse" : "12",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasLiteraryValue",
+      "en" : "has literary value"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "This property relates a text with an interpreted concept recognised by Calvino's as a value or virtue of literature."
+    },
+    "attributes" : [ "object" ],
+    "id" : "10"
   }, {
-    "range" : "6",
-    "domain" : "18",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "17"
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#textualReference",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "textualReference",
+      "en" : "has textual representation"
+    },
+    "domain" : "14",
+    "comment" : {
+      "en" : "Relates a concept or agent to a text that includes their textual string reference"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "13"
   }, {
-    "range" : "6",
-    "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "19"
-  }, {
-    "range" : "6",
-    "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "21"
-  }, {
-    "range" : "6",
-    "domain" : "23",
+    "range" : "2",
+    "domain" : "9",
     "attributes" : [ "object", "anonymous" ],
     "id" : "22"
   }, {
-    "range" : "6",
-    "domain" : "25",
+    "range" : "2",
+    "domain" : "24",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "24"
+    "id" : "23"
   }, {
-    "range" : "11",
-    "domain" : "10",
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#isSubtractionOf",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "isSubtractionOf",
+      "en" : "is subtraction of"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "This property states that lightness is related to heaviness because of a subtraction of weight."
+    },
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "range" : "2",
+    "domain" : "27",
     "attributes" : [ "object", "anonymous" ],
     "id" : "26"
   }, {
-    "range" : "11",
-    "domain" : "28",
+    "range" : "2",
+    "domain" : "29",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "27"
+    "id" : "28"
+  }, {
+    "range" : "2",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "2",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "range" : "21",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
   }, {
     "iri" : "http://purl.org/dc/elements/1.1/creator",
     "baseIri" : "http://purl.org/dc/elements/1.1",
-    "range" : "31",
+    "range" : "40",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://purl.org/dc/elements/1.1",
-        "type" : "iri"
+        "language" : "en",
+        "value" : "http://purl.org/dc/elements/1.1/creator",
+        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "creator",
       "en" : "Creator"
     },
-    "domain" : "30",
+    "domain" : "39",
     "comment" : {
       "en" : "An entity primarily responsible for making the resource."
     },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "29"
+    "attributes" : [ "datatype", "external" ],
+    "id" : "38"
   }, {
-    "range" : "6",
-    "domain" : "33",
+    "range" : "21",
+    "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "32"
+    "id" : "41"
   }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasLiteraryValue",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "range" : "1",
+    "range" : "21",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#isAbsenceOf",
+    "inverse" : "25",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "21",
     "label" : {
-      "IRI-based" : "hasLiteraryValue",
-      "en" : "has literary value"
+      "IRI-based" : "isAbsenceOf",
+      "en" : "is absence of"
     },
-    "domain" : "13",
+    "domain" : "16",
     "comment" : {
-      "en" : "This property relates a text with an interpreted concept recognised by Calvino's as a value or virtue of literature."
+      "en" : "This property states that heaviness is absence of lightness."
     },
     "attributes" : [ "object" ],
-    "id" : "34"
+    "id" : "44"
   }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#isEmbodimentOf",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
     "range" : "11",
-    "domain" : "36",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "35"
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#hasRhetoricFunction",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "range" : "6",
-    "label" : {
-      "IRI-based" : "hasRhetoricFunction",
-      "en" : "has rhetorical figure"
-    },
-    "domain" : "13",
-    "comment" : {
-      "en" : "This property relates a literary text with a certain rhetorical figure that is used inside the narrative of that text."
-    },
-    "attributes" : [ "object" ],
-    "id" : "39"
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isEmbodimentOf",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "range" : "1",
     "label" : {
       "IRI-based" : "isEmbodimentOf",
       "en" : "is embodiment of"
     },
-    "domain" : "40",
+    "domain" : "5",
     "comment" : {
       "en" : "Relates a fictional character to the interpreted concept that it symbolizes"
     },
     "attributes" : [ "object" ],
-    "id" : "42"
-  }, {
-    "iri" : "http://purl.org/vocab/frbr/core#textualReference",
-    "baseIri" : "http://purl.org/vocab/frbr/core",
-    "range" : "45",
-    "label" : {
-      "IRI-based" : "textualReference",
-      "en" : "has textual representation"
-    },
-    "domain" : "44",
-    "comment" : {
-      "en" : "Relates a concept or agent to a text that includes their textual string reference"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "43"
-  }, {
-    "range" : "11",
-    "domain" : "37",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "46"
   }, {
-    "range" : "41",
-    "domain" : "40",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "47"
-  }, {
-    "range" : "11",
-    "domain" : "49",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "48"
-  }, {
-    "range" : "8",
-    "domain" : "6",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "50"
-  }, {
-    "range" : "1",
-    "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "51"
-  }, {
-    "range" : "53",
-    "domain" : "41",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "52"
-  }, {
-    "range" : "8",
-    "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "54"
-  }, {
-    "range" : "0",
-    "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "55"
-  }, {
-    "range" : "1",
-    "domain" : "0",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "56"
-  }, {
-    "range" : "38",
-    "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "57"
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isSubtractionOf",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "range" : "0",
-    "label" : {
-      "IRI-based" : "isSubtractionOf",
-      "en" : "is subtraction of"
-    },
-    "domain" : "11",
-    "comment" : {
-      "en" : "This property states that lightness is related to heaviness because of a subtraction of weight."
-    },
-    "attributes" : [ "object" ],
-    "id" : "58"
-  }, {
-    "range" : "0",
-    "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "61"
-  }, {
-    "range" : "0",
-    "domain" : "3",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "62"
-  }, {
-    "iri" : "http://purl.org/vocab/frbr/core#textualPart",
-    "baseIri" : "http://purl.org/vocab/frbr/core",
-    "range" : "60",
-    "label" : {
-      "IRI-based" : "textualPart",
-      "en" : "has textual part"
-    },
-    "domain" : "59",
-    "comment" : {
-      "en" : "Relates a concept or agent to a fragment that includes their textual string reference"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "63"
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isLightenedBy",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "range" : "28",
-    "label" : {
-      "IRI-based" : "isLightenedBy",
-      "en" : "is lightened by"
-    },
-    "domain" : "0",
-    "comment" : {
-      "en" : "This property describes the relation between heaviness and mutability since the latter is what changes heaviness into lightness."
-    },
-    "attributes" : [ "object" ],
-    "id" : "64"
-  }, {
-    "iri" : "http://purl.org/vocab/frbr/core#hasFictionalCharacter",
-    "baseIri" : "http://purl.org/vocab/frbr/core",
-    "range" : "40",
-    "label" : {
-      "IRI-based" : "hasFictionalCharacter",
-      "en" : "has fictional character"
-    },
-    "domain" : "13",
-    "comment" : {
-      "en" : "This property relates a literary text with a fictional character that is mentioned inside the narrative of that text"
-    },
-    "attributes" : [ "external", "object" ],
-    "id" : "66"
-  }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#lacksOf",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
-    "range" : "11",
-    "label" : {
-      "IRI-based" : "lacksOf",
-      "en" : "lacks of"
-    },
-    "domain" : "13",
-    "comment" : {
-      "en" : "This property relates a literary text with lightness through a connection stating that the text lacks of lightness"
-    },
-    "attributes" : [ "object" ],
-    "id" : "67"
-  }, {
-    "iri" : "http://purl.org/vocab/frbr/core#hasSource",
-    "baseIri" : "http://purl.org/vocab/frbr/core",
-    "range" : "13",
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#hasSource",
+    "inverse" : "49",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "7",
     "label" : {
       "IRI-based" : "hasSource",
       "en" : "has source"
     },
-    "domain" : "65",
+    "domain" : "48",
     "comment" : {
       "en" : "This property relates a fictional character or interpretation to the text where it comes from."
     },
-    "attributes" : [ "external", "object" ],
-    "id" : "68"
+    "attributes" : [ "object" ],
+    "id" : "47"
   }, {
-    "iri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo#isOppositeOf",
-    "baseIri" : "http://www.semanticweb.org/carlo/ontologies/2019/5/cosmo",
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#isUsedIn",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "isUsedIn",
+      "en" : "is used in"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "This property relates a rhetorical figure with a particular literary text in which it is present."
+    },
+    "attributes" : [ "object" ],
+    "id" : "52"
+  }, {
+    "range" : "16",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "21",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "3",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "domain" : "32",
+    "range" : "32",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "13",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "16",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "16",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#denotes",
+    "inverse" : "60",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "denotes",
+      "en" : "denotes"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "This property relates a rhetorical figure to an interpreted concept. E.g. a period that expresses mutability could be constructed using anaphora."
+    },
+    "attributes" : [ "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#isAbsentFrom",
+    "inverse" : "63",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "isAbsentFrom",
+      "en" : "is absent from"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "This property shows when lightness is absent from a particular literary text."
+    },
+    "attributes" : [ "object" ],
+    "id" : "62"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#isSource",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "isSource",
+      "en" : "is source"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "This property relates a particular literary text with a fictional character that is present in it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "49"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#lacksOf",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "lacksOf",
+      "en" : "lacks of"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "This property relates a literary text with lightness through a connection stating that the text lacks of lightness"
+    },
+    "attributes" : [ "object" ],
+    "id" : "63"
+  }, {
+    "range" : "2",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "69",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "range" : "21",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#isLightenedBy",
+    "inverse" : "73",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "isLightenedBy",
+      "en" : "is lightened by"
+    },
+    "domain" : "16",
+    "comment" : {
+      "en" : "This property describes the relation between heaviness and mutability since the latter is what changes heaviness into lightness."
+    },
+    "attributes" : [ "object" ],
+    "id" : "72"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#isFictionalCharacterIn",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "isFictionalCharacterIn",
+      "en" : "is fictional character in"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "This property relates a fictional character that is present in a particular literary text."
+    },
+    "attributes" : [ "object" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://purl.org/vocab/frbr/core#isLocatedInLine",
+    "baseIri" : "http://purl.org/vocab/frbr/core",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "isLocatedInLine",
+      "en" : "is located in line"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Relates a rhetorical figure to a specific line of the textual reference"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#isLiteraryValueIn",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "isLiteraryValueIn",
+      "en" : "is literary value in"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "This property relates an interpreted concept recognised by Calvino's as a value or virtue of literature with a particular literary text."
+    },
+    "attributes" : [ "object" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#hasFictionalCharacter",
+    "inverse" : "74",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasFictionalCharacter",
+      "en" : "has fictional character"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "This property relates a literary text with a fictional character that is mentioned inside the narrative of that text"
+    },
+    "attributes" : [ "object" ],
+    "id" : "76"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#isDenotedBy",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "isDenotedBy",
+      "en" : "is denoted by"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "This property relates an interpreted concept to a rhetorical figure."
+    },
+    "attributes" : [ "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#textualPart",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "textualPart",
+      "en" : "has textual part"
+    },
+    "domain" : "67",
+    "comment" : {
+      "en" : "Relates a concept or agent to a fragment that includes their textual string reference"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "77"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#hasEmbodiment",
+    "inverse" : "46",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasEmbodiment",
+      "en" : "has embodiment"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "This property relates an interpreted concept to a fictional character that represents it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#lightens",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "lightens",
+      "en" : "lightens"
+    },
+    "domain" : "45",
+    "comment" : {
+      "en" : "This property indicates the lightening force of mutability upon the category of heaviness."
+    },
+    "attributes" : [ "object" ],
+    "id" : "73"
+  }, {
+    "range" : "50",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "range" : "50",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#hasRhetoricalFigure",
+    "inverse" : "52",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasRhetoricalFigure",
+      "en" : "has rhetorical figure"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "This property relates a literary text that contains a rhetorical figure."
+    },
+    "attributes" : [ "object" ],
+    "id" : "81"
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#isOppositeOf",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
     "range" : "11",
     "label" : {
       "IRI-based" : "isOppositeOf",
       "en" : "is opposite of"
     },
-    "domain" : "0",
+    "domain" : "11",
     "comment" : {
       "en" : "This property states the opposition between heaviness and lightness"
     },
     "attributes" : [ "symmetric", "object" ],
-    "id" : "69"
+    "id" : "82"
+  }, {
+    "range" : "11",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "range" : "11",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "69",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "range" : "68",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
   } ]
 }
