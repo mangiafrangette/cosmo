@@ -16,17 +16,17 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "en",
+        "value" : "Carlo Teo Pedretti",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "en",
         "value" : "Francesca Mangialardo",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "en",
         "value" : "Mattia Spadoni",
-        "type" : "label"
-      }, {
-        "identifier" : "creator",
-        "language" : "en",
-        "value" : "Carlo Teo Pedretti",
         "type" : "label"
       } ],
       "Rights" : [ {
@@ -75,16 +75,16 @@
     "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "45",
+    "id" : "46",
     "type" : "owl:Class"
   }, {
     "id" : "17",
     "type" : "owl:Class"
   }, {
-    "id" : "18",
+    "id" : "34",
     "type" : "owl:Class"
   }, {
-    "id" : "34",
+    "id" : "18",
     "type" : "owl:Class"
   }, {
     "id" : "32",
@@ -150,10 +150,10 @@
     "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "29",
+    "id" : "27",
     "type" : "owl:Class"
   }, {
-    "id" : "27",
+    "id" : "29",
     "type" : "owl:Class"
   }, {
     "id" : "43",
@@ -372,7 +372,7 @@
       "IRI-based" : "lightness",
       "en" : "Lightness"
     },
-    "subClasses" : [ "45", "20", "36", "43", "30" ],
+    "subClasses" : [ "46", "20", "36", "43", "30" ],
     "comment" : {
       "en" : "Literary value or virtue of a literary text reached by removing weight from the structure of stories and from language."
     },
@@ -422,16 +422,16 @@
       "en" : "Mutability"
     },
     "individuals" : [ {
-      "iri" : "https://mangiafrangette.github.io/cosmo.owl#chiome",
-      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
-      "labels" : {
-        "IRI-based" : "chiome"
-      }
-    }, {
       "iri" : "https://mangiafrangette.github.io/cosmo.owl#silvani",
       "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
       "labels" : {
         "IRI-based" : "silvani"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#chiome",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "chiome"
       }
     }, {
       "iri" : "https://mangiafrangette.github.io/cosmo.owl#cuor",
@@ -473,7 +473,7 @@
     "comment" : {
       "en" : "Quality of everything that can be transformed into something else"
     },
-    "id" : "45",
+    "id" : "46",
     "superClasses" : [ "21" ]
   }, {
     "iri" : "http://purl.org/vocab/frbr/core#stillness",
@@ -523,6 +523,32 @@
     "id" : "17",
     "superClasses" : [ "16" ]
   }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#opposition",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "opposition",
+      "en" : "Opposition"
+    },
+    "individuals" : [ {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#opposition1",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "opposition1"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#oppositionOmission1",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "oppositionOmission1"
+      }
+    } ],
+    "comment" : {
+      "en" : "Opposition refers to when a figure oppose two structures or concepts. e.g., Oxymoron: A wanton modesty. Proud humility."
+    },
+    "id" : "34",
+    "superClasses" : [ "2" ]
+  }, {
     "iri" : "http://purl.org/vocab/frbr/core#inertia",
     "baseIri" : "http://purl.org/vocab/frbr/core",
     "instances" : 0,
@@ -563,32 +589,6 @@
     "attributes" : [ "external" ],
     "id" : "18",
     "superClasses" : [ "16" ]
-  }, {
-    "iri" : "https://mangiafrangette.github.io/cosmo.owl#opposition",
-    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "opposition",
-      "en" : "Opposition"
-    },
-    "individuals" : [ {
-      "iri" : "https://mangiafrangette.github.io/cosmo.owl#opposition1",
-      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
-      "labels" : {
-        "IRI-based" : "opposition1"
-      }
-    }, {
-      "iri" : "https://mangiafrangette.github.io/cosmo.owl#oppositionOmission1",
-      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
-      "labels" : {
-        "IRI-based" : "oppositionOmission1"
-      }
-    } ],
-    "comment" : {
-      "en" : "Opposition refers to when a figure oppose two structures or concepts. e.g., Oxymoron: A wanton modesty. Proud humility."
-    },
-    "id" : "34",
-    "superClasses" : [ "2" ]
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#symmetry",
     "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
@@ -742,16 +742,16 @@
         "IRI-based" : "pozzo"
       }
     }, {
-      "iri" : "https://mangiafrangette.github.io/cosmo.owl#buia",
-      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
-      "labels" : {
-        "IRI-based" : "buia"
-      }
-    }, {
       "iri" : "https://mangiafrangette.github.io/cosmo.owl#cantina",
       "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
       "labels" : {
         "IRI-based" : "cantina"
+      }
+    }, {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#buia",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "buia"
       }
     }, {
       "iri" : "https://mangiafrangette.github.io/cosmo.owl#sordo",
@@ -790,7 +790,7 @@
   }, {
     "instances" : 0,
     "union" : [ "50", "7", "5" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "14"
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#brightness",
@@ -836,17 +836,17 @@
   }, {
     "instances" : 0,
     "union" : [ "50", "5" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "48"
   }, {
     "instances" : 0,
     "union" : [ "50", "5" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "64"
   }, {
     "instances" : 0,
     "union" : [ "7", "5" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "39"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -968,7 +968,7 @@
   }, {
     "instances" : 0,
     "union" : [ "50", "7", "5" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "67"
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#concept",
@@ -1065,6 +1065,26 @@
     "id" : "7",
     "superClasses" : [ "69" ]
   }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#omission",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "omission",
+      "en" : "Omission"
+    },
+    "individuals" : [ {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#oppositionOmission1",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "oppositionOmission1"
+      }
+    } ],
+    "comment" : {
+      "en" : "Omission refers to when a figure omits expected elements. e.g., Asyndeton (which omits the expected conjunction, “and”): I came, I saw, I conquered."
+    },
+    "id" : "27",
+    "superClasses" : [ "2" ]
+  }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#identity",
     "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
     "instances" : 0,
@@ -1089,26 +1109,6 @@
       "undefined" : "Identity refers to when a figure uses two or more identical elements. e.g., Ploce: O villain, villain, smiling, damned villain!(Hamlet [5])."
     },
     "id" : "29",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "https://mangiafrangette.github.io/cosmo.owl#omission",
-    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "omission",
-      "en" : "Omission"
-    },
-    "individuals" : [ {
-      "iri" : "https://mangiafrangette.github.io/cosmo.owl#oppositionOmission1",
-      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
-      "labels" : {
-        "IRI-based" : "oppositionOmission1"
-      }
-    } ],
-    "comment" : {
-      "en" : "Omission refers to when a figure omits expected elements. e.g., Asyndeton (which omits the expected conjunction, “and”): I came, I saw, I conquered."
-    },
-    "id" : "27",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#equality",
@@ -1176,7 +1176,7 @@
     "id" : "44",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "46",
+    "id" : "45",
     "type" : "owl:objectProperty"
   }, {
     "id" : "47",
@@ -1448,7 +1448,7 @@
       "en" : "Relates a fictional character to the interpreted concept that it symbolizes"
     },
     "attributes" : [ "object" ],
-    "id" : "46"
+    "id" : "45"
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#hasSource",
     "inverse" : "49",
@@ -1490,7 +1490,7 @@
     "id" : "53"
   }, {
     "range" : "21",
-    "domain" : "45",
+    "domain" : "46",
     "attributes" : [ "object", "anonymous" ],
     "id" : "54"
   }, {
@@ -1593,7 +1593,7 @@
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#isLightenedBy",
     "inverse" : "73",
     "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
-    "range" : "45",
+    "range" : "46",
     "label" : {
       "IRI-based" : "isLightenedBy",
       "en" : "is lightened by"
@@ -1691,7 +1691,7 @@
     "id" : "77"
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#hasEmbodiment",
-    "inverse" : "46",
+    "inverse" : "45",
     "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
     "range" : "5",
     "label" : {
@@ -1712,7 +1712,7 @@
       "IRI-based" : "lightens",
       "en" : "lightens"
     },
-    "domain" : "45",
+    "domain" : "46",
     "comment" : {
       "en" : "This property indicates the lightening force of mutability upon the category of heaviness."
     },
@@ -1755,7 +1755,7 @@
     "comment" : {
       "en" : "This property states the opposition between heaviness and lightness"
     },
-    "attributes" : [ "symmetric", "object" ],
+    "attributes" : [ "object", "symmetric" ],
     "id" : "82"
   }, {
     "range" : "11",
