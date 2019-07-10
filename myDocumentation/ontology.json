@@ -109,85 +109,74 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
+  "@id" : "http://purl.org/dc/terms/Agent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A resource that acts or has the power to act"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://purl.org/dc/terms/Agent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Agent"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://purl.org/vocab/frbr/core#Expression"
+  } ]
+}, {
   "@id" : "http://purl.org/dc/terms/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/vocab/frbr/core#Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An abstract idea or notion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://purl.org/vocab/frbr/core#Concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Concept"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/frbr/core#Expression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A realization of a single work usually in a physical form."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://purl.org/vocab/frbr/core#Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Expression"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/frbr/core#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A living or dead individual"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://purl.org/vocab/frbr/core#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/dc/terms/Agent"
+  } ]
+}, {
   "@id" : "http://purl.org/vocab/frbr/core#Rights",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://purl.org/vocab/frbr/core#darkness",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Absence of light"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Darkness"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@language" : "en",
-    "@value" : "http://wordnet-rdf.princeton.edu/id/14007000-n"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://mangiafrangette.github.io/cosmo.owl#heaviness"
-  } ]
-}, {
-  "@id" : "http://purl.org/vocab/frbr/core#inertia",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "The inability to act as expressed in literary texts"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Inertia"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@language" : "en",
-    "@value" : "http://wordnet-rdf.princeton.edu/id/04642988-n"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://mangiafrangette.github.io/cosmo.owl#heaviness"
-  } ]
-}, {
-  "@id" : "http://purl.org/vocab/frbr/core#isLocatedInLine",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Relates a rhetorical figure to a specific line of the textual reference"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://mangiafrangette.github.io/cosmo.owl#rhetoricalFigure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "is located in line"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://mangiafrangette.github.io/cosmo.owl#textualPart"
-  } ]
-}, {
-  "@id" : "http://purl.org/vocab/frbr/core#stillness",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A lack of physical or literary motion as represented in literary texts"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Stillness"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
-    "@language" : "en",
-    "@value" : "http://wordnet-rdf.princeton.edu/id/14029664-n"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://mangiafrangette.github.io/cosmo.owl#heaviness"
-  } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
@@ -262,23 +251,6 @@
     "@value" : "The Wind"
   } ]
 }, {
-  "@id" : "https://mangiafrangette.github.io/cosmo.owl#agent",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A resource that acts or has the power to act"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/dc/terms/Agent"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Agent"
-  } ],
-  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://mangiafrangette.github.io/cosmo.owl#expression"
-  } ]
-}, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#alba",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#brightness" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -296,9 +268,6 @@
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#anaphora1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#repetition" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "8, 10, 12, 14, 20, 22"
-  } ],
   "https://mangiafrangette.github.io/cosmo.owl#denotes" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#silvani"
   }, {
@@ -306,6 +275,9 @@
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
+  } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "8, 10, 12, 14, 20, 22"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#isUsedIn" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
@@ -366,11 +338,11 @@
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#anaphora3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#repetition" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "47, 48, 49, 50"
-  } ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
+  } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "47, 48, 49, 50"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#isUsedIn" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
@@ -393,11 +365,11 @@
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#anaphora5",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#repetition" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "77, 78"
-  } ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
+  } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "77, 78"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#isUsedIn" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
@@ -420,14 +392,14 @@
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#anaphora7",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#repetition" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "94, 115"
-  } ],
   "https://mangiafrangette.github.io/cosmo.owl#denotes" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#andiam"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
+  } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "94, 115"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#isUsedIn" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
@@ -450,11 +422,11 @@
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#anaphora9",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#repetition" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "30, 31"
-  } ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
+  } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "30, 31"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#isUsedIn" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
@@ -527,7 +499,7 @@
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#buia",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#darkness" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#darkness" ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText3"
   } ],
@@ -539,7 +511,7 @@
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#camera",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#darkness" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#darkness" ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText3"
   } ],
@@ -551,7 +523,7 @@
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#cantina",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#darkness" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#darkness" ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText3"
   } ],
@@ -592,20 +564,6 @@
     "@value" : "le tue chiome/auliscono come/le chiare ginestre"
   } ]
 }, {
-  "@id" : "https://mangiafrangette.github.io/cosmo.owl#concept",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "An abstract idea or notion"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/vocab/frbr/core#Concept"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Concept"
-  } ]
-}, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#crepitio",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#dustiness" ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
@@ -634,7 +592,7 @@
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#cupe",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#darkness" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#darkness" ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText3"
   } ],
@@ -643,6 +601,24 @@
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#textualPart" : [ {
     "@value" : "cupe"
+  } ]
+}, {
+  "@id" : "https://mangiafrangette.github.io/cosmo.owl#darkness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Absence of light"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Darkness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "http://wordnet-rdf.princeton.edu/id/14007000-n"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://mangiafrangette.github.io/cosmo.owl#heaviness"
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#denotes",
@@ -720,21 +696,6 @@
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#lightness"
   } ]
 }, {
-  "@id" : "https://mangiafrangette.github.io/cosmo.owl#expression",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A realization of a single work usually in a physical form."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://purl.org/vocab/frbr/core#Expression"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Expression"
-  } ]
-}, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#fictionalCharacter",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -749,7 +710,7 @@
     "@value" : "http://dbpedia.org/ontology/FictionalCharacter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://mangiafrangette.github.io/cosmo.owl#person"
+    "@id" : "http://purl.org/vocab/frbr/core#Person"
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#flitting",
@@ -917,6 +878,24 @@
     "@value" : "E sei come le voci/della terra"
   } ]
 }, {
+  "@id" : "https://mangiafrangette.github.io/cosmo.owl#inertia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The inability to act as expressed in literary texts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Inertia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "http://wordnet-rdf.princeton.edu/id/04642988-n"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://mangiafrangette.github.io/cosmo.owl#heaviness"
+  } ]
+}, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#innumerevoli",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#dustiness" ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
@@ -940,7 +919,7 @@
     "@value" : "Interpretation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://mangiafrangette.github.io/cosmo.owl#concept"
+    "@id" : "http://purl.org/vocab/frbr/core#Concept"
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#interpretedConcept",
@@ -1088,6 +1067,26 @@
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText"
   } ]
 }, {
+  "@id" : "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates a rhetorical figure to a specific line of the textual reference"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://mangiafrangette.github.io/cosmo.owl#rhetoricalFigure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is located in line"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://mangiafrangette.github.io/cosmo.owl#textualPart"
+  } ]
+}, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#isOppositeOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -1219,7 +1218,7 @@
     "@value" : "Literary text"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://mangiafrangette.github.io/cosmo.owl#expression"
+    "@id" : "http://purl.org/vocab/frbr/core#Expression"
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText1",
@@ -1503,7 +1502,7 @@
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#mai",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#stillness" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#stillness" ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText3"
   } ],
@@ -1513,11 +1512,11 @@
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#metaphor1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#identity" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "12, 13"
-  } ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText4"
+  } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "12, 13"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#textualPart" : [ {
     "@value" : "His Countenance – a Billow –/His Fingers, as He passed"
@@ -1575,7 +1574,7 @@
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#muti",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#stillness" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#stillness" ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText3"
   } ],
@@ -1611,7 +1610,7 @@
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#ombra",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#darkness" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#darkness" ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
   } ],
@@ -1668,25 +1667,8 @@
     "@value" : "hai silenzio, hai parole"
   } ]
 }, {
-  "@id" : "https://mangiafrangette.github.io/cosmo.owl#person",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A living or dead individual"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://purl.org/vocab/frbr/core#Person"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Person"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://mangiafrangette.github.io/cosmo.owl#agent"
-  } ]
-}, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#pietra",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#stillness" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#stillness" ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText3"
   } ],
@@ -1710,7 +1692,7 @@
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#pozzo",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#darkness" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#darkness" ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText3"
   } ],
@@ -1728,7 +1710,7 @@
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#rassegnazione",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#inertia" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#inertia" ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText3"
   } ],
@@ -1755,11 +1737,11 @@
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#repetition1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#repetition" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "4, 5"
-  } ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText3"
+  } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "4, 5"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#textualPart" : [ {
     "@value" : "e scruti/e respingi"
@@ -1798,9 +1780,6 @@
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#series1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#series" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "13, 14, 15, 16, 17"
-  } ],
   "https://mangiafrangette.github.io/cosmo.owl#denotes" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#cupe"
   }, {
@@ -1811,20 +1790,23 @@
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText3"
   } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "13, 14, 15, 16, 17"
+  } ],
   "https://mangiafrangette.github.io/cosmo.owl#textualPart" : [ {
     "@value" : "la canzone del fuoco,/il tonfo di una mela;/le parole rassegnate/e cupe sulle soglie,/il grido del bimbo – le cose"
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#series2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#series" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "16, 17"
-  } ],
   "https://mangiafrangette.github.io/cosmo.owl#denotes" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#flitting"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText4"
+  } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "16, 17"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#textualPart" : [ {
     "@value" : "He visited – still flitting Then like a timid Man/Again, He tapped"
@@ -1864,14 +1846,14 @@
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#similitude1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#similarity" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "57, 58"
-  } ],
   "https://mangiafrangette.github.io/cosmo.owl#denotes" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#molle"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
+  } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "57, 58"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#isUsedIn" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
@@ -1882,11 +1864,11 @@
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#similitude2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#similarity" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "1"
-  } ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText4"
+  } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "1"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#isUsedIn" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
@@ -1897,11 +1879,11 @@
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#similitude3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#similarity" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "2"
-  } ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText4"
+  } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "2"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#isUsedIn" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
@@ -1912,11 +1894,11 @@
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#similitude4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#similarity" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "9"
-  } ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText4"
+  } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "9"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#isUsedIn" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
@@ -1927,14 +1909,14 @@
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#similitude5",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#similarity" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "107, 108"
-  } ],
   "https://mangiafrangette.github.io/cosmo.owl#denotes" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#denti"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
+  } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "107, 108"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#isUsedIn" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
@@ -1960,14 +1942,14 @@
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#similitude7",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#similarity" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "104, 105"
-  } ],
   "https://mangiafrangette.github.io/cosmo.owl#denotes" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#cuor"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
+  } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "104, 105"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#isUsedIn" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
@@ -1978,14 +1960,14 @@
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#similitude8",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#similarity" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "59, 60, 61"
-  } ],
   "https://mangiafrangette.github.io/cosmo.owl#denotes" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#chiome"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
+  } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "59, 60, 61"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#isUsedIn" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
@@ -1995,7 +1977,7 @@
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#sordo",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#darkness" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#darkness" ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText2"
   } ],
@@ -2019,7 +2001,7 @@
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#stanco",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#inertia" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#inertia" ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText1"
   } ],
@@ -2033,24 +2015,42 @@
     "@value" : "dal cammino stanco;"
   } ]
 }, {
+  "@id" : "https://mangiafrangette.github.io/cosmo.owl#stillness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A lack of physical or literary motion as represented in literary texts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Stillness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "http://wordnet-rdf.princeton.edu/id/14029664-n"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://mangiafrangette.github.io/cosmo.owl#heaviness"
+  } ]
+}, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#symmetry",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#symmetry" ],
-  "http://purl.org/vocab/frbr/core#isLocatedInLine" : [ {
-    "@value" : "1, 16, 17"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Symmetry refers to when a figure pairs two constructions in an inverse (“mirrored”) way. e.g. Antimetabole: When the going gets tough, the tough get going."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "symmetry"
+    "@value" : "Symmetry"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#rhetoricalFigure"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText4"
+  } ],
+  "https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine" : [ {
+    "@value" : "1, 16, 17"
   } ],
   "https://mangiafrangette.github.io/cosmo.owl#textualPart" : [ {
     "@value" : "The Wind tapped like a tired Man/[...]Then like a timid Man/Again, He tapped"
@@ -2094,7 +2094,7 @@
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#tonfo",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#inertia" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#inertia" ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText3"
   } ],
@@ -2106,7 +2106,7 @@
   } ]
 }, {
   "@id" : "https://mangiafrangette.github.io/cosmo.owl#traendo",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocab/frbr/core#stillness" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://mangiafrangette.github.io/cosmo.owl#stillness" ],
   "https://mangiafrangette.github.io/cosmo.owl#hasSource" : [ {
     "@id" : "https://mangiafrangette.github.io/cosmo.owl#literaryText1"
   } ],

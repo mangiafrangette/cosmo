@@ -229,13 +229,13 @@
                                         rdfs:label "Title"@en .
 
 
-###  http://purl.org/vocab/frbr/core#isLocatedInLine
-<http://purl.org/vocab/frbr/core#isLocatedInLine> rdf:type owl:DatatypeProperty ;
-                                                  rdfs:subPropertyOf :textualPart ;
-                                                  rdfs:domain :rhetoricalFigure ;
-                                                  rdfs:range xsd:string ;
-                                                  rdfs:comment "Relates a rhetorical figure to a specific line of the textual reference"@en ;
-                                                  rdfs:label "is located in line"@en .
+###  https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine
+:isLocatedInLine rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf :textualPart ;
+                 rdfs:domain :rhetoricalFigure ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "Relates a rhetorical figure to a specific line of the textual reference"@en ;
+                 rdfs:label "is located in line"@en .
 
 
 ###  https://mangiafrangette.github.io/cosmo.owl#textualPart
@@ -269,36 +269,34 @@
 #    Classes
 #################################################################
 
-###  http://purl.org/vocab/frbr/core#darkness
-<http://purl.org/vocab/frbr/core#darkness> rdf:type owl:Class ;
-                                           rdfs:subClassOf :heaviness ;
-                                           rdfs:comment "Absence of light"@en ;
-                                           rdfs:label "Darkness"@en ;
-                                           rdfs:seeAlso "http://wordnet-rdf.princeton.edu/id/14007000-n"@en .
+###  http://purl.org/dc/terms/Agent
+<http://purl.org/dc/terms/Agent> rdf:type owl:Class ;
+                                 owl:disjointWith <http://purl.org/vocab/frbr/core#Expression> ;
+                                 rdfs:comment "A resource that acts or has the power to act"@en ;
+                                 rdfs:isDefinedBy "http://purl.org/dc/terms/Agent" ;
+                                 rdfs:label "Agent"@en .
 
 
-###  http://purl.org/vocab/frbr/core#inertia
-<http://purl.org/vocab/frbr/core#inertia> rdf:type owl:Class ;
-                                          rdfs:subClassOf :heaviness ;
-                                          rdfs:comment "The inability to act as expressed in literary texts"@en ;
-                                          rdfs:label "Inertia"@en ;
-                                          rdfs:seeAlso "http://wordnet-rdf.princeton.edu/id/04642988-n"@en .
+###  http://purl.org/vocab/frbr/core#Concept
+<http://purl.org/vocab/frbr/core#Concept> rdf:type owl:Class ;
+                                          rdfs:comment "An abstract idea or notion"@en ;
+                                          rdfs:isDefinedBy "http://purl.org/vocab/frbr/core#Concept" ;
+                                          rdfs:label "Concept"@en .
 
 
-###  http://purl.org/vocab/frbr/core#stillness
-<http://purl.org/vocab/frbr/core#stillness> rdf:type owl:Class ;
-                                            rdfs:subClassOf :heaviness ;
-                                            rdfs:comment "A lack of physical or literary motion as represented in literary texts"@en ;
-                                            rdfs:label "Stillness"@en ;
-                                            rdfs:seeAlso "http://wordnet-rdf.princeton.edu/id/14029664-n"@en .
+###  http://purl.org/vocab/frbr/core#Expression
+<http://purl.org/vocab/frbr/core#Expression> rdf:type owl:Class ;
+                                             rdfs:comment "A realization of a single work usually in a physical form."@en ;
+                                             rdfs:isDefinedBy "http://purl.org/vocab/frbr/core#Expression"@en ;
+                                             rdfs:label "Expression"@en .
 
 
-###  https://mangiafrangette.github.io/cosmo.owl#agent
-:agent rdf:type owl:Class ;
-       owl:disjointWith :expression ;
-       rdfs:comment "A resource that acts or has the power to act"@en ;
-       rdfs:isDefinedBy "http://purl.org/dc/terms/Agent" ;
-       rdfs:label "Agent"@en .
+###  http://purl.org/vocab/frbr/core#Person
+<http://purl.org/vocab/frbr/core#Person> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://purl.org/dc/terms/Agent> ;
+                                         rdfs:comment "A living or dead individual"@en ;
+                                         rdfs:isDefinedBy "http://purl.org/vocab/frbr/core#Person" ;
+                                         rdfs:label "Person"@en .
 
 
 ###  https://mangiafrangette.github.io/cosmo.owl#brightness
@@ -309,11 +307,12 @@
             rdfs:seeAlso "http://wordnet-rdf.princeton.edu/id/05025269-n"@en .
 
 
-###  https://mangiafrangette.github.io/cosmo.owl#concept
-:concept rdf:type owl:Class ;
-         rdfs:comment "An abstract idea or notion"@en ;
-         rdfs:isDefinedBy "http://purl.org/vocab/frbr/core#Concept" ;
-         rdfs:label "Concept"@en .
+###  https://mangiafrangette.github.io/cosmo.owl#darkness
+:darkness rdf:type owl:Class ;
+          rdfs:subClassOf :heaviness ;
+          rdfs:comment "Absence of light"@en ;
+          rdfs:label "Darkness"@en ;
+          rdfs:seeAlso "http://wordnet-rdf.princeton.edu/id/14007000-n"@en .
 
 
 ###  https://mangiafrangette.github.io/cosmo.owl#dustiness
@@ -330,16 +329,9 @@
           rdfs:label "Equality"@en .
 
 
-###  https://mangiafrangette.github.io/cosmo.owl#expression
-:expression rdf:type owl:Class ;
-            rdfs:comment "A realization of a single work usually in a physical form."@en ;
-            rdfs:isDefinedBy "http://purl.org/vocab/frbr/core#Expression"@en ;
-            rdfs:label "Expression"@en .
-
-
 ###  https://mangiafrangette.github.io/cosmo.owl#fictionalCharacter
 :fictionalCharacter rdf:type owl:Class ;
-                    rdfs:subClassOf :person ;
+                    rdfs:subClassOf <http://purl.org/vocab/frbr/core#Person> ;
                     rdfs:comment "An imaginary person represented in a work of literary fiction"@en ;
                     rdfs:label "Fictional character"@en ;
                     rdfs:seeAlso "http://dbpedia.org/ontology/FictionalCharacter" .
@@ -360,9 +352,17 @@
           rdfs:label "Identity" .
 
 
+###  https://mangiafrangette.github.io/cosmo.owl#inertia
+:inertia rdf:type owl:Class ;
+         rdfs:subClassOf :heaviness ;
+         rdfs:comment "The inability to act as expressed in literary texts"@en ;
+         rdfs:label "Inertia"@en ;
+         rdfs:seeAlso "http://wordnet-rdf.princeton.edu/id/04642988-n"@en .
+
+
 ###  https://mangiafrangette.github.io/cosmo.owl#interpretation
 :interpretation rdf:type owl:Class ;
-                rdfs:subClassOf :concept ;
+                rdfs:subClassOf <http://purl.org/vocab/frbr/core#Concept> ;
                 rdfs:comment "This class defines the concepts involved when interpreting a literary text"@en ;
                 rdfs:label "Interpretation"@en .
 
@@ -385,7 +385,7 @@
 
 ###  https://mangiafrangette.github.io/cosmo.owl#literaryText
 :literaryText rdf:type owl:Class ;
-              rdfs:subClassOf :expression ;
+              rdfs:subClassOf <http://purl.org/vocab/frbr/core#Expression> ;
               rdfs:comment "A textual expression of a work of literature"@en ;
               rdfs:label "Literary text"@en .
 
@@ -418,14 +418,6 @@
             rdfs:subClassOf :rhetoricalFigure ;
             rdfs:comment "Opposition refers to when a figure oppose two structures or concepts. e.g., Oxymoron: A wanton modesty. Proud humility."@en ;
             rdfs:label "Opposition"@en .
-
-
-###  https://mangiafrangette.github.io/cosmo.owl#person
-:person rdf:type owl:Class ;
-        rdfs:subClassOf :agent ;
-        rdfs:comment "A living or dead individual"@en ;
-        rdfs:isDefinedBy "http://purl.org/vocab/frbr/core#Person" ;
-        rdfs:label "Person"@en .
 
 
 ###  https://mangiafrangette.github.io/cosmo.owl#repetition
@@ -462,6 +454,14 @@
             rdfs:subClassOf :rhetoricalFigure ;
             rdfs:comment "Similarity (partial-identity) refers to when a figure uses resemblance of a concept. e.g., Simile: My love is like a red, red rose."@en ;
             rdfs:label "Similarity"@en .
+
+
+###  https://mangiafrangette.github.io/cosmo.owl#stillness
+:stillness rdf:type owl:Class ;
+           rdfs:subClassOf :heaviness ;
+           rdfs:comment "A lack of physical or literary motion as represented in literary texts"@en ;
+           rdfs:label "Stillness"@en ;
+           rdfs:seeAlso "http://wordnet-rdf.princeton.edu/id/14029664-n"@en .
 
 
 ###  https://mangiafrangette.github.io/cosmo.owl#symmetry
@@ -515,7 +515,7 @@
                     :volti ;
            :hasSource :literaryText2 ;
            :isUsedIn :literaryText2 ;
-           <http://purl.org/vocab/frbr/core#isLocatedInLine> "8, 10, 12, 14, 20, 22" ;
+           :isLocatedInLine "8, 10, 12, 14, 20, 22" ;
            :textualPart "Piove [...]/Piove [...]/Piove [...]/Piove [...]/Piove [...]" .
 
 
@@ -557,7 +557,7 @@
                     :repetition ;
            :hasSource :literaryText2 ;
            :isUsedIn :literaryText2 ;
-           <http://purl.org/vocab/frbr/core#isLocatedInLine> "47, 48, 49, 50" ;
+           :isLocatedInLine "47, 48, 49, 50" ;
            :textualPart "ha un suono, e il mirto/altro suono, e il ginepro/altro ancóra, stromenti/diversi" .
 
 
@@ -574,7 +574,7 @@
                     :repetition ;
            :hasSource :literaryText2 ;
            :isUsedIn :literaryText2 ;
-           <http://purl.org/vocab/frbr/core#isLocatedInLine> "77, 78" ;
+           :isLocatedInLine "77, 78" ;
            :textualPart "trema, si spegne/trema, si spegne" .
 
 
@@ -592,7 +592,7 @@
            :denotes :andiam ;
            :hasSource :literaryText2 ;
            :isUsedIn :literaryText2 ;
-           <http://purl.org/vocab/frbr/core#isLocatedInLine> "94, 115" ;
+           :isLocatedInLine "94, 115" ;
            :textualPart "chi sa dove, chi sa dove!" .
 
 
@@ -609,7 +609,7 @@
                     :repetition ;
            :hasSource :literaryText2 ;
            :isUsedIn :literaryText2 ;
-           <http://purl.org/vocab/frbr/core#isLocatedInLine> "30, 31" ;
+           :isLocatedInLine "30, 31" ;
            :textualPart "ieri/m'illuse, che oggi t'illude," .
 
 
@@ -646,7 +646,7 @@
 
 ###  https://mangiafrangette.github.io/cosmo.owl#buia
 :buia rdf:type owl:NamedIndividual ,
-               <http://purl.org/vocab/frbr/core#darkness> ;
+               :darkness ;
       :hasSource :literaryText3 ;
       :isDenotedBy :anaphora12 ;
       :textualPart "Sei buia" .
@@ -654,7 +654,7 @@
 
 ###  https://mangiafrangette.github.io/cosmo.owl#camera
 :camera rdf:type owl:NamedIndividual ,
-                 <http://purl.org/vocab/frbr/core#darkness> ;
+                 :darkness ;
         :hasSource :literaryText3 ;
         :isDenotedBy :anaphora12 ;
         :textualPart "camera buia" .
@@ -662,7 +662,7 @@
 
 ###  https://mangiafrangette.github.io/cosmo.owl#cantina
 :cantina rdf:type owl:NamedIndividual ,
-                  <http://purl.org/vocab/frbr/core#darkness> ;
+                  :darkness ;
          :hasSource :literaryText3 ;
          :isDenotedBy :anaphora11 ;
          :textualPart "cantina chiusa" .
@@ -705,7 +705,7 @@
 
 ###  https://mangiafrangette.github.io/cosmo.owl#cupe
 :cupe rdf:type owl:NamedIndividual ,
-               <http://purl.org/vocab/frbr/core#darkness> ;
+               :darkness ;
       :hasSource :literaryText3 ;
       :isDenotedBy :series1 ;
       :textualPart "cupe" .
@@ -1094,7 +1094,7 @@ And I became alone –""" .
 
 ###  https://mangiafrangette.github.io/cosmo.owl#mai
 :mai rdf:type owl:NamedIndividual ,
-              <http://purl.org/vocab/frbr/core#stillness> ;
+              :stillness ;
      :hasSource :literaryText3 ;
      :textualPart "che non passano mai." .
 
@@ -1103,7 +1103,7 @@ And I became alone –""" .
 :metaphor1 rdf:type owl:NamedIndividual ,
                     :identity ;
            :hasSource :literaryText4 ;
-           <http://purl.org/vocab/frbr/core#isLocatedInLine> "12, 13" ;
+           :isLocatedInLine "12, 13" ;
            :textualPart "His Countenance – a Billow –/His Fingers, as He passed" .
 
 
@@ -1118,7 +1118,7 @@ And I became alone –""" .
 
 ###  https://mangiafrangette.github.io/cosmo.owl#muti
 :muti rdf:type owl:NamedIndividual ,
-               <http://purl.org/vocab/frbr/core#stillness> ;
+               :stillness ;
       :hasSource :literaryText3 ;
       :textualPart "non muti" .
 
@@ -1142,7 +1142,7 @@ And I became alone –""" .
 
 ###  https://mangiafrangette.github.io/cosmo.owl#ombra
 :ombra rdf:type owl:NamedIndividual ,
-                <http://purl.org/vocab/frbr/core#darkness> ;
+                :darkness ;
        :hasSource :literaryText2 ;
        :isLiteraryValueIn :literaryText2 ;
        :textualPart "ombra più fonda" .
@@ -1165,7 +1165,7 @@ And I became alone –""" .
 
 ###  https://mangiafrangette.github.io/cosmo.owl#pietra
 :pietra rdf:type owl:NamedIndividual ,
-                 <http://purl.org/vocab/frbr/core#stillness> ;
+                 :stillness ;
         :hasSource :literaryText3 ;
         :isDenotedBy :anaphora10 ;
         :textualPart "pietra scolpita/e sangue di terra dura" .
@@ -1181,7 +1181,7 @@ And I became alone –""" .
 
 ###  https://mangiafrangette.github.io/cosmo.owl#pozzo
 :pozzo rdf:type owl:NamedIndividual ,
-                <http://purl.org/vocab/frbr/core#darkness> ;
+                :darkness ;
        :hasSource :literaryText3 ;
        :textualPart "della secchia nel pozzo," .
 
@@ -1195,7 +1195,7 @@ And I became alone –""" .
 
 ###  https://mangiafrangette.github.io/cosmo.owl#rassegnazione
 :rassegnazione rdf:type owl:NamedIndividual ,
-                        <http://purl.org/vocab/frbr/core#inertia> ;
+                        :inertia ;
                :hasSource :literaryText3 ;
                :isDenotedBy :series1 ;
                :textualPart "rassegnate" .
@@ -1205,7 +1205,7 @@ And I became alone –""" .
 :repetition1 rdf:type owl:NamedIndividual ,
                       :repetition ;
              :hasSource :literaryText3 ;
-             <http://purl.org/vocab/frbr/core#isLocatedInLine> "4, 5" ;
+             :isLocatedInLine "4, 5" ;
              :textualPart "e scruti/e respingi" .
 
 
@@ -1216,7 +1216,7 @@ And I became alone –""" .
                   :rassegnazione ,
                   :tonfo ;
          :hasSource :literaryText3 ;
-         <http://purl.org/vocab/frbr/core#isLocatedInLine> "13, 14, 15, 16, 17" ;
+         :isLocatedInLine "13, 14, 15, 16, 17" ;
          :textualPart "la canzone del fuoco,/il tonfo di una mela;/le parole rassegnate/e cupe sulle soglie,/il grido del bimbo – le cose" .
 
 
@@ -1225,7 +1225,7 @@ And I became alone –""" .
                   :series ;
          :denotes :flitting ;
          :hasSource :literaryText4 ;
-         <http://purl.org/vocab/frbr/core#isLocatedInLine> "16, 17" ;
+         :isLocatedInLine "16, 17" ;
          :textualPart "He visited – still flitting Then like a timid Man/Again, He tapped" .
 
 
@@ -1245,7 +1245,7 @@ And I became alone –""" .
              :denotes :molle ;
              :hasSource :literaryText2 ;
              :isUsedIn :literaryText2 ;
-             <http://purl.org/vocab/frbr/core#isLocatedInLine> "57, 58" ;
+             :isLocatedInLine "57, 58" ;
              :textualPart "è molle di pioggia/come una foglia" .
 
 
@@ -1254,7 +1254,7 @@ And I became alone –""" .
                       :similarity ;
              :hasSource :literaryText4 ;
              :isUsedIn :literaryText2 ;
-             <http://purl.org/vocab/frbr/core#isLocatedInLine> "1" ;
+             :isLocatedInLine "1" ;
              :textualPart "tapped like a tired Man" .
 
 
@@ -1263,7 +1263,7 @@ And I became alone –""" .
                       :similarity ;
              :hasSource :literaryText4 ;
              :isUsedIn :literaryText2 ;
-             <http://purl.org/vocab/frbr/core#isLocatedInLine> "2" ;
+             :isLocatedInLine "2" ;
              :textualPart "And like a Host – “Come in”/I boldly answered –" .
 
 
@@ -1272,7 +1272,7 @@ And I became alone –""" .
                       :similarity ;
              :hasSource :literaryText4 ;
              :isUsedIn :literaryText2 ;
-             <http://purl.org/vocab/frbr/core#isLocatedInLine> "9" ;
+             :isLocatedInLine "9" ;
              :textualPart "His Speech was like the Push" .
 
 
@@ -1282,7 +1282,7 @@ And I became alone –""" .
              :denotes :denti ;
              :hasSource :literaryText2 ;
              :isUsedIn :literaryText2 ;
-             <http://purl.org/vocab/frbr/core#isLocatedInLine> "107, 108" ;
+             :isLocatedInLine "107, 108" ;
              :textualPart "i denti negli alvèoli/con come mandorle acerbe." .
 
 
@@ -1301,7 +1301,7 @@ And I became alone –""" .
              :denotes :cuor ;
              :hasSource :literaryText2 ;
              :isUsedIn :literaryText2 ;
-             <http://purl.org/vocab/frbr/core#isLocatedInLine> "104, 105" ;
+             :isLocatedInLine "104, 105" ;
              :textualPart "il cuor nel petto è come pesca/intatta," .
 
 
@@ -1311,7 +1311,7 @@ And I became alone –""" .
              :denotes :chiome ;
              :hasSource :literaryText2 ;
              :isUsedIn :literaryText2 ;
-             <http://purl.org/vocab/frbr/core#isLocatedInLine> "59, 60, 61" ;
+             :isLocatedInLine "59, 60, 61" ;
              :textualPart """tue chiome
 auliscono come
 le chiare ginestre""" .
@@ -1319,7 +1319,7 @@ le chiare ginestre""" .
 
 ###  https://mangiafrangette.github.io/cosmo.owl#sordo
 :sordo rdf:type owl:NamedIndividual ,
-                <http://purl.org/vocab/frbr/core#darkness> ;
+                :darkness ;
        :hasSource :literaryText2 ;
        :isOppositeOf :canto ;
        :textualReference "Più sordo e più fioco/s'allenta, si spegne" .
@@ -1335,7 +1335,7 @@ le chiare ginestre""" .
 
 ###  https://mangiafrangette.github.io/cosmo.owl#stanco
 :stanco rdf:type owl:NamedIndividual ,
-                 <http://purl.org/vocab/frbr/core#inertia> ;
+                 :inertia ;
         :hasSource :literaryText1 ;
         :isLiteraryValueIn :literaryText1 ;
         :isOppositeOf :Movesi ;
@@ -1346,13 +1346,13 @@ le chiare ginestre""" .
 :symmetry rdf:type owl:NamedIndividual ,
                    :symmetry ;
           :hasSource :literaryText4 ;
-          <http://purl.org/vocab/frbr/core#isLocatedInLine> "1, 16, 17" ;
+          :isLocatedInLine "1, 16, 17" ;
           :textualPart "The Wind tapped like a tired Man/[...]Then like a timid Man/Again, He tapped" .
 
 
 ###  https://mangiafrangette.github.io/cosmo.owl#tonfo
 :tonfo rdf:type owl:NamedIndividual ,
-                <http://purl.org/vocab/frbr/core#inertia> ;
+                :inertia ;
        :hasSource :literaryText3 ;
        :isDenotedBy :series1 ;
        :textualPart "tonfo" .
@@ -1360,7 +1360,7 @@ le chiare ginestre""" .
 
 ###  https://mangiafrangette.github.io/cosmo.owl#traendo
 :traendo rdf:type owl:NamedIndividual ,
-                  <http://purl.org/vocab/frbr/core#stillness> ;
+                  :stillness ;
          :hasSource :literaryText1 ;
          :isLiteraryValueIn :literaryText1 ;
          :isOppositeOf :Movesi ;
@@ -1393,7 +1393,7 @@ le chiare ginestre""" .
 
 
 :symmetry rdfs:comment "Symmetry refers to when a figure pairs two constructions in an inverse (“mirrored”) way. e.g. Antimetabole: When the going gets tough, the tough get going."@en ;
-          rdfs:label "symmetry"@en .
+          rdfs:label "Symmetry"@en .
 
 
 ###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

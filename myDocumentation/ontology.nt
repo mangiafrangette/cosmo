@@ -223,13 +223,13 @@ _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1> .
 <http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2000/01/rdf-schema#label> "Title"@en .
 # 
-# http://purl.org/vocab/frbr/core#isLocatedInLine
-<http://purl.org/vocab/frbr/core#isLocatedInLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/vocab/frbr/core#isLocatedInLine> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://mangiafrangette.github.io/cosmo.owl#textualPart> .
-<http://purl.org/vocab/frbr/core#isLocatedInLine> <http://www.w3.org/2000/01/rdf-schema#domain> <https://mangiafrangette.github.io/cosmo.owl#rhetoricalFigure> .
-<http://purl.org/vocab/frbr/core#isLocatedInLine> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/vocab/frbr/core#isLocatedInLine> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a rhetorical figure to a specific line of the textual reference"@en .
-<http://purl.org/vocab/frbr/core#isLocatedInLine> <http://www.w3.org/2000/01/rdf-schema#label> "is located in line"@en .
+# https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine
+<https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://mangiafrangette.github.io/cosmo.owl#textualPart> .
+<https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> <http://www.w3.org/2000/01/rdf-schema#domain> <https://mangiafrangette.github.io/cosmo.owl#rhetoricalFigure> .
+<https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a rhetorical figure to a specific line of the textual reference"@en .
+<https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> <http://www.w3.org/2000/01/rdf-schema#label> "is located in line"@en .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#textualPart
 <https://mangiafrangette.github.io/cosmo.owl#textualPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -277,33 +277,31 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # #################################################################
 # 
 # 
-# http://purl.org/vocab/frbr/core#darkness
-<http://purl.org/vocab/frbr/core#darkness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/vocab/frbr/core#darkness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://mangiafrangette.github.io/cosmo.owl#heaviness> .
-<http://purl.org/vocab/frbr/core#darkness> <http://www.w3.org/2000/01/rdf-schema#comment> "Absence of light"@en .
-<http://purl.org/vocab/frbr/core#darkness> <http://www.w3.org/2000/01/rdf-schema#label> "Darkness"@en .
-<http://purl.org/vocab/frbr/core#darkness> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://wordnet-rdf.princeton.edu/id/14007000-n"@en .
+# http://purl.org/dc/terms/Agent
+<http://purl.org/dc/terms/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/terms/Agent> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/vocab/frbr/core#Expression> .
+<http://purl.org/dc/terms/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource that acts or has the power to act"@en .
+<http://purl.org/dc/terms/Agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/dc/terms/Agent" .
+<http://purl.org/dc/terms/Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@en .
 # 
-# http://purl.org/vocab/frbr/core#inertia
-<http://purl.org/vocab/frbr/core#inertia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/vocab/frbr/core#inertia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://mangiafrangette.github.io/cosmo.owl#heaviness> .
-<http://purl.org/vocab/frbr/core#inertia> <http://www.w3.org/2000/01/rdf-schema#comment> "The inability to act as expressed in literary texts"@en .
-<http://purl.org/vocab/frbr/core#inertia> <http://www.w3.org/2000/01/rdf-schema#label> "Inertia"@en .
-<http://purl.org/vocab/frbr/core#inertia> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://wordnet-rdf.princeton.edu/id/04642988-n"@en .
+# http://purl.org/vocab/frbr/core#Concept
+<http://purl.org/vocab/frbr/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/vocab/frbr/core#Concept> <http://www.w3.org/2000/01/rdf-schema#comment> "An abstract idea or notion"@en .
+<http://purl.org/vocab/frbr/core#Concept> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/vocab/frbr/core#Concept" .
+<http://purl.org/vocab/frbr/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "Concept"@en .
 # 
-# http://purl.org/vocab/frbr/core#stillness
-<http://purl.org/vocab/frbr/core#stillness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/vocab/frbr/core#stillness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://mangiafrangette.github.io/cosmo.owl#heaviness> .
-<http://purl.org/vocab/frbr/core#stillness> <http://www.w3.org/2000/01/rdf-schema#comment> "A lack of physical or literary motion as represented in literary texts"@en .
-<http://purl.org/vocab/frbr/core#stillness> <http://www.w3.org/2000/01/rdf-schema#label> "Stillness"@en .
-<http://purl.org/vocab/frbr/core#stillness> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://wordnet-rdf.princeton.edu/id/14029664-n"@en .
+# http://purl.org/vocab/frbr/core#Expression
+<http://purl.org/vocab/frbr/core#Expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/vocab/frbr/core#Expression> <http://www.w3.org/2000/01/rdf-schema#comment> "A realization of a single work usually in a physical form."@en .
+<http://purl.org/vocab/frbr/core#Expression> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/vocab/frbr/core#Expression"@en .
+<http://purl.org/vocab/frbr/core#Expression> <http://www.w3.org/2000/01/rdf-schema#label> "Expression"@en .
 # 
-# https://mangiafrangette.github.io/cosmo.owl#agent
-<https://mangiafrangette.github.io/cosmo.owl#agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://mangiafrangette.github.io/cosmo.owl#agent> <http://www.w3.org/2002/07/owl#disjointWith> <https://mangiafrangette.github.io/cosmo.owl#expression> .
-<https://mangiafrangette.github.io/cosmo.owl#agent> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource that acts or has the power to act"@en .
-<https://mangiafrangette.github.io/cosmo.owl#agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/dc/terms/Agent" .
-<https://mangiafrangette.github.io/cosmo.owl#agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@en .
+# http://purl.org/vocab/frbr/core#Person
+<http://purl.org/vocab/frbr/core#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/vocab/frbr/core#Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Agent> .
+<http://purl.org/vocab/frbr/core#Person> <http://www.w3.org/2000/01/rdf-schema#comment> "A living or dead individual"@en .
+<http://purl.org/vocab/frbr/core#Person> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/vocab/frbr/core#Person" .
+<http://purl.org/vocab/frbr/core#Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person"@en .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#brightness
 <https://mangiafrangette.github.io/cosmo.owl#brightness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -312,11 +310,12 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://mangiafrangette.github.io/cosmo.owl#brightness> <http://www.w3.org/2000/01/rdf-schema#label> "Brightness"@en .
 <https://mangiafrangette.github.io/cosmo.owl#brightness> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://wordnet-rdf.princeton.edu/id/05025269-n"@en .
 # 
-# https://mangiafrangette.github.io/cosmo.owl#concept
-<https://mangiafrangette.github.io/cosmo.owl#concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://mangiafrangette.github.io/cosmo.owl#concept> <http://www.w3.org/2000/01/rdf-schema#comment> "An abstract idea or notion"@en .
-<https://mangiafrangette.github.io/cosmo.owl#concept> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/vocab/frbr/core#Concept" .
-<https://mangiafrangette.github.io/cosmo.owl#concept> <http://www.w3.org/2000/01/rdf-schema#label> "Concept"@en .
+# https://mangiafrangette.github.io/cosmo.owl#darkness
+<https://mangiafrangette.github.io/cosmo.owl#darkness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://mangiafrangette.github.io/cosmo.owl#darkness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://mangiafrangette.github.io/cosmo.owl#heaviness> .
+<https://mangiafrangette.github.io/cosmo.owl#darkness> <http://www.w3.org/2000/01/rdf-schema#comment> "Absence of light"@en .
+<https://mangiafrangette.github.io/cosmo.owl#darkness> <http://www.w3.org/2000/01/rdf-schema#label> "Darkness"@en .
+<https://mangiafrangette.github.io/cosmo.owl#darkness> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://wordnet-rdf.princeton.edu/id/14007000-n"@en .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#dustiness
 <https://mangiafrangette.github.io/cosmo.owl#dustiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -330,15 +329,9 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://mangiafrangette.github.io/cosmo.owl#equality> <http://www.w3.org/2000/01/rdf-schema#comment> "Quality of things that are put on the same level"@en .
 <https://mangiafrangette.github.io/cosmo.owl#equality> <http://www.w3.org/2000/01/rdf-schema#label> "Equality"@en .
 # 
-# https://mangiafrangette.github.io/cosmo.owl#expression
-<https://mangiafrangette.github.io/cosmo.owl#expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://mangiafrangette.github.io/cosmo.owl#expression> <http://www.w3.org/2000/01/rdf-schema#comment> "A realization of a single work usually in a physical form."@en .
-<https://mangiafrangette.github.io/cosmo.owl#expression> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/vocab/frbr/core#Expression"@en .
-<https://mangiafrangette.github.io/cosmo.owl#expression> <http://www.w3.org/2000/01/rdf-schema#label> "Expression"@en .
-# 
 # https://mangiafrangette.github.io/cosmo.owl#fictionalCharacter
 <https://mangiafrangette.github.io/cosmo.owl#fictionalCharacter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://mangiafrangette.github.io/cosmo.owl#fictionalCharacter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://mangiafrangette.github.io/cosmo.owl#person> .
+<https://mangiafrangette.github.io/cosmo.owl#fictionalCharacter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Person> .
 <https://mangiafrangette.github.io/cosmo.owl#fictionalCharacter> <http://www.w3.org/2000/01/rdf-schema#comment> "An imaginary person represented in a work of literary fiction"@en .
 <https://mangiafrangette.github.io/cosmo.owl#fictionalCharacter> <http://www.w3.org/2000/01/rdf-schema#label> "Fictional character"@en .
 <https://mangiafrangette.github.io/cosmo.owl#fictionalCharacter> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/ontology/FictionalCharacter" .
@@ -356,9 +349,16 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://mangiafrangette.github.io/cosmo.owl#identity> <http://www.w3.org/2000/01/rdf-schema#comment> "Identity refers to when a figure uses two or more identical elements. e.g., Ploce: O villain, villain, smiling, damned villain!(Hamlet [5])." .
 <https://mangiafrangette.github.io/cosmo.owl#identity> <http://www.w3.org/2000/01/rdf-schema#label> "Identity" .
 # 
+# https://mangiafrangette.github.io/cosmo.owl#inertia
+<https://mangiafrangette.github.io/cosmo.owl#inertia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://mangiafrangette.github.io/cosmo.owl#inertia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://mangiafrangette.github.io/cosmo.owl#heaviness> .
+<https://mangiafrangette.github.io/cosmo.owl#inertia> <http://www.w3.org/2000/01/rdf-schema#comment> "The inability to act as expressed in literary texts"@en .
+<https://mangiafrangette.github.io/cosmo.owl#inertia> <http://www.w3.org/2000/01/rdf-schema#label> "Inertia"@en .
+<https://mangiafrangette.github.io/cosmo.owl#inertia> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://wordnet-rdf.princeton.edu/id/04642988-n"@en .
+# 
 # https://mangiafrangette.github.io/cosmo.owl#interpretation
 <https://mangiafrangette.github.io/cosmo.owl#interpretation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://mangiafrangette.github.io/cosmo.owl#interpretation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://mangiafrangette.github.io/cosmo.owl#concept> .
+<https://mangiafrangette.github.io/cosmo.owl#interpretation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Concept> .
 <https://mangiafrangette.github.io/cosmo.owl#interpretation> <http://www.w3.org/2000/01/rdf-schema#comment> "This class defines the concepts involved when interpreting a literary text"@en .
 <https://mangiafrangette.github.io/cosmo.owl#interpretation> <http://www.w3.org/2000/01/rdf-schema#label> "Interpretation"@en .
 # 
@@ -378,7 +378,7 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # 
 # https://mangiafrangette.github.io/cosmo.owl#literaryText
 <https://mangiafrangette.github.io/cosmo.owl#literaryText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://mangiafrangette.github.io/cosmo.owl#literaryText> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://mangiafrangette.github.io/cosmo.owl#expression> .
+<https://mangiafrangette.github.io/cosmo.owl#literaryText> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Expression> .
 <https://mangiafrangette.github.io/cosmo.owl#literaryText> <http://www.w3.org/2000/01/rdf-schema#comment> "A textual expression of a work of literature"@en .
 <https://mangiafrangette.github.io/cosmo.owl#literaryText> <http://www.w3.org/2000/01/rdf-schema#label> "Literary text"@en .
 # 
@@ -407,13 +407,6 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://mangiafrangette.github.io/cosmo.owl#opposition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://mangiafrangette.github.io/cosmo.owl#rhetoricalFigure> .
 <https://mangiafrangette.github.io/cosmo.owl#opposition> <http://www.w3.org/2000/01/rdf-schema#comment> "Opposition refers to when a figure oppose two structures or concepts. e.g., Oxymoron: A wanton modesty. Proud humility."@en .
 <https://mangiafrangette.github.io/cosmo.owl#opposition> <http://www.w3.org/2000/01/rdf-schema#label> "Opposition"@en .
-# 
-# https://mangiafrangette.github.io/cosmo.owl#person
-<https://mangiafrangette.github.io/cosmo.owl#person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://mangiafrangette.github.io/cosmo.owl#person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://mangiafrangette.github.io/cosmo.owl#agent> .
-<https://mangiafrangette.github.io/cosmo.owl#person> <http://www.w3.org/2000/01/rdf-schema#comment> "A living or dead individual"@en .
-<https://mangiafrangette.github.io/cosmo.owl#person> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/vocab/frbr/core#Person" .
-<https://mangiafrangette.github.io/cosmo.owl#person> <http://www.w3.org/2000/01/rdf-schema#label> "Person"@en .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#repetition
 <https://mangiafrangette.github.io/cosmo.owl#repetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -444,6 +437,13 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#similarity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://mangiafrangette.github.io/cosmo.owl#rhetoricalFigure> .
 <https://mangiafrangette.github.io/cosmo.owl#similarity> <http://www.w3.org/2000/01/rdf-schema#comment> "Similarity (partial-identity) refers to when a figure uses resemblance of a concept. e.g., Simile: My love is like a red, red rose."@en .
 <https://mangiafrangette.github.io/cosmo.owl#similarity> <http://www.w3.org/2000/01/rdf-schema#label> "Similarity"@en .
+# 
+# https://mangiafrangette.github.io/cosmo.owl#stillness
+<https://mangiafrangette.github.io/cosmo.owl#stillness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://mangiafrangette.github.io/cosmo.owl#stillness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://mangiafrangette.github.io/cosmo.owl#heaviness> .
+<https://mangiafrangette.github.io/cosmo.owl#stillness> <http://www.w3.org/2000/01/rdf-schema#comment> "A lack of physical or literary motion as represented in literary texts"@en .
+<https://mangiafrangette.github.io/cosmo.owl#stillness> <http://www.w3.org/2000/01/rdf-schema#label> "Stillness"@en .
+<https://mangiafrangette.github.io/cosmo.owl#stillness> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://wordnet-rdf.princeton.edu/id/14029664-n"@en .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#symmetry
 <https://mangiafrangette.github.io/cosmo.owl#symmetry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -496,7 +496,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#anaphora1> <https://mangiafrangette.github.io/cosmo.owl#denotes> <https://mangiafrangette.github.io/cosmo.owl#volti> .
 <https://mangiafrangette.github.io/cosmo.owl#anaphora1> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
 <https://mangiafrangette.github.io/cosmo.owl#anaphora1> <https://mangiafrangette.github.io/cosmo.owl#isUsedIn> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
-<https://mangiafrangette.github.io/cosmo.owl#anaphora1> <http://purl.org/vocab/frbr/core#isLocatedInLine> "8, 10, 12, 14, 20, 22" .
+<https://mangiafrangette.github.io/cosmo.owl#anaphora1> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "8, 10, 12, 14, 20, 22" .
 <https://mangiafrangette.github.io/cosmo.owl#anaphora1> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "Piove [...]/Piove [...]/Piove [...]/Piove [...]/Piove [...]" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#anaphora10
@@ -533,7 +533,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#anaphora3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#repetition> .
 <https://mangiafrangette.github.io/cosmo.owl#anaphora3> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
 <https://mangiafrangette.github.io/cosmo.owl#anaphora3> <https://mangiafrangette.github.io/cosmo.owl#isUsedIn> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
-<https://mangiafrangette.github.io/cosmo.owl#anaphora3> <http://purl.org/vocab/frbr/core#isLocatedInLine> "47, 48, 49, 50" .
+<https://mangiafrangette.github.io/cosmo.owl#anaphora3> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "47, 48, 49, 50" .
 <https://mangiafrangette.github.io/cosmo.owl#anaphora3> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "ha un suono, e il mirto/altro suono, e il ginepro/altro ancóra, stromenti/diversi" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#anaphora4
@@ -548,7 +548,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#anaphora5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#repetition> .
 <https://mangiafrangette.github.io/cosmo.owl#anaphora5> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
 <https://mangiafrangette.github.io/cosmo.owl#anaphora5> <https://mangiafrangette.github.io/cosmo.owl#isUsedIn> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
-<https://mangiafrangette.github.io/cosmo.owl#anaphora5> <http://purl.org/vocab/frbr/core#isLocatedInLine> "77, 78" .
+<https://mangiafrangette.github.io/cosmo.owl#anaphora5> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "77, 78" .
 <https://mangiafrangette.github.io/cosmo.owl#anaphora5> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "trema, si spegne/trema, si spegne" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#anaphora6
@@ -564,7 +564,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#anaphora7> <https://mangiafrangette.github.io/cosmo.owl#denotes> <https://mangiafrangette.github.io/cosmo.owl#andiam> .
 <https://mangiafrangette.github.io/cosmo.owl#anaphora7> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
 <https://mangiafrangette.github.io/cosmo.owl#anaphora7> <https://mangiafrangette.github.io/cosmo.owl#isUsedIn> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
-<https://mangiafrangette.github.io/cosmo.owl#anaphora7> <http://purl.org/vocab/frbr/core#isLocatedInLine> "94, 115" .
+<https://mangiafrangette.github.io/cosmo.owl#anaphora7> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "94, 115" .
 <https://mangiafrangette.github.io/cosmo.owl#anaphora7> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "chi sa dove, chi sa dove!" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#anaphora8
@@ -579,7 +579,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#anaphora9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#repetition> .
 <https://mangiafrangette.github.io/cosmo.owl#anaphora9> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
 <https://mangiafrangette.github.io/cosmo.owl#anaphora9> <https://mangiafrangette.github.io/cosmo.owl#isUsedIn> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
-<https://mangiafrangette.github.io/cosmo.owl#anaphora9> <http://purl.org/vocab/frbr/core#isLocatedInLine> "30, 31" .
+<https://mangiafrangette.github.io/cosmo.owl#anaphora9> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "30, 31" .
 <https://mangiafrangette.github.io/cosmo.owl#anaphora9> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "ieri/m'illuse, che oggi t'illude," .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#andiam
@@ -611,21 +611,21 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 # 
 # https://mangiafrangette.github.io/cosmo.owl#buia
 <https://mangiafrangette.github.io/cosmo.owl#buia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://mangiafrangette.github.io/cosmo.owl#buia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#darkness> .
+<https://mangiafrangette.github.io/cosmo.owl#buia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#darkness> .
 <https://mangiafrangette.github.io/cosmo.owl#buia> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText3> .
 <https://mangiafrangette.github.io/cosmo.owl#buia> <https://mangiafrangette.github.io/cosmo.owl#isDenotedBy> <https://mangiafrangette.github.io/cosmo.owl#anaphora12> .
 <https://mangiafrangette.github.io/cosmo.owl#buia> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "Sei buia" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#camera
 <https://mangiafrangette.github.io/cosmo.owl#camera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://mangiafrangette.github.io/cosmo.owl#camera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#darkness> .
+<https://mangiafrangette.github.io/cosmo.owl#camera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#darkness> .
 <https://mangiafrangette.github.io/cosmo.owl#camera> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText3> .
 <https://mangiafrangette.github.io/cosmo.owl#camera> <https://mangiafrangette.github.io/cosmo.owl#isDenotedBy> <https://mangiafrangette.github.io/cosmo.owl#anaphora12> .
 <https://mangiafrangette.github.io/cosmo.owl#camera> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "camera buia" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#cantina
 <https://mangiafrangette.github.io/cosmo.owl#cantina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://mangiafrangette.github.io/cosmo.owl#cantina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#darkness> .
+<https://mangiafrangette.github.io/cosmo.owl#cantina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#darkness> .
 <https://mangiafrangette.github.io/cosmo.owl#cantina> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText3> .
 <https://mangiafrangette.github.io/cosmo.owl#cantina> <https://mangiafrangette.github.io/cosmo.owl#isDenotedBy> <https://mangiafrangette.github.io/cosmo.owl#anaphora11> .
 <https://mangiafrangette.github.io/cosmo.owl#cantina> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "cantina chiusa" .
@@ -663,7 +663,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 # 
 # https://mangiafrangette.github.io/cosmo.owl#cupe
 <https://mangiafrangette.github.io/cosmo.owl#cupe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://mangiafrangette.github.io/cosmo.owl#cupe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#darkness> .
+<https://mangiafrangette.github.io/cosmo.owl#cupe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#darkness> .
 <https://mangiafrangette.github.io/cosmo.owl#cupe> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText3> .
 <https://mangiafrangette.github.io/cosmo.owl#cupe> <https://mangiafrangette.github.io/cosmo.owl#isDenotedBy> <https://mangiafrangette.github.io/cosmo.owl#series1> .
 <https://mangiafrangette.github.io/cosmo.owl#cupe> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "cupe" .
@@ -850,7 +850,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 # 
 # https://mangiafrangette.github.io/cosmo.owl#mai
 <https://mangiafrangette.github.io/cosmo.owl#mai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://mangiafrangette.github.io/cosmo.owl#mai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#stillness> .
+<https://mangiafrangette.github.io/cosmo.owl#mai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#stillness> .
 <https://mangiafrangette.github.io/cosmo.owl#mai> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText3> .
 <https://mangiafrangette.github.io/cosmo.owl#mai> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "che non passano mai." .
 # 
@@ -858,7 +858,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#metaphor1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://mangiafrangette.github.io/cosmo.owl#metaphor1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#identity> .
 <https://mangiafrangette.github.io/cosmo.owl#metaphor1> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText4> .
-<https://mangiafrangette.github.io/cosmo.owl#metaphor1> <http://purl.org/vocab/frbr/core#isLocatedInLine> "12, 13" .
+<https://mangiafrangette.github.io/cosmo.owl#metaphor1> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "12, 13" .
 <https://mangiafrangette.github.io/cosmo.owl#metaphor1> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "His Countenance – a Billow –/His Fingers, as He passed" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#molle
@@ -871,7 +871,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 # 
 # https://mangiafrangette.github.io/cosmo.owl#muti
 <https://mangiafrangette.github.io/cosmo.owl#muti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://mangiafrangette.github.io/cosmo.owl#muti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#stillness> .
+<https://mangiafrangette.github.io/cosmo.owl#muti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#stillness> .
 <https://mangiafrangette.github.io/cosmo.owl#muti> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText3> .
 <https://mangiafrangette.github.io/cosmo.owl#muti> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "non muti" .
 # 
@@ -892,7 +892,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 # 
 # https://mangiafrangette.github.io/cosmo.owl#ombra
 <https://mangiafrangette.github.io/cosmo.owl#ombra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://mangiafrangette.github.io/cosmo.owl#ombra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#darkness> .
+<https://mangiafrangette.github.io/cosmo.owl#ombra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#darkness> .
 <https://mangiafrangette.github.io/cosmo.owl#ombra> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
 <https://mangiafrangette.github.io/cosmo.owl#ombra> <https://mangiafrangette.github.io/cosmo.owl#isLiteraryValueIn> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
 <https://mangiafrangette.github.io/cosmo.owl#ombra> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "ombra più fonda" .
@@ -912,7 +912,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 # 
 # https://mangiafrangette.github.io/cosmo.owl#pietra
 <https://mangiafrangette.github.io/cosmo.owl#pietra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://mangiafrangette.github.io/cosmo.owl#pietra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#stillness> .
+<https://mangiafrangette.github.io/cosmo.owl#pietra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#stillness> .
 <https://mangiafrangette.github.io/cosmo.owl#pietra> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText3> .
 <https://mangiafrangette.github.io/cosmo.owl#pietra> <https://mangiafrangette.github.io/cosmo.owl#isDenotedBy> <https://mangiafrangette.github.io/cosmo.owl#anaphora10> .
 <https://mangiafrangette.github.io/cosmo.owl#pietra> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "pietra scolpita/e sangue di terra dura" .
@@ -926,7 +926,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 # 
 # https://mangiafrangette.github.io/cosmo.owl#pozzo
 <https://mangiafrangette.github.io/cosmo.owl#pozzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://mangiafrangette.github.io/cosmo.owl#pozzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#darkness> .
+<https://mangiafrangette.github.io/cosmo.owl#pozzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#darkness> .
 <https://mangiafrangette.github.io/cosmo.owl#pozzo> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText3> .
 <https://mangiafrangette.github.io/cosmo.owl#pozzo> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "della secchia nel pozzo," .
 # 
@@ -938,7 +938,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 # 
 # https://mangiafrangette.github.io/cosmo.owl#rassegnazione
 <https://mangiafrangette.github.io/cosmo.owl#rassegnazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://mangiafrangette.github.io/cosmo.owl#rassegnazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#inertia> .
+<https://mangiafrangette.github.io/cosmo.owl#rassegnazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#inertia> .
 <https://mangiafrangette.github.io/cosmo.owl#rassegnazione> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText3> .
 <https://mangiafrangette.github.io/cosmo.owl#rassegnazione> <https://mangiafrangette.github.io/cosmo.owl#isDenotedBy> <https://mangiafrangette.github.io/cosmo.owl#series1> .
 <https://mangiafrangette.github.io/cosmo.owl#rassegnazione> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "rassegnate" .
@@ -947,7 +947,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#repetition1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://mangiafrangette.github.io/cosmo.owl#repetition1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#repetition> .
 <https://mangiafrangette.github.io/cosmo.owl#repetition1> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText3> .
-<https://mangiafrangette.github.io/cosmo.owl#repetition1> <http://purl.org/vocab/frbr/core#isLocatedInLine> "4, 5" .
+<https://mangiafrangette.github.io/cosmo.owl#repetition1> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "4, 5" .
 <https://mangiafrangette.github.io/cosmo.owl#repetition1> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "e scruti/e respingi" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#series1
@@ -957,7 +957,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#series1> <https://mangiafrangette.github.io/cosmo.owl#denotes> <https://mangiafrangette.github.io/cosmo.owl#rassegnazione> .
 <https://mangiafrangette.github.io/cosmo.owl#series1> <https://mangiafrangette.github.io/cosmo.owl#denotes> <https://mangiafrangette.github.io/cosmo.owl#tonfo> .
 <https://mangiafrangette.github.io/cosmo.owl#series1> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText3> .
-<https://mangiafrangette.github.io/cosmo.owl#series1> <http://purl.org/vocab/frbr/core#isLocatedInLine> "13, 14, 15, 16, 17" .
+<https://mangiafrangette.github.io/cosmo.owl#series1> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "13, 14, 15, 16, 17" .
 <https://mangiafrangette.github.io/cosmo.owl#series1> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "la canzone del fuoco,/il tonfo di una mela;/le parole rassegnate/e cupe sulle soglie,/il grido del bimbo – le cose" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#series2
@@ -965,7 +965,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#series2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#series> .
 <https://mangiafrangette.github.io/cosmo.owl#series2> <https://mangiafrangette.github.io/cosmo.owl#denotes> <https://mangiafrangette.github.io/cosmo.owl#flitting> .
 <https://mangiafrangette.github.io/cosmo.owl#series2> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText4> .
-<https://mangiafrangette.github.io/cosmo.owl#series2> <http://purl.org/vocab/frbr/core#isLocatedInLine> "16, 17" .
+<https://mangiafrangette.github.io/cosmo.owl#series2> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "16, 17" .
 <https://mangiafrangette.github.io/cosmo.owl#series2> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "He visited – still flitting Then like a timid Man/Again, He tapped" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#silvani
@@ -983,7 +983,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#similitude1> <https://mangiafrangette.github.io/cosmo.owl#denotes> <https://mangiafrangette.github.io/cosmo.owl#molle> .
 <https://mangiafrangette.github.io/cosmo.owl#similitude1> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
 <https://mangiafrangette.github.io/cosmo.owl#similitude1> <https://mangiafrangette.github.io/cosmo.owl#isUsedIn> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
-<https://mangiafrangette.github.io/cosmo.owl#similitude1> <http://purl.org/vocab/frbr/core#isLocatedInLine> "57, 58" .
+<https://mangiafrangette.github.io/cosmo.owl#similitude1> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "57, 58" .
 <https://mangiafrangette.github.io/cosmo.owl#similitude1> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "è molle di pioggia/come una foglia" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#similitude2
@@ -991,7 +991,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#similitude2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#similarity> .
 <https://mangiafrangette.github.io/cosmo.owl#similitude2> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText4> .
 <https://mangiafrangette.github.io/cosmo.owl#similitude2> <https://mangiafrangette.github.io/cosmo.owl#isUsedIn> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
-<https://mangiafrangette.github.io/cosmo.owl#similitude2> <http://purl.org/vocab/frbr/core#isLocatedInLine> "1" .
+<https://mangiafrangette.github.io/cosmo.owl#similitude2> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "1" .
 <https://mangiafrangette.github.io/cosmo.owl#similitude2> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "tapped like a tired Man" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#similitude3
@@ -999,7 +999,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#similitude3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#similarity> .
 <https://mangiafrangette.github.io/cosmo.owl#similitude3> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText4> .
 <https://mangiafrangette.github.io/cosmo.owl#similitude3> <https://mangiafrangette.github.io/cosmo.owl#isUsedIn> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
-<https://mangiafrangette.github.io/cosmo.owl#similitude3> <http://purl.org/vocab/frbr/core#isLocatedInLine> "2" .
+<https://mangiafrangette.github.io/cosmo.owl#similitude3> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "2" .
 <https://mangiafrangette.github.io/cosmo.owl#similitude3> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "And like a Host – “Come in”/I boldly answered –" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#similitude4
@@ -1007,7 +1007,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#similitude4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#similarity> .
 <https://mangiafrangette.github.io/cosmo.owl#similitude4> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText4> .
 <https://mangiafrangette.github.io/cosmo.owl#similitude4> <https://mangiafrangette.github.io/cosmo.owl#isUsedIn> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
-<https://mangiafrangette.github.io/cosmo.owl#similitude4> <http://purl.org/vocab/frbr/core#isLocatedInLine> "9" .
+<https://mangiafrangette.github.io/cosmo.owl#similitude4> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "9" .
 <https://mangiafrangette.github.io/cosmo.owl#similitude4> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "His Speech was like the Push" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#similitude5
@@ -1016,7 +1016,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#similitude5> <https://mangiafrangette.github.io/cosmo.owl#denotes> <https://mangiafrangette.github.io/cosmo.owl#denti> .
 <https://mangiafrangette.github.io/cosmo.owl#similitude5> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
 <https://mangiafrangette.github.io/cosmo.owl#similitude5> <https://mangiafrangette.github.io/cosmo.owl#isUsedIn> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
-<https://mangiafrangette.github.io/cosmo.owl#similitude5> <http://purl.org/vocab/frbr/core#isLocatedInLine> "107, 108" .
+<https://mangiafrangette.github.io/cosmo.owl#similitude5> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "107, 108" .
 <https://mangiafrangette.github.io/cosmo.owl#similitude5> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "i denti negli alvèoli/con come mandorle acerbe." .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#similitude6
@@ -1033,7 +1033,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#similitude7> <https://mangiafrangette.github.io/cosmo.owl#denotes> <https://mangiafrangette.github.io/cosmo.owl#cuor> .
 <https://mangiafrangette.github.io/cosmo.owl#similitude7> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
 <https://mangiafrangette.github.io/cosmo.owl#similitude7> <https://mangiafrangette.github.io/cosmo.owl#isUsedIn> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
-<https://mangiafrangette.github.io/cosmo.owl#similitude7> <http://purl.org/vocab/frbr/core#isLocatedInLine> "104, 105" .
+<https://mangiafrangette.github.io/cosmo.owl#similitude7> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "104, 105" .
 <https://mangiafrangette.github.io/cosmo.owl#similitude7> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "il cuor nel petto è come pesca/intatta," .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#similitude8
@@ -1042,12 +1042,12 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#similitude8> <https://mangiafrangette.github.io/cosmo.owl#denotes> <https://mangiafrangette.github.io/cosmo.owl#chiome> .
 <https://mangiafrangette.github.io/cosmo.owl#similitude8> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
 <https://mangiafrangette.github.io/cosmo.owl#similitude8> <https://mangiafrangette.github.io/cosmo.owl#isUsedIn> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
-<https://mangiafrangette.github.io/cosmo.owl#similitude8> <http://purl.org/vocab/frbr/core#isLocatedInLine> "59, 60, 61" .
+<https://mangiafrangette.github.io/cosmo.owl#similitude8> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "59, 60, 61" .
 <https://mangiafrangette.github.io/cosmo.owl#similitude8> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "tue chiome\nauliscono come\nle chiare ginestre" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#sordo
 <https://mangiafrangette.github.io/cosmo.owl#sordo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://mangiafrangette.github.io/cosmo.owl#sordo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#darkness> .
+<https://mangiafrangette.github.io/cosmo.owl#sordo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#darkness> .
 <https://mangiafrangette.github.io/cosmo.owl#sordo> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText2> .
 <https://mangiafrangette.github.io/cosmo.owl#sordo> <https://mangiafrangette.github.io/cosmo.owl#isOppositeOf> <https://mangiafrangette.github.io/cosmo.owl#canto> .
 <https://mangiafrangette.github.io/cosmo.owl#sordo> <https://mangiafrangette.github.io/cosmo.owl#textualReference> "Più sordo e più fioco/s'allenta, si spegne" .
@@ -1061,7 +1061,7 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 # 
 # https://mangiafrangette.github.io/cosmo.owl#stanco
 <https://mangiafrangette.github.io/cosmo.owl#stanco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://mangiafrangette.github.io/cosmo.owl#stanco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#inertia> .
+<https://mangiafrangette.github.io/cosmo.owl#stanco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#inertia> .
 <https://mangiafrangette.github.io/cosmo.owl#stanco> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText1> .
 <https://mangiafrangette.github.io/cosmo.owl#stanco> <https://mangiafrangette.github.io/cosmo.owl#isLiteraryValueIn> <https://mangiafrangette.github.io/cosmo.owl#literaryText1> .
 <https://mangiafrangette.github.io/cosmo.owl#stanco> <https://mangiafrangette.github.io/cosmo.owl#isOppositeOf> <https://mangiafrangette.github.io/cosmo.owl#Movesi> .
@@ -1071,19 +1071,19 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <https://mangiafrangette.github.io/cosmo.owl#symmetry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://mangiafrangette.github.io/cosmo.owl#symmetry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#symmetry> .
 <https://mangiafrangette.github.io/cosmo.owl#symmetry> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText4> .
-<https://mangiafrangette.github.io/cosmo.owl#symmetry> <http://purl.org/vocab/frbr/core#isLocatedInLine> "1, 16, 17" .
+<https://mangiafrangette.github.io/cosmo.owl#symmetry> <https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine> "1, 16, 17" .
 <https://mangiafrangette.github.io/cosmo.owl#symmetry> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "The Wind tapped like a tired Man/[...]Then like a timid Man/Again, He tapped" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#tonfo
 <https://mangiafrangette.github.io/cosmo.owl#tonfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://mangiafrangette.github.io/cosmo.owl#tonfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#inertia> .
+<https://mangiafrangette.github.io/cosmo.owl#tonfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#inertia> .
 <https://mangiafrangette.github.io/cosmo.owl#tonfo> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText3> .
 <https://mangiafrangette.github.io/cosmo.owl#tonfo> <https://mangiafrangette.github.io/cosmo.owl#isDenotedBy> <https://mangiafrangette.github.io/cosmo.owl#series1> .
 <https://mangiafrangette.github.io/cosmo.owl#tonfo> <https://mangiafrangette.github.io/cosmo.owl#textualPart> "tonfo" .
 # 
 # https://mangiafrangette.github.io/cosmo.owl#traendo
 <https://mangiafrangette.github.io/cosmo.owl#traendo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://mangiafrangette.github.io/cosmo.owl#traendo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#stillness> .
+<https://mangiafrangette.github.io/cosmo.owl#traendo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://mangiafrangette.github.io/cosmo.owl#stillness> .
 <https://mangiafrangette.github.io/cosmo.owl#traendo> <https://mangiafrangette.github.io/cosmo.owl#hasSource> <https://mangiafrangette.github.io/cosmo.owl#literaryText1> .
 <https://mangiafrangette.github.io/cosmo.owl#traendo> <https://mangiafrangette.github.io/cosmo.owl#isLiteraryValueIn> <https://mangiafrangette.github.io/cosmo.owl#literaryText1> .
 <https://mangiafrangette.github.io/cosmo.owl#traendo> <https://mangiafrangette.github.io/cosmo.owl#isOppositeOf> <https://mangiafrangette.github.io/cosmo.owl#Movesi> .
@@ -1117,6 +1117,6 @@ _:genid18 <http://www.w3.org/2000/01/rdf-schema#seeAlso> "DOI: 10.1145/1878450.1
 <http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/2000/01/rdf-schema#label> "Creator"@en .
 # 
 <https://mangiafrangette.github.io/cosmo.owl#symmetry> <http://www.w3.org/2000/01/rdf-schema#comment> "Symmetry refers to when a figure pairs two constructions in an inverse (“mirrored”) way. e.g. Antimetabole: When the going gets tough, the tough get going."@en .
-<https://mangiafrangette.github.io/cosmo.owl#symmetry> <http://www.w3.org/2000/01/rdf-schema#label> "symmetry"@en .
+<https://mangiafrangette.github.io/cosmo.owl#symmetry> <http://www.w3.org/2000/01/rdf-schema#label> "Symmetry"@en .
 # 
 # Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

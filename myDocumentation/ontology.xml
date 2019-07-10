@@ -362,10 +362,10 @@
     
 
 
-    <!-- http://purl.org/vocab/frbr/core#isLocatedInLine -->
+    <!-- https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine -->
 
 
-    <owl:DatatypeProperty rdf:about="http://purl.org/vocab/frbr/core#isLocatedInLine">
+    <owl:DatatypeProperty rdf:about="https://mangiafrangette.github.io/cosmo.owl#isLocatedInLine">
         <rdfs:subPropertyOf rdf:resource="https://mangiafrangette.github.io/cosmo.owl#textualPart"/>
         <rdfs:domain rdf:resource="https://mangiafrangette.github.io/cosmo.owl#rhetoricalFigure"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -428,50 +428,48 @@
     
 
 
-    <!-- http://purl.org/vocab/frbr/core#darkness -->
+    <!-- http://purl.org/dc/terms/Agent -->
 
 
-    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#darkness">
-        <rdfs:subClassOf rdf:resource="https://mangiafrangette.github.io/cosmo.owl#heaviness"/>
-        <rdfs:comment xml:lang="en">Absence of light</rdfs:comment>
-        <rdfs:label xml:lang="en">Darkness</rdfs:label>
-        <rdfs:seeAlso xml:lang="en">http://wordnet-rdf.princeton.edu/id/14007000-n</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vocab/frbr/core#inertia -->
-
-
-    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#inertia">
-        <rdfs:subClassOf rdf:resource="https://mangiafrangette.github.io/cosmo.owl#heaviness"/>
-        <rdfs:comment xml:lang="en">The inability to act as expressed in literary texts</rdfs:comment>
-        <rdfs:label xml:lang="en">Inertia</rdfs:label>
-        <rdfs:seeAlso xml:lang="en">http://wordnet-rdf.princeton.edu/id/04642988-n</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vocab/frbr/core#stillness -->
-
-
-    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#stillness">
-        <rdfs:subClassOf rdf:resource="https://mangiafrangette.github.io/cosmo.owl#heaviness"/>
-        <rdfs:comment xml:lang="en">A lack of physical or literary motion as represented in literary texts</rdfs:comment>
-        <rdfs:label xml:lang="en">Stillness</rdfs:label>
-        <rdfs:seeAlso xml:lang="en">http://wordnet-rdf.princeton.edu/id/14029664-n</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://mangiafrangette.github.io/cosmo.owl#agent -->
-
-
-    <owl:Class rdf:about="https://mangiafrangette.github.io/cosmo.owl#agent">
-        <owl:disjointWith rdf:resource="https://mangiafrangette.github.io/cosmo.owl#expression"/>
+    <owl:Class rdf:about="http://purl.org/dc/terms/Agent">
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
         <rdfs:comment xml:lang="en">A resource that acts or has the power to act</rdfs:comment>
         <rdfs:isDefinedBy>http://purl.org/dc/terms/Agent</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#Concept -->
+
+
+    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#Concept">
+        <rdfs:comment xml:lang="en">An abstract idea or notion</rdfs:comment>
+        <rdfs:isDefinedBy>http://purl.org/vocab/frbr/core#Concept</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#Expression -->
+
+
+    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#Expression">
+        <rdfs:comment xml:lang="en">A realization of a single work usually in a physical form.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">http://purl.org/vocab/frbr/core#Expression</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Expression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#Person -->
+
+
+    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#Person">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdfs:comment xml:lang="en">A living or dead individual</rdfs:comment>
+        <rdfs:isDefinedBy>http://purl.org/vocab/frbr/core#Person</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
     </owl:Class>
     
 
@@ -488,13 +486,14 @@
     
 
 
-    <!-- https://mangiafrangette.github.io/cosmo.owl#concept -->
+    <!-- https://mangiafrangette.github.io/cosmo.owl#darkness -->
 
 
-    <owl:Class rdf:about="https://mangiafrangette.github.io/cosmo.owl#concept">
-        <rdfs:comment xml:lang="en">An abstract idea or notion</rdfs:comment>
-        <rdfs:isDefinedBy>http://purl.org/vocab/frbr/core#Concept</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Concept</rdfs:label>
+    <owl:Class rdf:about="https://mangiafrangette.github.io/cosmo.owl#darkness">
+        <rdfs:subClassOf rdf:resource="https://mangiafrangette.github.io/cosmo.owl#heaviness"/>
+        <rdfs:comment xml:lang="en">Absence of light</rdfs:comment>
+        <rdfs:label xml:lang="en">Darkness</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://wordnet-rdf.princeton.edu/id/14007000-n</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -521,22 +520,11 @@
     
 
 
-    <!-- https://mangiafrangette.github.io/cosmo.owl#expression -->
-
-
-    <owl:Class rdf:about="https://mangiafrangette.github.io/cosmo.owl#expression">
-        <rdfs:comment xml:lang="en">A realization of a single work usually in a physical form.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">http://purl.org/vocab/frbr/core#Expression</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Expression</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://mangiafrangette.github.io/cosmo.owl#fictionalCharacter -->
 
 
     <owl:Class rdf:about="https://mangiafrangette.github.io/cosmo.owl#fictionalCharacter">
-        <rdfs:subClassOf rdf:resource="https://mangiafrangette.github.io/cosmo.owl#person"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
         <rdfs:comment xml:lang="en">An imaginary person represented in a work of literary fiction</rdfs:comment>
         <rdfs:label xml:lang="en">Fictional character</rdfs:label>
         <rdfs:seeAlso>http://dbpedia.org/ontology/FictionalCharacter</rdfs:seeAlso>
@@ -567,11 +555,23 @@
     
 
 
+    <!-- https://mangiafrangette.github.io/cosmo.owl#inertia -->
+
+
+    <owl:Class rdf:about="https://mangiafrangette.github.io/cosmo.owl#inertia">
+        <rdfs:subClassOf rdf:resource="https://mangiafrangette.github.io/cosmo.owl#heaviness"/>
+        <rdfs:comment xml:lang="en">The inability to act as expressed in literary texts</rdfs:comment>
+        <rdfs:label xml:lang="en">Inertia</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://wordnet-rdf.princeton.edu/id/04642988-n</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- https://mangiafrangette.github.io/cosmo.owl#interpretation -->
 
 
     <owl:Class rdf:about="https://mangiafrangette.github.io/cosmo.owl#interpretation">
-        <rdfs:subClassOf rdf:resource="https://mangiafrangette.github.io/cosmo.owl#concept"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Concept"/>
         <rdfs:comment xml:lang="en">This class defines the concepts involved when interpreting a literary text</rdfs:comment>
         <rdfs:label xml:lang="en">Interpretation</rdfs:label>
     </owl:Class>
@@ -606,7 +606,7 @@
 
 
     <owl:Class rdf:about="https://mangiafrangette.github.io/cosmo.owl#literaryText">
-        <rdfs:subClassOf rdf:resource="https://mangiafrangette.github.io/cosmo.owl#expression"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
         <rdfs:comment xml:lang="en">A textual expression of a work of literature</rdfs:comment>
         <rdfs:label xml:lang="en">Literary text</rdfs:label>
     </owl:Class>
@@ -659,18 +659,6 @@
     
 
 
-    <!-- https://mangiafrangette.github.io/cosmo.owl#person -->
-
-
-    <owl:Class rdf:about="https://mangiafrangette.github.io/cosmo.owl#person">
-        <rdfs:subClassOf rdf:resource="https://mangiafrangette.github.io/cosmo.owl#agent"/>
-        <rdfs:comment xml:lang="en">A living or dead individual</rdfs:comment>
-        <rdfs:isDefinedBy>http://purl.org/vocab/frbr/core#Person</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Person</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://mangiafrangette.github.io/cosmo.owl#repetition -->
 
 
@@ -718,6 +706,18 @@
         <rdfs:subClassOf rdf:resource="https://mangiafrangette.github.io/cosmo.owl#rhetoricalFigure"/>
         <rdfs:comment xml:lang="en">Similarity (partial-identity) refers to when a figure uses resemblance of a concept. e.g., Simile: My love is like a red, red rose.</rdfs:comment>
         <rdfs:label xml:lang="en">Similarity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://mangiafrangette.github.io/cosmo.owl#stillness -->
+
+
+    <owl:Class rdf:about="https://mangiafrangette.github.io/cosmo.owl#stillness">
+        <rdfs:subClassOf rdf:resource="https://mangiafrangette.github.io/cosmo.owl#heaviness"/>
+        <rdfs:comment xml:lang="en">A lack of physical or literary motion as represented in literary texts</rdfs:comment>
+        <rdfs:label xml:lang="en">Stillness</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://wordnet-rdf.princeton.edu/id/14029664-n</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -803,7 +803,7 @@
         <denotes rdf:resource="https://mangiafrangette.github.io/cosmo.owl#volti"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
         <isUsedIn rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
-        <core:isLocatedInLine>8, 10, 12, 14, 20, 22</core:isLocatedInLine>
+        <isLocatedInLine>8, 10, 12, 14, 20, 22</isLocatedInLine>
         <textualPart>Piove [...]/Piove [...]/Piove [...]/Piove [...]/Piove [...]</textualPart>
     </owl:NamedIndividual>
     
@@ -865,7 +865,7 @@
         <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#repetition"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
         <isUsedIn rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
-        <core:isLocatedInLine>47, 48, 49, 50</core:isLocatedInLine>
+        <isLocatedInLine>47, 48, 49, 50</isLocatedInLine>
         <textualPart>ha un suono, e il mirto/altro suono, e il ginepro/altro ancóra, stromenti/diversi</textualPart>
     </owl:NamedIndividual>
     
@@ -890,7 +890,7 @@
         <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#repetition"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
         <isUsedIn rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
-        <core:isLocatedInLine>77, 78</core:isLocatedInLine>
+        <isLocatedInLine>77, 78</isLocatedInLine>
         <textualPart>trema, si spegne/trema, si spegne</textualPart>
     </owl:NamedIndividual>
     
@@ -916,7 +916,7 @@
         <denotes rdf:resource="https://mangiafrangette.github.io/cosmo.owl#andiam"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
         <isUsedIn rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
-        <core:isLocatedInLine>94, 115</core:isLocatedInLine>
+        <isLocatedInLine>94, 115</isLocatedInLine>
         <textualPart>chi sa dove, chi sa dove!</textualPart>
     </owl:NamedIndividual>
     
@@ -941,7 +941,7 @@
         <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#repetition"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
         <isUsedIn rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
-        <core:isLocatedInLine>30, 31</core:isLocatedInLine>
+        <isLocatedInLine>30, 31</isLocatedInLine>
         <textualPart>ieri/m&apos;illuse, che oggi t&apos;illude,</textualPart>
     </owl:NamedIndividual>
     
@@ -998,7 +998,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#buia">
-        <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#darkness"/>
+        <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#darkness"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText3"/>
         <isDenotedBy rdf:resource="https://mangiafrangette.github.io/cosmo.owl#anaphora12"/>
         <textualPart>Sei buia</textualPart>
@@ -1010,7 +1010,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#camera">
-        <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#darkness"/>
+        <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#darkness"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText3"/>
         <isDenotedBy rdf:resource="https://mangiafrangette.github.io/cosmo.owl#anaphora12"/>
         <textualPart>camera buia</textualPart>
@@ -1022,7 +1022,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#cantina">
-        <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#darkness"/>
+        <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#darkness"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText3"/>
         <isDenotedBy rdf:resource="https://mangiafrangette.github.io/cosmo.owl#anaphora11"/>
         <textualPart>cantina chiusa</textualPart>
@@ -1085,7 +1085,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#cupe">
-        <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#darkness"/>
+        <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#darkness"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText3"/>
         <isDenotedBy rdf:resource="https://mangiafrangette.github.io/cosmo.owl#series1"/>
         <textualPart>cupe</textualPart>
@@ -1518,7 +1518,7 @@ And I became alone –</textualReference>
 
 
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#mai">
-        <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#stillness"/>
+        <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#stillness"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText3"/>
         <textualPart>che non passano mai.</textualPart>
     </owl:NamedIndividual>
@@ -1531,7 +1531,7 @@ And I became alone –</textualReference>
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#metaphor1">
         <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#identity"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText4"/>
-        <core:isLocatedInLine>12, 13</core:isLocatedInLine>
+        <isLocatedInLine>12, 13</isLocatedInLine>
         <textualPart>His Countenance – a Billow –/His Fingers, as He passed</textualPart>
     </owl:NamedIndividual>
     
@@ -1554,7 +1554,7 @@ And I became alone –</textualReference>
 
 
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#muti">
-        <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#stillness"/>
+        <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#stillness"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText3"/>
         <textualPart>non muti</textualPart>
     </owl:NamedIndividual>
@@ -1590,7 +1590,7 @@ And I became alone –</textualReference>
 
 
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#ombra">
-        <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#darkness"/>
+        <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#darkness"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
         <isLiteraryValueIn rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
         <textualPart>ombra più fonda</textualPart>
@@ -1625,7 +1625,7 @@ And I became alone –</textualReference>
 
 
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#pietra">
-        <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#stillness"/>
+        <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#stillness"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText3"/>
         <isDenotedBy rdf:resource="https://mangiafrangette.github.io/cosmo.owl#anaphora10"/>
         <textualPart>pietra scolpita/e sangue di terra dura</textualPart>
@@ -1649,7 +1649,7 @@ And I became alone –</textualReference>
 
 
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#pozzo">
-        <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#darkness"/>
+        <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#darkness"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText3"/>
         <textualPart>della secchia nel pozzo,</textualPart>
     </owl:NamedIndividual>
@@ -1671,7 +1671,7 @@ And I became alone –</textualReference>
 
 
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#rassegnazione">
-        <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#inertia"/>
+        <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#inertia"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText3"/>
         <isDenotedBy rdf:resource="https://mangiafrangette.github.io/cosmo.owl#series1"/>
         <textualPart>rassegnate</textualPart>
@@ -1685,7 +1685,7 @@ And I became alone –</textualReference>
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#repetition1">
         <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#repetition"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText3"/>
-        <core:isLocatedInLine>4, 5</core:isLocatedInLine>
+        <isLocatedInLine>4, 5</isLocatedInLine>
         <textualPart>e scruti/e respingi</textualPart>
     </owl:NamedIndividual>
     
@@ -1700,7 +1700,7 @@ And I became alone –</textualReference>
         <denotes rdf:resource="https://mangiafrangette.github.io/cosmo.owl#rassegnazione"/>
         <denotes rdf:resource="https://mangiafrangette.github.io/cosmo.owl#tonfo"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText3"/>
-        <core:isLocatedInLine>13, 14, 15, 16, 17</core:isLocatedInLine>
+        <isLocatedInLine>13, 14, 15, 16, 17</isLocatedInLine>
         <textualPart>la canzone del fuoco,/il tonfo di una mela;/le parole rassegnate/e cupe sulle soglie,/il grido del bimbo – le cose</textualPart>
     </owl:NamedIndividual>
     
@@ -1713,7 +1713,7 @@ And I became alone –</textualReference>
         <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#series"/>
         <denotes rdf:resource="https://mangiafrangette.github.io/cosmo.owl#flitting"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText4"/>
-        <core:isLocatedInLine>16, 17</core:isLocatedInLine>
+        <isLocatedInLine>16, 17</isLocatedInLine>
         <textualPart>He visited – still flitting Then like a timid Man/Again, He tapped</textualPart>
     </owl:NamedIndividual>
     
@@ -1741,7 +1741,7 @@ And I became alone –</textualReference>
         <denotes rdf:resource="https://mangiafrangette.github.io/cosmo.owl#molle"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
         <isUsedIn rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
-        <core:isLocatedInLine>57, 58</core:isLocatedInLine>
+        <isLocatedInLine>57, 58</isLocatedInLine>
         <textualPart>è molle di pioggia/come una foglia</textualPart>
     </owl:NamedIndividual>
     
@@ -1754,7 +1754,7 @@ And I became alone –</textualReference>
         <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#similarity"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText4"/>
         <isUsedIn rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
-        <core:isLocatedInLine>1</core:isLocatedInLine>
+        <isLocatedInLine>1</isLocatedInLine>
         <textualPart>tapped like a tired Man</textualPart>
     </owl:NamedIndividual>
     
@@ -1767,7 +1767,7 @@ And I became alone –</textualReference>
         <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#similarity"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText4"/>
         <isUsedIn rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
-        <core:isLocatedInLine>2</core:isLocatedInLine>
+        <isLocatedInLine>2</isLocatedInLine>
         <textualPart>And like a Host – “Come in”/I boldly answered –</textualPart>
     </owl:NamedIndividual>
     
@@ -1780,7 +1780,7 @@ And I became alone –</textualReference>
         <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#similarity"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText4"/>
         <isUsedIn rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
-        <core:isLocatedInLine>9</core:isLocatedInLine>
+        <isLocatedInLine>9</isLocatedInLine>
         <textualPart>His Speech was like the Push</textualPart>
     </owl:NamedIndividual>
     
@@ -1794,7 +1794,7 @@ And I became alone –</textualReference>
         <denotes rdf:resource="https://mangiafrangette.github.io/cosmo.owl#denti"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
         <isUsedIn rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
-        <core:isLocatedInLine>107, 108</core:isLocatedInLine>
+        <isLocatedInLine>107, 108</isLocatedInLine>
         <textualPart>i denti negli alvèoli/con come mandorle acerbe.</textualPart>
     </owl:NamedIndividual>
     
@@ -1821,7 +1821,7 @@ And I became alone –</textualReference>
         <denotes rdf:resource="https://mangiafrangette.github.io/cosmo.owl#cuor"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
         <isUsedIn rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
-        <core:isLocatedInLine>104, 105</core:isLocatedInLine>
+        <isLocatedInLine>104, 105</isLocatedInLine>
         <textualPart>il cuor nel petto è come pesca/intatta,</textualPart>
     </owl:NamedIndividual>
     
@@ -1835,7 +1835,7 @@ And I became alone –</textualReference>
         <denotes rdf:resource="https://mangiafrangette.github.io/cosmo.owl#chiome"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
         <isUsedIn rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
-        <core:isLocatedInLine>59, 60, 61</core:isLocatedInLine>
+        <isLocatedInLine>59, 60, 61</isLocatedInLine>
         <textualPart>tue chiome
 auliscono come
 le chiare ginestre</textualPart>
@@ -1847,7 +1847,7 @@ le chiare ginestre</textualPart>
 
 
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#sordo">
-        <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#darkness"/>
+        <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#darkness"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText2"/>
         <isOppositeOf rdf:resource="https://mangiafrangette.github.io/cosmo.owl#canto"/>
         <textualReference>Più sordo e più fioco/s&apos;allenta, si spegne</textualReference>
@@ -1871,7 +1871,7 @@ le chiare ginestre</textualPart>
 
 
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#stanco">
-        <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#inertia"/>
+        <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#inertia"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText1"/>
         <isLiteraryValueIn rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText1"/>
         <isOppositeOf rdf:resource="https://mangiafrangette.github.io/cosmo.owl#Movesi"/>
@@ -1886,7 +1886,7 @@ le chiare ginestre</textualPart>
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#symmetry">
         <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#symmetry"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText4"/>
-        <core:isLocatedInLine>1, 16, 17</core:isLocatedInLine>
+        <isLocatedInLine>1, 16, 17</isLocatedInLine>
         <textualPart>The Wind tapped like a tired Man/[...]Then like a timid Man/Again, He tapped</textualPart>
     </owl:NamedIndividual>
     
@@ -1896,7 +1896,7 @@ le chiare ginestre</textualPart>
 
 
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#tonfo">
-        <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#inertia"/>
+        <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#inertia"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText3"/>
         <isDenotedBy rdf:resource="https://mangiafrangette.github.io/cosmo.owl#series1"/>
         <textualPart>tonfo</textualPart>
@@ -1908,7 +1908,7 @@ le chiare ginestre</textualPart>
 
 
     <owl:NamedIndividual rdf:about="https://mangiafrangette.github.io/cosmo.owl#traendo">
-        <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#stillness"/>
+        <rdf:type rdf:resource="https://mangiafrangette.github.io/cosmo.owl#stillness"/>
         <hasSource rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText1"/>
         <isLiteraryValueIn rdf:resource="https://mangiafrangette.github.io/cosmo.owl#literaryText1"/>
         <isOppositeOf rdf:resource="https://mangiafrangette.github.io/cosmo.owl#Movesi"/>
@@ -1957,7 +1957,7 @@ le chiare ginestre</textualPart>
     </rdf:Description>
     <rdf:Description rdf:about="https://mangiafrangette.github.io/cosmo.owl#symmetry">
         <rdfs:comment xml:lang="en">Symmetry refers to when a figure pairs two constructions in an inverse (“mirrored”) way. e.g. Antimetabole: When the going gets tough, the tough get going.</rdfs:comment>
-        <rdfs:label xml:lang="en">symmetry</rdfs:label>
+        <rdfs:label xml:lang="en">Symmetry</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
