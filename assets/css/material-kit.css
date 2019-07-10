@@ -18386,8 +18386,10 @@ footer .pull-center {
 }
 
 .container-domain {
-  width: 1180px;
+  max-width: 100%;
   margin-top: 3em;
+  display: flex;
+  flex-direction: column;
 }
 #accordion .panel {
   border-radius: 0;
