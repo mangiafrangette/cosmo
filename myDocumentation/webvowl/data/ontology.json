@@ -16,7 +16,7 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Carlo Teo Pedretti",
+        "value" : "Mattia Spadoni",
         "type" : "label"
       }, {
         "identifier" : "creator",
@@ -26,7 +26,7 @@
       }, {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Mattia Spadoni",
+        "value" : "Carlo Teo Pedretti",
         "type" : "label"
       } ],
       "Rights" : [ {
@@ -75,7 +75,7 @@
     "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "46",
+    "id" : "45",
     "type" : "owl:Class"
   }, {
     "id" : "17",
@@ -150,10 +150,10 @@
     "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "27",
+    "id" : "29",
     "type" : "owl:Class"
   }, {
-    "id" : "29",
+    "id" : "27",
     "type" : "owl:Class"
   }, {
     "id" : "43",
@@ -372,7 +372,7 @@
       "IRI-based" : "lightness",
       "en" : "Lightness"
     },
-    "subClasses" : [ "46", "20", "36", "43", "30" ],
+    "subClasses" : [ "45", "20", "36", "43", "30" ],
     "comment" : {
       "en" : "Literary value or virtue of a literary text reached by removing weight from the structure of stories and from language."
     },
@@ -473,7 +473,7 @@
     "comment" : {
       "en" : "Quality of everything that can be transformed into something else"
     },
-    "id" : "46",
+    "id" : "45",
     "superClasses" : [ "21" ]
   }, {
     "iri" : "http://purl.org/vocab/frbr/core#stillness",
@@ -790,7 +790,7 @@
   }, {
     "instances" : 0,
     "union" : [ "50", "7", "5" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "14"
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#brightness",
@@ -836,17 +836,17 @@
   }, {
     "instances" : 0,
     "union" : [ "50", "5" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "48"
   }, {
     "instances" : 0,
     "union" : [ "50", "5" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "64"
   }, {
     "instances" : 0,
     "union" : [ "7", "5" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "39"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -968,7 +968,7 @@
   }, {
     "instances" : 0,
     "union" : [ "50", "7", "5" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "67"
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#concept",
@@ -1065,26 +1065,6 @@
     "id" : "7",
     "superClasses" : [ "69" ]
   }, {
-    "iri" : "https://mangiafrangette.github.io/cosmo.owl#omission",
-    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "omission",
-      "en" : "Omission"
-    },
-    "individuals" : [ {
-      "iri" : "https://mangiafrangette.github.io/cosmo.owl#oppositionOmission1",
-      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
-      "labels" : {
-        "IRI-based" : "oppositionOmission1"
-      }
-    } ],
-    "comment" : {
-      "en" : "Omission refers to when a figure omits expected elements. e.g., Asyndeton (which omits the expected conjunction, “and”): I came, I saw, I conquered."
-    },
-    "id" : "27",
-    "superClasses" : [ "2" ]
-  }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#identity",
     "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
     "instances" : 0,
@@ -1109,6 +1089,26 @@
       "undefined" : "Identity refers to when a figure uses two or more identical elements. e.g., Ploce: O villain, villain, smiling, damned villain!(Hamlet [5])."
     },
     "id" : "29",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://mangiafrangette.github.io/cosmo.owl#omission",
+    "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "omission",
+      "en" : "Omission"
+    },
+    "individuals" : [ {
+      "iri" : "https://mangiafrangette.github.io/cosmo.owl#oppositionOmission1",
+      "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
+      "labels" : {
+        "IRI-based" : "oppositionOmission1"
+      }
+    } ],
+    "comment" : {
+      "en" : "Omission refers to when a figure omits expected elements. e.g., Asyndeton (which omits the expected conjunction, “and”): I came, I saw, I conquered."
+    },
+    "id" : "27",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#equality",
@@ -1176,7 +1176,7 @@
     "id" : "44",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "45",
+    "id" : "46",
     "type" : "owl:objectProperty"
   }, {
     "id" : "47",
@@ -1281,7 +1281,7 @@
   "propertyAttribute" : [ {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "0"
   }, {
     "iri" : "http://purl.org/dc/elements/1.1/title",
@@ -1337,12 +1337,12 @@
   }, {
     "range" : "2",
     "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "22"
   }, {
     "range" : "2",
     "domain" : "24",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "23"
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#isSubtractionOf",
@@ -1361,32 +1361,32 @@
   }, {
     "range" : "2",
     "domain" : "27",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "26"
   }, {
     "range" : "2",
     "domain" : "29",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "28"
   }, {
     "range" : "2",
     "domain" : "32",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "31"
   }, {
     "range" : "2",
     "domain" : "34",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "33"
   }, {
     "range" : "21",
     "domain" : "36",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "35"
   }, {
     "range" : "21",
     "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "37"
   }, {
     "iri" : "http://purl.org/dc/elements/1.1/creator",
@@ -1413,12 +1413,12 @@
   }, {
     "range" : "21",
     "domain" : "30",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "41"
   }, {
     "range" : "21",
     "domain" : "43",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "42"
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#isAbsenceOf",
@@ -1448,7 +1448,7 @@
       "en" : "Relates a fictional character to the interpreted concept that it symbolizes"
     },
     "attributes" : [ "object" ],
-    "id" : "45"
+    "id" : "46"
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#hasSource",
     "inverse" : "49",
@@ -1467,7 +1467,7 @@
   }, {
     "range" : "4",
     "domain" : "3",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "51"
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#isUsedIn",
@@ -1486,17 +1486,17 @@
   }, {
     "range" : "16",
     "domain" : "19",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "53"
   }, {
     "range" : "21",
-    "domain" : "46",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "54"
   }, {
     "range" : "3",
     "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "55"
   }, {
     "domain" : "32",
@@ -1509,12 +1509,12 @@
   }, {
     "range" : "16",
     "domain" : "18",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "57"
   }, {
     "range" : "16",
     "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "58"
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#denotes",
@@ -1577,23 +1577,23 @@
   }, {
     "range" : "2",
     "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "65"
   }, {
     "range" : "69",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "70"
   }, {
     "range" : "21",
     "domain" : "16",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "71"
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#isLightenedBy",
     "inverse" : "73",
     "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
-    "range" : "46",
+    "range" : "45",
     "label" : {
       "IRI-based" : "isLightenedBy",
       "en" : "is lightened by"
@@ -1691,7 +1691,7 @@
     "id" : "77"
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#hasEmbodiment",
-    "inverse" : "45",
+    "inverse" : "46",
     "baseIri" : "https://mangiafrangette.github.io/cosmo.owl",
     "range" : "5",
     "label" : {
@@ -1712,7 +1712,7 @@
       "IRI-based" : "lightens",
       "en" : "lightens"
     },
-    "domain" : "46",
+    "domain" : "45",
     "comment" : {
       "en" : "This property indicates the lightening force of mutability upon the category of heaviness."
     },
@@ -1721,12 +1721,12 @@
   }, {
     "range" : "50",
     "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "79"
   }, {
     "range" : "50",
     "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "80"
   }, {
     "iri" : "https://mangiafrangette.github.io/cosmo.owl#hasRhetoricalFigure",
@@ -1755,27 +1755,27 @@
     "comment" : {
       "en" : "This property states the opposition between heaviness and lightness"
     },
-    "attributes" : [ "object", "symmetric" ],
+    "attributes" : [ "symmetric", "object" ],
     "id" : "82"
   }, {
     "range" : "11",
     "domain" : "21",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "83"
   }, {
     "range" : "11",
     "domain" : "16",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "84"
   }, {
     "range" : "69",
     "domain" : "7",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "85"
   }, {
     "range" : "68",
     "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "86"
   } ]
 }
